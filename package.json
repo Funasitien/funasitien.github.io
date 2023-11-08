@@ -1,4 +1,7 @@
 {
+  "name": "fuansitien-portfolio",
+  "version": "1.0.0",
+  "author": "Funasitien <f.dreamclouds.fr>",
   "devDependencies": {
     "daisyui": "^3.9.4",
     "tailwindcss": "^3.3.5"
