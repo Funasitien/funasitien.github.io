@@ -1,34 +1,36 @@
 <!doctype html>
-<html lang="fr" data-theme="winter">
+<html lang="fr" data-theme="night">
 <head>
-    	<meta charset="utf-8">
+  <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     
 	<!-- Primary Meta Tags -->
-    	<title>DreamClouds</title>
-    	<meta name="title" content="Diamond Corp" />
-    	<meta name="description" content="Bienvenu sur le site officiel de la Diamond Corporation, où vous trouverez toute les informations sur note association et nos projets !" />
+  <title>DreamClouds</title>
+  <meta name="title" content="Diamond Corp" />
+  <meta name="description" content="Bienvenu sur le site officiel de la Diamond Corporation, où vous trouverez toute les informations sur note association et nos projets !" />
 
-    	<!-- Open Graph -->
-    	<meta property="og:type" content="website" />
-    	<meta property="og:url" content="https://dev.dreamclouds.fr/" />
-    	<meta property="og:title" content="Diamond Corp" />
-    	<meta property="og:description" content="Bienvenu sur le site officiel de la Diamond Corporation, où vous trouverez toute les informations sur note association et nos projets !" />
-    	<meta property="og:image" content="https://dev.dreamclouds.fr/vide.png" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://dev.dreamclouds.fr/" />
+  <meta property="og:title" content="Diamond Corp" />
+  <meta property="og:description" content="Bienvenu sur le site officiel de la Diamond Corporation, où vous trouverez toute les informations sur note association et nos projets !" />
+  <meta property="og:image" content="https://dev.dreamclouds.fr/vide.png" />
 
-   	<!-- Twitter -->
-   	<meta property="twitter:card" content="summary_large_image" />
-   	<meta property="twitter:url" content="https://dev.dreamclouds.fr/" />
-    	<meta property="twitter:title" content="Diamond Corp" />
-    	<meta property="twitter:description" content="Bienvenu sur le site officiel de la Diamond Corporation, où vous trouverez toute les informations sur note association et nos projets !" />
-    	<meta property="twitter:image" content="https://dev.dreamclouds.fr/vide.png" />
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://dev.dreamclouds.fr/" />
+  <meta property="twitter:title" content="Diamond Corp" />
+  <meta property="twitter:description" content="Bienvenu sur le site officiel de la Diamond Corporation, où vous trouverez toute les informations sur note association et nos projets !" />
+  <meta property="twitter:image" content="https://dev.dreamclouds.fr/vide.png" />
 	
-    	<link href="tailwind.css" rel="stylesheet" type="text/css" />
+  <link href="tailwind.css" rel="stylesheet" type="text/css" />
+  <link href="custom.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
 	<script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"></script>
-    	<link rel="icon" href="/cdn/logo.png">
+  <link rel="icon" href="/cdn/logo_white.svg">
 
-	<!-- TailwindCSS Play CDN, use for build or debugging-->
-	<script src="https://cdn.tailwindcss.com"></script>
+	<!-- TailwindCSS Play CDN, use for build or debugging
+  <script src="https://cdn.tailwindcss.com"></script> -->
 
 </head>
 
@@ -97,11 +99,26 @@
   </div>
 </nav>
 <div style="background-image: url(../cdn/archive/kerna-screen-2.jpg)">
-  <div class="pt-20 pb-4 mt-4 ml-6">
-    <img src="../cdn/archive/kerna-titre.png" class="h-24 w-auto">
-    <a class="btn btn-neutral">Glass button</a>
-    <p>Blablalvalvale</p>
+  <div class="backdrop-blur-sm pt-40 pb-4 mt-10">
+    <img src="../cdn/archive/kerna-titre.png" class="ml-8 h-auto md:h-24 w-auto">
+    
+    <div class="inline-flex">
+    <div class="ml-10 mt-2 join">
+      <img class="join-item rounded-sm w-8 h-8" src="../cdn/head/fizevn.png">
+      <a class="join-item btn btn-neutral btn-sm">Serveur Privé</a>
+    </div>
+    <p class="text-sm lg:text-base ml-4 translate-y-4 md:translate-y-3">Réservé au lycéens de Kernanec</p>
+    </div>
+
+    <p class="ml-10 text-lg Montserrat">KernaCraft est le serveur survie aproximativement officielle du lycée Kernanec.</p>
+    <span class="ml-10 animate-pulse relative inline-flex rounded-full h-3 w-3 bg-gray-500"></span>
+    Serveur Fermé (Saison Finit)</span><br>
+    <div class="ml-10 mr-15 tooltip tooltip-bottom lg:tooltip-right" data-tip="La sauvegarde du serveur contient la map et le code interne du serveur.">
+      <i class="bg-sucess fa-solid fa-floppy-disk"></i> Sauvegarde Complète
+    </div>
+
   </div>
+  <div class="backdrop-blur-sm py-20" style="background-image: linear-gradient(rgba(0, 0, 0, 0), hsl(var(--b1)))"></div>
 </div>
 
   <div class="container mx-auto px-4 my-8 bg-base-100">

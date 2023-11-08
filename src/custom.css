@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Work+Sans:wght@500&display=swap');
+
+
 html {
+    font-family: 'Work Sans', sans-serif;
     animation: fadeIn 1s;
 }
 
@@ -10,4 +14,21 @@ html {
     100% {
         opacity: 1;
     }
+}
+
+@keyframes ping {
+
+    75%,
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+.Montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.WorkSans {
+    font-family: 'Work Sans', sans-serif;
 }
