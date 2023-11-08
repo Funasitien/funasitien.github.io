@@ -2123,6 +2123,10 @@ html {
   height: 100%;
 }
 
+.h-14 {
+  height: 3.5rem;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -2521,6 +2525,11 @@ html {
 
   .md\:translate-y-3 {
     --tw-translate-y: 0.75rem;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .md\:translate-y-2 {
+    --tw-translate-y: 0.5rem;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
