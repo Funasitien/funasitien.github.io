@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*/*.{html,js}", "./*.{html,js}", "./*/kernacraft/*"],
+  content: ["./archive/*.{html,js}", "./archive/*/*.{html,js}"],
   theme: {
     extend: {},
   },
