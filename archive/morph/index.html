@@ -6,22 +6,15 @@
     
 	<!-- Primary Meta Tags -->
   <title>Morph SMP Archive</title>
-  <meta name="title" content="Diamond Corp" />
-  <meta name="description" content="Bienvenu sur le site officiel de la Diamond Corporation, où vous trouverez toute les informations sur note association et nos projets !" />
+  <meta name="title" content="Morph SMP - Archive" />
+  <meta name="description" content="Découvrez les archives du Morph SMP, un serveur où vous jouiez un animal"/>
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://dev.dreamclouds.fr/" />
-  <meta property="og:title" content="Diamond Corp" />
-  <meta property="og:description" content="Bienvenu sur le site officiel de la Diamond Corporation, où vous trouverez toute les informations sur note association et nos projets !" />
-  <meta property="og:image" content="https://dev.dreamclouds.fr/vide.png" />
-
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://dev.dreamclouds.fr/" />
-  <meta property="twitter:title" content="Diamond Corp" />
-  <meta property="twitter:description" content="Bienvenu sur le site officiel de la Diamond Corporation, où vous trouverez toute les informations sur note association et nos projets !" />
-  <meta property="twitter:image" content="https://dev.dreamclouds.fr/vide.png" />
+  <meta property="og:url" content="https://f.dreamclouds.fr/archive/morph" />
+  <meta property="og:title" content="Morph SMP - Archive" />
+  <meta property="og:description" content="Découvrez les archives du Morph SMP, un serveur où vous jouiez un animal"/>
+  <meta property="og:image" content="https://f.dreamclouds.fr/cdn/archive/arch-morph.png" />
 	
   <link href="../../src/tailwind.css" rel="stylesheet" type="text/css" />
   <link href="../../src/custom.css" rel="stylesheet" type="text/css" />
@@ -29,7 +22,9 @@
 	<script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"></script>
   <link rel="icon" href="../../cdn/archive/arch-kernacraft.png">
 
-	<!-- TailwindCSS Play CDN, use for build or debugging
+	<!-- TailwindCSS Play CDN, use for build or debugging without Node.js
+       Avoid to use this in production
+
   <script src="https://cdn.tailwindcss.com"></script> -->
 
 </head>
@@ -157,11 +152,17 @@
 
 <div style="background-image: url(../../cdn/archive/morph-chest.jpg); color: hsl(var(--nc) / var(--tw-text-opacity));">
   <div class="backdrop-blur-sm pt-40 pb-4">
+    <a class="ml-8" href="../"><i class="fa-solid fa-arrow-left"></i> Retour en arrière</a>
     <img src="../../cdn/archive/title/morph.png" class="ml-8 h-16 md:h-24 w-auto">
     
     <div class="mt-4 ml-8 inline-flex">
       <!-- img class="join-item rounded-sm w-8 h-8" src="../cdn/head/fizevn.png" -->
-      <a href=".././../web/morph" target="_blank" class="h-10 btn btn-secondary btn-sm">
+    <div class="join">
+      <img class="w-10 join-item" src="../../cdn/head/fizevn.png">
+      <a class="h-10 btn btn-primary btn-sm join-item">Fizevn
+      </a>
+      </div>
+      <a href=".././../web/morph" target="_blank" class="ml-4 h-10 btn btn-secondary btn-sm">
         <svg class="fill-current w-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
           <path
             d="M8.67 4.67v1h2v1h1v-1h1v1h1v-1h2v-1h-7Zm-1 1h-1v1h2v-1h-1Zm-2 3h1v-2h-1v2Zm3 7h1v-3h5v3h1v-3h3v3h1v-7h-1v3h-3v-3h-1v3h-5v-3h-1v3h-3v-3h-1v7h1v-3h3v3Zm1-7h1v-2h-1v2Zm4 0h1v-2h-1v2Zm4-2v-1h-2v1h2Zm0 2h1v-2h-1v2Zm1 7h-1v2h1v-2Zm-1 3v-1h-2v1h2Zm-3-3h-1v2h1v-2Zm-6 3v1h7v-1h-2v-1h-1v1h-1v-1h-1v1h-2Zm2-3h-1v2h1v-2Zm-4 2v1h2v-1h-2Zm0-2h-1v2h1v-2Z" />
