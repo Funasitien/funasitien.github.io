@@ -1,0 +1,22 @@
+---
+import { Icon } from 'astro-icon/components'
+
+const { title, description, button_text = "#", button_url = "#", base, justify, icon = "mingcute:information-fill" } = Astro.props;
+---
+
+<div class:list={['card bg-base-300 shadow-xl lg:card-side', base]}>
+  <figure>
+    <img class="m-4 rounded h-52 w-52 lg:m-0 lg:rounded-none" src={icon} alt={title}/>
+  </figure>
+  <div class="card-body">
+    <h1 class="text-5xl font-bold pl-2">{title}</h1>
+    <p class={ justify }>{ description }</p>
+    {
+      !button_text.includes("#") && (
+        <a class="btn btn-primary" href={button_url}>
+          {button_text}
+        </a>
+      )
+    }
+  </div>
+</div>

@@ -1,0 +1,18 @@
+---
+const {
+  title,
+  description,
+  image_url = "#",
+} = Astro.props;
+---
+
+<div class="min-h-fit lg:min-h-screen grid grid-cols-2 lg:grid-cols-6 pb-96 lg:pb-0 mb-24 lg:mb-0">
+  	<div class="col-span-2 ml-8 mt-12">
+      <img src={ image_url } class="rounded-full border border-neutral" alt="C'est mon avatar ça astro.">
+    	<h1 class="text-4xl lg:text-5xl py-4 font-extrabold">{ title }</h1>
+      <p>{ description }</p>
+  	</div>
+	  <div class="mt-16 col-span-2 lg:col-span-4 grid grid-cols-4 lg:grid-cols-8 gap-3 lg:gap-4 mx-4" style="grid-auto-rows: 13%;">
+      <slot />
+    </div>
+</div>

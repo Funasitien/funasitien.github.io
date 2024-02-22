@@ -1,0 +1,44 @@
+---
+import '@fontsource/poppins';
+import BottomNav from "../components/BottomNavbar.astro";
+import Header from "../components/Header.astro";
+
+const { title } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="/font/font.css" />
+    <title>{title}</title>
+    <script is:inline>
+      // ☝️ This script prevent the FART effect.
+      if (localStorage.getItem("theme") === null) {
+        document.documentElement.setAttribute("data-theme", "night");
+      } else
+        document.documentElement.setAttribute(
+          "data-theme",
+          localStorage.getItem("theme")
+        );
+    </script>
+    <script>
+      import { themeChange } from "theme-change";
+      themeChange();
+    </script>
+  </head>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      transition: all .25s cubic-bezier(.427,.073,.105,.997) .1s;
+    }
+  </style>
+  <body>
+    <Header />
+    <main>
+      <slot />
+    </main>
+  </body>
+  <BottomNav />
+</html>

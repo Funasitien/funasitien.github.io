@@ -1,0 +1,118 @@
+---
+import Button from "../components/Button.astro";
+import BottomCard from "../components/BottomCard.astro";
+import BentoCard from "../components/BentoCard.astro";
+import HeroLeft from "../components/HeroLeft.astro";
+import HeroRight from "../components/HeroRight.astro";
+import HeroButton from "../components/HeroButton.astro";
+import Bento from "../layouts/Bento.astro";
+import Layout from "../layouts/home.astro";
+import { Icon } from "astro-icon/components";
+---
+
+<Layout title="Funasitien DreamCloud">
+  <Bento title="Funasitien DreamCloud" image_url="/avatar.webp">
+    <BentoCard
+      icon="simple-icons:instagram"
+      description="Globalement l'endroit où je poste mes dessins/créations atristiques"
+      title="Instagram"
+      url="https://instagram.com/fdreamcloud"
+      button="@fdreamcloud"
+    />
+    <BentoCard
+      icon="simple-icons:github"
+      title="GitHub"
+      grid="col-span-2 row-span-2 lg:row-span-4"
+      url="https://github.com/Funasitien"
+      button="Funasitien"
+    />
+    <BentoCard
+      icon="simple-icons:twitch"
+      title="Twitch"
+      grid="col-span-4 row-span-2"
+      url="https://twitch.tv/fdreamcloud"
+      button="ttv/fdreamcloud"
+    />
+    <BentoCard
+      title="DEMOCRAFT"
+      description="LE meilleur serveur Mini-Jeux Survie Java & Bedrock sans hésitations"
+      url="https://democraft.fr"
+      button="Site Web"
+      icon="/img/logo/democraft.png"
+    />
+    <BentoCard
+      icon="simple-icons:soundcloud"
+      title="SoundCloud"
+      url="https://soundcloud.com/bydreamcloud"
+      button="@bydreamcloud"
+    />
+    <BentoCard
+      icon="simple-icons:youtube"
+      title="Youtube"
+      grid="col-span-2 row-span-2 lg:row-span-4"
+      url="https://youtube.com/@funasitien"
+      button="@funasitien"
+    />
+    <BentoCard
+      title="Les DreamClouds"
+      icon="/img/logo/dreamclouds.png"
+      grid="flex flex-row col-span-4 row-span-1 row-start-9 lg:row-start-auto"
+      plus="pt-3.5"
+      description="Ma super équipe de choc de développeurs"
+      url="https://dreamclouds.fr"
+    />
+    <BentoCard
+      title="Hétonia"
+      description="Survie presque moddé et mini-jeux avec un resouce pack du tonnerre"
+      icon="/img/logo/hetonia.png"
+      button="Site Web"
+      url="https://hetonia.fr"
+    />
+    <BentoCard
+      title="SOON"
+      grid="flex flex-row col-span-4 row-span-1"
+      plus="pt-3.5"
+      description="Encore un truc ?"
+    />
+  </Bento>
+
+  <HeroLeft
+    title="A propos de moi"
+    alt="L'histoire du petit fufu"
+    icon="https://minecraft.wiki/images/Book_and_Quill_JE2_BE2.png?2128f"
+    image_url="/img/render/full.webp"
+    icon_class="h-96"
+  >
+    Hey 👋 Moi c'est Funasitien, développeur depuis 2020 d'abord sur scratch, 
+    puis sur python, avant de me retrouver ici, à faire du frontend <br>
+    
+  </HeroLeft>
+  <HeroRight
+    title="Mes supers projets"
+    alt="DEMOCRAFT c'est la vie"
+    icon="https://minecraft.wiki/images/Backpack_%28MCE%29.png?4b906&20210918121441"
+    image_url="/img/old-banner.png"
+    icon_class="rounded-lg"
+  >
+  Du text ici.
+  </HeroRight>
+  <HeroButton
+    title="A la pointe de la tech"
+    alt="Et qui connais la tech Hein lapin"
+    icon="https://minecraft.wiki/images/Boosts_%28MCE%29.png?bfda5&20210916144002"
+  >
+  Encore du texte ici.
+  </HeroButton>
+
+  <BottomCard
+    justify="justify-center text-center"
+    title="Ça te plait ?"
+    description="Mon travail te plait ? Envis de me donner un (petit) coup de main ? Ou alors de commencer un fantastique nouveau projet ?"
+    icon="https://minecraft.wiki/images/thumb/Ruby_icon_%28MCE%29.png/120px-Ruby_icon_%28MCE%29.png?78ba4"
+  >
+  <div class="justify-center flex flex-col lg:flex-row items-center pt-2">
+    <Button color="bg-blue-500 hover:bg-blue-600 ring-blue-500" href="https://paypal.me/funasitien"><Icon class="translate-y-1" name="simple-icons:paypal"/>Faites un don <3</Button>
+    <Button color="bg-yellow-500 hover:bg-yellow-600 ring-yellow-500" href="https://buymeacoff.ee/funa/extras"><Icon class="translate-y-1" name="simple-icons:buymeacoffee"/>Mes Commissions</Button>
+  </div>
+  </BottomCard>
+</Layout>

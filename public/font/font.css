@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Minecraft Galactic';
+    src: local('Minecraft - Standard Galactic Alphabet Regular'), local('Minecraft-StandardGalacticAlphabet'),
+        url('Minecraft-StandardGalacticAlphabet.woff2') format('woff2'),
+        url('Minecraft-StandardGalacticAlphabet.woff') format('woff'),
+        url('Minecraft-StandardGalacticAlphabet.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.magic {
+    font-family: 'Minecraft Galactic';
+}

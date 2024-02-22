@@ -1,0 +1,67 @@
+---
+import { Icon } from "astro-icon/components";
+
+const {
+  title,
+  alt,
+  image_text = "En savoir plus",
+  image_url = "#",
+  button_text = "#",
+  button_url = "#",
+  icon = "mingcute:information-fill",
+} = Astro.props;
+---
+
+<div class="min-h-96 flex flex-col-reverse lg:flex-row-reverse py-2 ml-4 lg:py-6">
+  <div class="py-4 lg:w-1/2 grid grid-cols-2 lg:grid-cols-3 gap-y-8 gap-x-4 lg:gap-4 items-center align-center" style="grid-auto-rows: 13%;">
+    <div class="btn">
+      <Icon name="simple-icons:astro" class="w-auto ml-2"/> Astro
+    </div>
+    <div class="btn">
+      <Icon name="simple-icons:laravel" class="ml-2"/> Laravel
+    </div>
+    <div class="btn">
+      <Icon name="simple-icons:tailwindcss" class="ml-2"/> TailwindCSS
+    </div>
+    <div class="btn">
+      <Icon name="simple-icons:bootstrap" class="ml-2"/> Bootstrap
+    </div>
+    <div class="btn">
+      <Icon name="simple-icons:html5" class="ml-2"/><Icon name="simple-icons:css3"/><Icon name="simple-icons:javascript"/> Frontend
+    </div>
+    <div class="btn">
+      <Icon name="simple-icons:python" class=ml-2"/> Python
+    </div>
+    <div class="btn">
+      <Icon name="simple-icons:flask" class="ml-2"/> Flask
+    </div>  
+  </div>
+  <div class="lg:w-1/2">
+    <div class="flex w-full">
+      {
+        icon.includes("/") && (
+          <img
+            src={icon}
+            class="h-16 w-auto bg-primary p-1 rounded-lg"
+            alt={title}
+          />
+        )
+      }
+      {!icon.includes("/") && <Icon name={icon} class="text-6xl" />}
+      <div class="pl-3">
+        <h1 class="text-3xl lg:text-4xl font-bold">{title}</h1>
+        <h3 class="magic">{alt}</h3>
+      </div>
+    </div>
+    <p class="py-6 text-lg">
+      <slot />
+    </p>
+    {
+      !button_text.includes("#") && (
+        <a class="btn btn-primary" href={button_url}>
+          {button_text}
+        </a>
+      )
+    }
+  </div>
+</div>

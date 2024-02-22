@@ -1,9 +1,32 @@
 {
-  "name": "fuansitien-portfolio",
-  "version": "1.0.0",
-  "author": "Funasitien <f.dreamclouds.fr>",
+  "name": "astrocloud",
+  "type": "module",
+  "version": "0.1.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^2.1.1",
+    "@astrojs/tailwind": "^5.1.0",
+    "@fontsource/poppins": "^5.0.8",
+    "@types/canvas-confetti": "^1.6.3",
+    "astro": "^4.1.2",
+    "astro-icon": "^1.0.2",
+    "autoprefixer": "^10.4.15",
+    "canvas-confetti": "^1.9.1",
+    "dotenv": "^16.3.1",
+    "postcss": "^8.4.28",
+    "tailwindcss": "^3.3.5",
+    "theme-change": "^2.5.0"
+  },
   "devDependencies": {
-    "daisyui": "^3.9.4",
-    "tailwindcss": "^3.3.5"
+    "@iconify-json/mingcute": "^1.1.15",
+    "@iconify-json/nonicons": "^1.1.7",
+    "@iconify-json/simple-icons": "^1.1.88",
+    "daisyui": "^4.7.2"
   }
 }
