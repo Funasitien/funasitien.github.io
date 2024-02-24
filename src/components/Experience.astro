@@ -4,6 +4,7 @@ const {
   title,
   description,
   date,
+  color,
   type = "middle",
   icon = "mingcute:information-fill",
   image = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfnLwJroRGie1szvna_PyYWDhJ39iZnDjTig&usqp=CAU",
@@ -14,7 +15,7 @@ const {
   {!type.includes("start") && <hr />}
   <div class="timeline-start text-xl">{date}</div>
   <div class="timeline-middle">
-    <Icon name={icon} class="text-2xl" />
+    <Icon name={icon} class="text-2xl fill-{color}" />
   </div>
   <div class="px-2 timeline-end timeline-box flex bg-base-300 my-4">
     <img src={image} class="w-24 h-24 rounded-lg" />
