@@ -2,6 +2,7 @@
 import '@fontsource/poppins';
 import BottomNav from "../components/BottomNavbar.astro";
 import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro"
 
 const { title } = Astro.props;
 ---
@@ -40,5 +41,6 @@ const { title } = Astro.props;
       <slot />
     </main>
   </body>
+  <Footer />
   <BottomNav />
 </html>
