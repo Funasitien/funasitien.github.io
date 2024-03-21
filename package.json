@@ -27,6 +27,6 @@
     "@iconify-json/mingcute": "^1.1.15",
     "@iconify-json/nonicons": "^1.1.7",
     "@iconify-json/simple-icons": "^1.1.88",
-    "daisyui": "^4.7.2"
+    "daisyui": "^4.7.3"
   }
 }

@@ -1,10 +1,9 @@
 ---
 import Layout from "../layouts/main.astro";
-import Exps from '../components/Experience.astro'
-import { Icon } from "astro-icon/components";
-import '@fontsource/poppins/400.css';
-import '@fontsource/poppins/800.css';
-import '@fontsource/poppins/900.css';
+import Exps from "../components/Experience.astro";
+import "@fontsource/poppins/400.css";
+import "@fontsource/poppins/800.css";
+import "@fontsource/poppins/900.css";
 ---
 
 <Layout>
@@ -13,20 +12,92 @@ import '@fontsource/poppins/900.css';
   <div class="mx-2 lg:mx-auto">
     <ul class="timeline">
       <ul class="timeline timeline-vertical max-md:timeline-compact">
-
-        <Exps title="Dragonix Craft" description="Descrition" date="04/05/2019" type="start"/>
-        <Exps title="DEMOCRAFT V1" description="Descrition" date="xx/xx/2022" icon="mingcute:star-fill"/>
-        <Exps title="DEMOCRAFT V1" description="Descrition" date="18/07/2022" />
-        <Exps title="La Taverne Du Survivant" image="/img/logo/LTDS.png" description="Descrition" date="04/01/2023" icon="mingcute:add-circle-fill" />
-        <Exps title="DEMOCRAFT V2" description="Descrition" date="06/01/2023" />
-        <Exps title="La Taverne Du Survivant" image="/img/logo/LTDS.png" description="Descrition" date="xx/xx/2023" icon="mingcute:pause-circle-fill" />
-        <Exps title="DEMOCRAFT V3" image="/img/logo/democraft.png" description="Descrition" date="05/08/2023" image="/img/logo/democraft.png"/>
-        <Exps title="HubGames" description="Descrition" image="/img/logo/hubgames.png" date="265" icon="mingcute:add-circle-fill" />
-        <Exps title="Hetonia" description="Descrition" date="30/11/2023" image="/img/logo/hetonia.png" icon="mingcute:add-circle-fill"/>
-        <Exps title="DreamClouds" image="/img/logo/dreamclouds.png" description="Descrition" date="01/12/2023" />
-        <Exps title="Hetonia" description="Descrition" date="25/12/2023" image="/img/logo/hetonia.png" icon="mingcute:square-arrow-up-fill"/>
-        <Exps title="Hetonia" description="Descrition" date="04/02/2024" image="/img/logo/hetonia.png" type="end" color="danger" icon="mingcute:exit-door-fill"/>
-        
+        <Exps
+          title="Dragonix Craft"
+          image="/img/logo/dragonix.png"
+          description="Descrition"
+          date="04/05/2019"
+          type="start"
+        />
+        <Exps
+          title="DEMOCRAFT V1"
+          image="/img/logo/demov1.png"
+          description="Descrition"
+          date="xx/xx/2022"
+          icon="mingcute:star-fill"
+        />
+        <Exps
+          title="DEMOCRAFT V1"
+          image="/img/logo/demov1.png"
+          description="Descrition"
+          date="18/07/2022"
+        />
+        <Exps
+          title="La Taverne Du Survivant"
+          image="/img/logo/LTDS.png"
+          description="Descrition"
+          date="04/01/2023"
+          icon="mingcute:add-circle-fill"
+        />
+        <Exps
+          title="DEMOCRAFT V2"
+          description="Descrition"
+          date="06/01/2023"
+          icon="mingcute:add-circle-fill"
+          image="/img/logo/demov2.png"
+        />
+        <Exps
+          title="La Taverne Du Survivant"
+          image="/img/logo/LTDS.png"
+          description="Un serveur basée autour du concept de Clan et des mechaniques vraiment interessantes - serveur que je rejoint en tant qu'Administrateur."
+          date="xx/xx/2023"
+          icon="mingcute:pause-circle-fill"
+        />
+        <Exps
+          title="HubGames"
+          description="Un concept de site web réunissant toutes sortes de mini jeux à jouer sur navigateur."
+          image="/img/logo/hubgames.png"
+          date="23/09/2023"
+          icon="mingcute:add-circle-fill"
+        />
+        <Exps
+          title="Hetonia"
+          description="Après avoir saigné des yeux devant son site web, je l'ai redev de 0. Je ne présenterais pas le projet."
+          date="30/11/2023"
+          image="/img/logo/hetonia.png"
+          icon="mingcute:add-circle-fill"
+        />
+        <Exps
+          title="DreamClouds"
+          image="/img/logo/dreamclouds.png"
+          description="Mon projet d'association Dragonix devient les DreamClouds, car je suis le seul dans le projet - donc je met mon nom dessus. Voilà vooilà."
+          date="01/12/2023"
+          icon="mingcute:arrows-up-fill"
+        />
+        <Exps
+          title="Hetonia"
+          description="Après ma participation active, je passe Fondateur sur Hétonia - même sans l'avoir fondé."
+          date="25/12/2023"
+          image="/img/logo/hetonia.png"
+          icon="mingcute:arrows-up-fill"
+        />
+        <Exps
+          title="Hetonia"
+          description="Après avoir beaucoup travailler sur le projet, je l'ai quitter de mon plein grès du à l'ambiance globale du serveur."
+          date="04/02/2024"
+          image="/img/logo/hetonia.png"
+          type="end"
+          color="danger"
+          icon="mingcute:exit-door-fill"
+        />
+        <Exps
+          title="DEMOCRAFT V3"
+          image="/img/logo/democraft.png"
+          description="Je sais pas ecore quand la maj sort..."
+          date="Bientôt"
+          image="/img/logo/democraft.png"
+          icon="mingcute:arrows-up-fill"
+        />
       </ul>
     </ul>
   </div>
