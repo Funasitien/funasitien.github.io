@@ -5,7 +5,10 @@ import BottomNav from "../components/BottomNavbar.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 
-const { title } = Astro.props;
+const {
+  title = "Funasitien",
+  description = "Funasitien's Website is super dupper cool!",
+} = Astro.props;
 ---
 
 <html lang="fr" class="selection:bg-sky-200 selection:text-sky-900">
@@ -15,6 +18,11 @@ const { title } = Astro.props;
     <link rel="icon" type="image/svg+xml" href="/favicon.png" />
     <link rel="stylesheet" type="text/css" href="/font/font.css" />
     <title>{title}</title>
+    <meta content={title} property="og:title" />
+    <meta content={description} property="og:description" />
+    <meta content="https://f.dreamclouds.fr" property="og:url" />
+    <meta content="https://f.dreamclouds.fr/logo.png" property="og:image" />
+    <meta content="#43B581" data-react-helmet="true" name="theme-color" />
     <script is:inline>
       // ☝️ This script prevent the FART effect.
       if (localStorage.getItem("theme") === null) {
