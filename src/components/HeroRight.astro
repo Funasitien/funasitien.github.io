@@ -13,11 +13,11 @@ const {
 } = Astro.props;
 ---
 
-<div class="min-h-96 flex py-2 flex-col-reverse lg:flex-row ml-4  lg:py-6">
+<div class="min-h-96 flex py-2 flex-col-reverse lg:flex-row ml-4 lg:py-6">
   <div class="lg:w-1/2 flex justify-center">
     <img
       src={image_url}
-      class:list={['flex w-full h-auto rounded-lg justify-center', icon_class]}
+      class:list={["flex w-full h-auto rounded-lg justify-center", icon_class]}
       alt={image_text}
     />
   </div>
@@ -38,8 +38,8 @@ const {
       }
       {!icon.includes("/") && <Icon name={icon} class="text-6xl" />}
     </div>
-    <p class="py-6 text-lg text-end">
-      <slot/>
+    <p class="py-6 text-lg text-end text-pretty">
+      <slot />
     </p>
     {
       !button_text.includes("#") && (

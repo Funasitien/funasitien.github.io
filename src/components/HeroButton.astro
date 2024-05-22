@@ -1,5 +1,6 @@
 ---
 import { Icon } from "astro-icon/components";
+import QLink from "./QLink.astro";
 
 const {
   title,
@@ -12,29 +13,23 @@ const {
 } = Astro.props;
 ---
 
-<div class="min-h-96 flex flex-col-reverse lg:flex-row-reverse py-2 ml-4 lg:py-6">
-  <div class="py-4 lg:w-1/2 grid grid-cols-2 lg:grid-cols-3 gap-y-8 gap-x-4 lg:gap-4 items-center align-center" style="grid-auto-rows: 13%;">
-    <div class="btn">
-      <Icon name="simple-icons:astro" class="w-auto ml-2"/> Astro
-    </div>
-    <div class="btn">
-      <Icon name="simple-icons:laravel" class="ml-2"/> Laravel
-    </div>
-    <div class="btn">
-      <Icon name="simple-icons:tailwindcss" class="ml-2"/> TailwindCSS
-    </div>
-    <div class="btn">
-      <Icon name="simple-icons:bootstrap" class="ml-2"/> Bootstrap
-    </div>
-    <div class="btn">
-      <Icon name="simple-icons:html5" class="ml-2"/><Icon name="simple-icons:css3"/><Icon name="simple-icons:javascript"/> Frontend
-    </div>
-    <div class="btn">
-      <Icon name="simple-icons:python" class=ml-2"/> Python
-    </div>
-    <div class="btn">
-      <Icon name="simple-icons:flask" class="ml-2"/> Flask
-    </div>  
+<div
+  class="min-h-96 flex flex-col-reverse lg:flex-row-reverse py-2 ml-4 lg:py-6">
+  <div
+    class="py-4 lg:w-1/2 grid grid-cols-2 lg:grid-cols-3 gap-y-8 gap-x-4 lg:gap-x-4 lg:gap-y-2 items-center align-center"
+    style="grid-auto-rows: 13%;">
+    <h1 class="col-span-3 font-bold text-center text-lg gap-y-0">Frameworks</h1>
+    <QLink icon="simple-icons:astro" title="Astro" />
+    <QLink icon="simple-icons:laravel" title="Laravel" />
+    <QLink icon="simple-icons:flask" title="Flask" />
+    <h1 class="col-span-3 font-bold text-center text-lg gap-y-0">Languages</h1>
+    <QLink icon="simple-icons:html5" title="HTML" />
+    <QLink icon="simple-icons:python" title="Python" />
+    <QLink title="Javascript" icon="simple-icons:javascript" />
+    <h1 class="col-span-3 font-bold text-center text-lg gap-y-0">Outils</h1>
+    <QLink icon="simple-icons:cloudflare" title=" Cloudfare" />
+    <QLink icon="simple-icons:github" title="GitHub" />
+    <QLink icon="simple-icons:tailwindcss" title="TailwindCSS" />
   </div>
   <div class="lg:w-1/2">
     <div class="flex w-full">

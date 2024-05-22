@@ -37,34 +37,40 @@ const { frontmatter } = Astro.props;
   </style>
   <body>
     <Header />
-    <div
-      class="bg-cover rounded-lg m-3 bg-top blur"
-      style={{
-        "background-image": frontmatter.background,
-        color: "hsl(var(--nc) / var(--tw-text-opacity))",
-      }}>
-      <div class="bg-opacity-60 pt-40 pb-4 text-neutral" style="z-index: 4;">
-        <a class="ml-8 flex text-lg items-center" href="/projects"
-          ><Icon name="mingcute:arrow-left-circle-fill" class="text-lg mr-2" /> Retour
-          en arrière</a
-        >
-        <img src={frontmatter.logo} class="ml-8 h-10 md:h-24 w-auto" />
+    <div class="mx-auto px-4 pt-4 lg:px-28 lg:pt-8 rounded-xl">
+      <div
+        class="bg-cover rounded-xl bg-top backdrop-blur"
+        style={{
+          "background-image": frontmatter.background,
+          "background-repeat": "no-repeat",
+          color: "hsl(var(--nc) / var(--tw-text-opacity))",
+        }}>
+        <div
+          class="bg-opacity-60 pt-40 pb-4 text-neutral backdrop-blur-sm z-10 rounded-xl">
+          <a class="ml-8 flex text-lg items-center" href="/projects"
+            ><Icon
+              name="mingcute:arrow-left-circle-fill"
+              class="text-lg mr-2"
+            /> Retour en arrière</a
+          >
+          <img src={frontmatter.logo} class="ml-8 h-10 md:h-24 w-auto z-10" />
 
-        <p class="ml-10 mt-2 text-xl neutral">
-          {frontmatter.text}
-        </p>
-        <span
-          class="text-neutral ml-10 animate-pulse relative inline-flex rounded-full h-3 w-3 bg-blue-500">
-        </span>
-        {frontmatter.reason}
-        <br />
+          <p class="ml-10 mt-2 text-xl neutral z-10">
+            {frontmatter.text}
+          </p>
+          <span
+            class="text-neutral ml-10 animate-pulse relative inline-flex rounded-full h-3 w-3 bg-blue-500 z-10">
+          </span>
+          {frontmatter.reason}
+          <br />
+        </div>
       </div>
     </div>
 
     <div class="container mx-auto px-4 my-8 bg-base-100">
       <div
         class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        <slot/>
+        <slot />
       </div>
     </div>
   </body>

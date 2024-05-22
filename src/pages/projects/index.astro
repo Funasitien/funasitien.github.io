@@ -1,6 +1,7 @@
 ---
 import Layout from "../../layouts/main.astro";
 import Card from "../../components/ProjectCard.astro";
+
 const posts = await Astro.glob("./*.mdx");
 ---
 
@@ -19,7 +20,7 @@ const posts = await Astro.glob("./*.mdx");
     </div>
     <div
       class="backdrop-blur-sm py-20"
-      style="background-image: linear-gradient(rgba(0, 0, 0, 0), hsl(var(--b1)))">
+      style="background-image: linear-gradient(rgba(0, 0, 0, 0), hsl(var(--b2)))">
     </div>
   </div>
 
@@ -39,5 +40,4 @@ const posts = await Astro.glob("./*.mdx");
         ))
     }
   </div>
-
 </Layout>

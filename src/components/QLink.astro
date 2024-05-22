@@ -1,0 +1,11 @@
+---
+import { Icon } from "astro-icon/components";
+
+const { title = "Astro", icon = "simple-icons:astro" } = Astro.props;
+---
+
+<div
+  class="btn px-2 py-1 lg:px-4 lg:py-2 bg-gradient-to-tl to-sky-600 from-blue-300 dark:to-sky-950 dark:from-blue-700 hover:scale-105 hover:shadow-2xl">
+  <Icon name={icon} class="w-auto ml-2" />
+  {title}
+</div>
