@@ -1,12 +1,21 @@
 ---
 import { Icon } from "astro-icon/components";
 
-const { title, description, button_text = "#", button_url = "#", base, justify, icon = "mingcute:information-fill" } = Astro.props;
+const {
+  title,
+  description,
+  button_text = "#",
+  button_url = "#",
+  base,
+  justify,
+  padding,
+  icon = "mingcute:information-fill",
+} = Astro.props;
 ---
 
-<div class:list={['card bg-base-300 shadow-xl', base]}>
+<div class:list={["card bg-base-300 shadow-xl", base, padding]}>
   <div class="card-body">
-    <div class:list={['flex w-full', justify]}>
+    <div class:list={["flex w-full", justify]}>
       {
         icon.includes("/") && (
           <img
@@ -17,9 +26,9 @@ const { title, description, button_text = "#", button_url = "#", base, justify, 
         )
       }
       {!icon.includes("/") && <Icon name={icon} class="text-5xl" />}
-        <h1 class="text-5xl font-bold pl-2">{title}</h1>
+      <h1 class="text-5xl font-bold pl-2">{title}</h1>
     </div>
-    <p class={ justify }>{ description }</p>
+    <p class={justify}>{description}</p>
     {
       !button_text.includes("#") && (
         <a class="btn btn-primary" href={button_url}>
