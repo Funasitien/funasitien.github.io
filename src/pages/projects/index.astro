@@ -35,7 +35,6 @@ const getPostUrl = (post) => {
   <div class="grid grid-cols-1 lg:grid-cols-2 m-2 lg:m-4 gap-2 lg:gap-4">
     {
       posts
-        .slice(0, 4)
         .map((post) => (
           <Card
             title={post.frontmatter.title}
