@@ -3,6 +3,14 @@ import Layout from "../../layouts/main.astro";
 import Card from "../../components/ProjectCard.astro";
 
 const posts = await Astro.glob("./*.mdx");
+
+const getPostUrl = (post) => {
+  if (post.frontmatter.slug.includes('http://') || post.frontmatter.slug.includes('https://')) {
+    return post.frontmatter.slug;
+  } else {
+    return post.url;
+  }
+};
 ---
 
 <Layout title="Archive DreamCloud">
@@ -32,7 +40,7 @@ const posts = await Astro.glob("./*.mdx");
           <Card
             title={post.frontmatter.title}
             description={post.frontmatter.description}
-            button_url={post.url}
+            button_url={getPostUrl(post)}
             button_text={post.frontmatter.title}
             icon={post.frontmatter.icon}
             >
