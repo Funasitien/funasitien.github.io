@@ -5,8 +5,8 @@ import Card from "../../components/ProjectCard.astro";
 const posts = await Astro.glob("./*.mdx");
 
 const getPostUrl = (post) => {
-  if (post.frontmatter.slug.includes('http://') || post.frontmatter.slug.includes('https://')) {
-    return post.frontmatter.slug;
+  if (post.frontmatter.url.includes('http://') || post.frontmatter.url.includes('https://')) {
+    return post.frontmatter.url;
   } else {
     return post.url;
   }
