@@ -5,7 +5,10 @@ import BottomNav from "../components/BottomNavbar.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 
-const { title = "Funasitien", description = "Funasitien's super dupper website is amazing !" } = Astro.props;
+const {
+  title = "Funasitien",
+  description = "Funasitien's super dupper website is amazing !",
+} = Astro.props;
 ---
 
 <html lang="fr" class="selection:bg-sky-200 selection:text-sky-900">
@@ -14,6 +17,7 @@ const { title = "Funasitien", description = "Funasitien's super dupper website i
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.png" />
     <link rel="stylesheet" type="text/css" href="/font/font.css" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
     <title>{title}</title>
     <meta content={title} property="og:title" />
     <meta content={description} property="og:description" />
