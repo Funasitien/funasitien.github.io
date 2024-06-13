@@ -8,4 +8,10 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
   site: 'https://f.dreamclouds.fr',
   integrations: [tailwind(), icon(), mdx(), sitemap()],
+  redirects: {
+    '/dreamcode': {
+      status: 302,
+      destination: 'https://code.dreamclouds.fr',
+    },
+  }
 });
