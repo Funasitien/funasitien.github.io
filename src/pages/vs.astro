@@ -10,25 +10,25 @@ import { Image } from "astro:assets";
     Plus de mensonges. Plus de poudre de perlinpinpin. Parlons fait.
   </h2>
   <div class="flex mx-auto items-center justify-center">
-    <table class="table-fixed m-2 p-2 border-collapse">
+    <table class="table-fixed m-2 p-2 border-separate border-spacing-0">
       <tr>
         <thead>
-          <th class="w-96">Serveur</th>
-          <th class="border-2 w-72" align="center">
+          <th class="lg:w-96"></th>
+          <th class="border-l-2 border-t-2 w-72 rounded-tl-xl" align="center">
             <img
               src="/img/hetoflop.png"
               class="w-52 h-auto rounded-lg justify-center p-2"
               alt=""
             />
           </th>
-          <th class="border-2 w-72" align="center">
+          <th class="border-l-2 border-t-2 w-72" align="center">
             <img
               src="/img/wynaria.png"
-              class="w-60 h-auto rounded-lg justify-center p-2"
+              class="w-52 h-auto rounded-lg justify-center p-2"
               alt=""
             />
           </th>
-          <th class="border-2">
+          <th class="border-x-2 border-t-2 w-72 rounded-tr-xl">
             <img
               src="/img/democraft.png"
               class="flex w-72 h-auto rounded-lg justify-center p-2"
@@ -39,20 +39,46 @@ import { Image } from "astro:assets";
       </tr>
       <tbody>
         <tr class="h-10 border">
-          <td class="font-bold text-center border-2">Concept</td>
-          <td align="center" class="border-2">
+          <td class="font-bold text-center border-l-2 border-t-2 rounded-tl-xl"
+            >Concept</td
+          >
+          <td align="center" class="border-l-2 border-t-2">
             <Icon
               name="mingcute:close-circle-fill"
               class="text-2xl text-error"
             />
           </td>
-          <td align="center" class="border-2">
+          <td align="center" class="border-l-2 border-t-2">
             <Icon
               name="mingcute:forbid-circle-fill"
               class="text-2xl text-warning"
             />
           </td>
-          <td align="center" class="border-2">
+          <td align="center" class="border-x-2 border-t-2">
+            <Icon
+              name="mingcute:check-circle-fill"
+              class="text-2xl text-success"
+            />
+          </td>
+        </tr>
+
+        <tr class="h-10 border-l border-t">
+          <td class="font-bold text-center border-l-2 border-t-2"
+            >Originalité</td
+          >
+          <td align="center" class="border-l-2 border-t-2">
+            <Icon
+              name="mingcute:close-circle-fill"
+              class="text-2xl text-error"
+            />
+          </td>
+          <td align="center" class="border-l-2 border-t-2">
+            <Icon
+              name="mingcute:forbid-circle-fill"
+              class="text-2xl text-warning"
+            />
+          </td>
+          <td align="center" class="border-x-2 border-t-2">
             <Icon
               name="mingcute:check-circle-fill"
               class="text-2xl text-success"
@@ -61,20 +87,46 @@ import { Image } from "astro:assets";
         </tr>
 
         <tr class="h-10 border">
-          <td class="font-bold text-center border-2">Originalité</td>
-          <td align="center" class="border-2">
+          <td class="font-bold text-center border-l-2 border-t-2"
+            >Orthographe</td
+          >
+          <td align="center" class="border-l-2 border-t-2">
             <Icon
               name="mingcute:close-circle-fill"
               class="text-2xl text-error"
             />
           </td>
-          <td align="center" class="border-2">
+          <td align="center" class="border-l-2 border-t-2">
+            <Icon
+              name="mingcute:close-circle-fill"
+              class="text-2xl text-error"
+            />
+          </td>
+          <td align="center" class="border-x-2 border-t-2">
             <Icon
               name="mingcute:forbid-circle-fill"
               class="text-2xl text-warning"
             />
           </td>
-          <td align="center" class="border-2">
+        </tr>
+
+        <tr class="h-10 border">
+          <td class="font-bold text-center border-l-2 border-t-2"
+            >Hébergement</td
+          >
+          <td align="center" class="border-l-2 border-t-2">
+            <Icon
+              name="mingcute:close-circle-fill"
+              class="text-2xl text-error"
+            />
+          </td>
+          <td align="center" class="border-l-2 border-t-2">
+            <Icon
+              name="mingcute:close-circle-fill"
+              class="text-2xl text-error"
+            />
+          </td>
+          <td align="center" class="border-x-2 border-t-2">
             <Icon
               name="mingcute:check-circle-fill"
               class="text-2xl text-success"
@@ -83,23 +135,69 @@ import { Image } from "astro:assets";
         </tr>
 
         <tr class="h-10 border">
-          <td class="font-bold text-center border-2">Orthographe</td>
-          <td align="center" class="border-2">
+          <td class="font-bold text-center border-l-2 border-t-2">Sécurité</td>
+          <td align="center" class="border-l-2 border-t-2">
             <Icon
               name="mingcute:close-circle-fill"
               class="text-2xl text-error"
             />
           </td>
-          <td align="center" class="border-2">
+          <td align="center" class="border-l-2 border-t-2">
             <Icon
               name="mingcute:close-circle-fill"
               class="text-2xl text-error"
             />
           </td>
-          <td align="center" class="border-2">
+          <td align="center" class="border-x-2 border-t-2">
+            <Icon
+              name="mingcute:check-circle-fill"
+              class="text-2xl text-success"
+            />
+          </td>
+        </tr>
+
+        <tr class="h-10 border">
+          <td class="font-bold text-center border-l-2 border-t-2">Support</td>
+          <td align="center" class="border-l-2 border-t-2">
+            <Icon
+              name="mingcute:close-circle-fill"
+              class="text-2xl text-error"
+            />
+          </td>
+          <td align="center" class="border-l-2 border-t-2">
+            <Icon
+              name="mingcute:close-circle-fill"
+              class="text-2xl text-error"
+            />
+          </td>
+          <td align="center" class="border-x-2 border-t-2">
+            <Icon
+              name="mingcute:check-circle-fill"
+              class="text-2xl text-success"
+            />
+          </td>
+        </tr>
+
+        <tr class="h-10 border">
+          <td class="font-bold text-center border-l-2 border-y-2 rounded-bl-xl"
+            >Légalité</td
+          >
+          <td align="center" class="border-l-2 border-y-2">
             <Icon
               name="mingcute:forbid-circle-fill"
               class="text-2xl text-warning"
+            />
+          </td>
+          <td align="center" class="border-l-2 border-y-2">
+            <Icon
+              name="mingcute:forbid-circle-fill"
+              class="text-2xl text-warning"
+            />
+          </td>
+          <td align="center" class="border-2 rounded-br-xl">
+            <Icon
+              name="mingcute:check-circle-fill"
+              class="text-2xl text-success"
             />
           </td>
         </tr>
@@ -130,38 +228,83 @@ import { Image } from "astro:assets";
           href="https://web.archive.org/web/20231103104702/https://builtbybit.com/resources/custom-survival-setup-free.28737/">
           ça ne vous rapelle rien ?
         </a>
-        <p>
-          <strong>WYNARIA</strong> [je suis ban], mais les GUI proviennent du setup
-          gratuit d'Hétonia. Mais sans les textures, c'est la hes chez Wynaria.
-        </p>
-        <p>
-          <strong>DEMOCRAFT</strong> a certe utilisé des assets de la communauté,
-          mais avec la premission des créateurs et en les créditant. (exemple : les
-          cosmétiques sur le menu principal provenait de MineClub qui a fermé depuis
-          )
-        </p>
+      </p>
+      <p>
+        <strong>WYNARIA</strong> [je suis ban], mais les GUI proviennent du setup
+        gratuit d'Hétonia. Mais sans les textures, c'est la hes chez Wynaria.
+      </p>
+      <p>
+        <strong>DEMOCRAFT</strong> a certe utilisé des assets de la communauté, mais
+        avec la premission des créateurs et en les créditant. (exemple : les cosmétiques
+        sur le menu principal provenait de MineClub qui a fermé depuis )
+      </p>
 
-        <h2>✒️ Orthographe</h2>
-        <p>
-          <strong>HETONIA</strong> - je ne vais pas les attaquer gratuitement. Rendez
-          vous sur <a target="_blank" href="https://studio.hetonia.fr"
-            >le site du studio</a
-          > et faites vous votre propre avis.
-        </p>
-        <p><strong>WYNARIA</strong> Je n'ai pas regardé leur serveur minecraft, mais leur <a href="https://wynaria.fr/cgu" target="_blank">CGU</a> est déjà pas mal</p>
-        <p>
-          <strong>DEMOCRAFT</strong> - je ne vais pas dire qu'on est parfait, mais
-          on sait conjuguer le verbe "avoir"
-        </p>
+      <h2>✒️ Orthographe</h2>
+      <p>
+        <strong>HETONIA</strong> - je ne vais pas les attaquer gratuitement. Rendez
+        vous sur <a target="_blank" href="https://studio.hetonia.fr"
+          >le site du studio</a
+        > et faites vous votre propre avis.
+      </p>
+      <p>
+        <strong>WYNARIA</strong> Je n'ai pas regardé leur serveur minecraft, mais
+        leur <a href="https://wynaria.fr/cgu" target="_blank">CGU</a> est déjà pas
+        mal
+      </p>
+      <p>
+        <strong>DEMOCRAFT</strong> - je ne vais pas dire qu'on est parfait, mais
+        on sait conjuguer le verbe "avoir"
+      </p>
+
+      <h2>🛡️ Sécurité / Hébergement</h2>
+      <p>
+        <strong>HETONIA</strong> et <strong>WYNARIA</strong> ont été/sont hébergé
+        par <strong>By-Hoster</strong>, une entité (je ne sais pas si c'est une
+        entreprise ou une association, ce n'est précisé sur aucun site en ligne)
+        qui possède une connexion internet piteuse (je ne peux toujours pas me
+        rendre sur leurs site web) et ne respecte pas leurs condition générales
+        d'utilisation (toute mes condoléances au VPS de La Taverne qui a été
+        supprimé sans aucun avertissement) De plus, les mots de passe que j'ai
+        récupéré sur HETONIA n'était plus ou mal criptés, ce qui est dangereux
+        pour la sécurité des utilisateurs.
+      </p>
+      <p>
+        <strong>DEMOCRAFT</strong> quand a lui est hébergé par <strong
+          >OVH</strong
+        >, sur un serveur dédié, et toutes les données sont chiffrés , peuvent
+        être lue et supprimés par les utilisateurs sur notre outil dédié.
+      </p>
+      <h2>🛟 Support</h2>
+      <p>
+        <strong>HETONIA</strong> et <strong>WYNARIA</strong> - banni pour rien quoi.
+        J'ai une copie exact de mon message qui m'a valu un banissement, si ça vous
+        interesse
+      </p>
+      <h2>📜 Légalité</h2>
+      <p>
+        <strong>HETONIA</strong> et <strong>WYNARIA</strong> ne sont sous aucun organisme
+        légal partagé.
+        <strong>CELA NE REND PAR LEUR ACTIVITE ILLEGALE</strong>, vous mettez
+        juste vos données entre les mains d'une unique personne (puisque rien ne
+        régule le partage)
+      </p>
+      <p>
+        <strong>DEMOCRAFT</strong> a toujours été organisé sous <strong
+          >DIAMOND-HEBERG</strong
+        > et procède actuellement à la création de sa propre association.
       </p>
     </article>
 
     <article class="prose mx-4 lg:mx-8 w-full max-w-fit mt-20">
       <h1>Note de l'auteur (Funa)</h1>
-      <p><strong>Je n'ai rien contre Wynaria.</strong> Je ne peux pas dire que je m'entend parfaitement avec lelapin - mais cette critique ne vise pas un serveur en particulié. 
-        Je voudrais que cette critique reste la plus ouverte possible. Si vous avez des suggestions, des réclamations, venez !
-        Mon but principal est d'exposer la vérité ici. Et sans autre regard critique, ça ne marche pas ^^'
-        🛟🎥🪄🚀📦</p>
+      <p>
+        <strong>Je n'ai rien contre Wynaria.</strong> Je ne peux pas dire que je
+        m'entend parfaitement avec lelapin - mais cette critique ne vise pas un serveur
+        en particulié. Je voudrais que cette critique reste la plus ouverte possible.
+        Si vous avez des suggestions, des réclamations, venez ! Mon but principal
+        est d'exposer la vérité ici. Et sans autre regard critique, ça ne marche
+        pas ^^'
+      </p>
     </article>
   </div>
 </Layout>
