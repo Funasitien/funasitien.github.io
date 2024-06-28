@@ -1,6 +1,7 @@
 ---
 title: Conditions Générales de Vente
 ---
+
 # 🤔 C'est quoi les CGV ?
 Les CGV, **Condition Générales de Ventes** sont un ou une série de documents qui délimite les conditions d'achat d'un produit?
 
@@ -12,6 +13,8 @@ Vous - acheteurs - devez respecter une série de condition pour tout achat de pr
 # 💸 Pourquoi refuser les litiges ?
 Effectuer un litige bloque instantanément notre compte - nous ne pouvons plus effectuer ou recevoir de payement sur le compte concerné. Comme les réponses de ses services ne sont pas sous notre contrôle, il peut arriver qu'il y ai des indisponibilités de plusieurs mois avant de récupérer le compte. Dans le cadre où nous somme une toute petite association* à but non lucratif, nous ne pouvons pas nous permettre de perdre le peu qu'on a gagné :(
 
-* *DEMOCRAFT est une association de plusieurs personne, mais n'est pas déclaré en tant qu'association.*
+---
+
+*‎ *DEMOCRAFT est une association de plusieurs personne, mais n'est pas déclaré en tant qu'association.*
 
 
