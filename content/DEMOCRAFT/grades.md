@@ -6,7 +6,7 @@ title: DEMOCRAFT - Grades
 
 | Avantage                | Joueur    | MINI          | DEMO         | DEMO+         | DEMO MAX      |
 | ----------------------- | ---------- | ------------- | ------------ | ------------- | ------------- |
-| Peu rejoindre DEMOCRAFT | ✅         | ✅             | ✅            | ✅             | ✅             |
+| Peut rejoindre DEMOCRAFT | ✅         | ✅             | ✅            | ✅             | ✅             |
 | Groupes                 | 3 Joueurs | 5 Joueurs     | 8 Joueurs    | 10 Joueurs    | Illimité      |
 | Changement de Skin      | ❌         | ❌             | ✅            | ✅             | ✅             |
 | Commande `/fly`         | ❌         | ❌             | ✅            | ✅             | ✅             |
