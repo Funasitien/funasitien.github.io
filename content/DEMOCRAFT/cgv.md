@@ -1,5 +1,6 @@
 ---
 title: Conditions Générales de Vente
+author: Funasitien
 ---
 
 # 🤔 C'est quoi les CGV ?

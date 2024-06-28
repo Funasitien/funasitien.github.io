@@ -1,5 +1,6 @@
 ---
 title: Politique de confidentialité
+author: Funasitien
 ---
 # 🤔 C'est quoi les Politiques de Confidentialités ?
 
