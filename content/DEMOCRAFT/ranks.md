@@ -1,5 +1,5 @@
 ---
-title: DEMOCRAFT - Ranks
+title: Ranks Overview
 ---
 
 [🥐 Voir la page en français](./grades)

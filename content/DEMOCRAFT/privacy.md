@@ -1,5 +1,5 @@
 ---
-title: DEMOCRAFT - Politique de confidentialité
+title: Politique de Confidentialité
 ---
 # 🤔 C'est quoi les Politiques de Confidentialités ?
 

@@ -1,5 +1,5 @@
 ---
-title: DEMOCRAFT - Grades
+title: Comaratif des Grades
 ---
 
 [🍵 See the page in english](./ranks)

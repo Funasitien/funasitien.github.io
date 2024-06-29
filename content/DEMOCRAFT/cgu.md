@@ -1,5 +1,5 @@
 ---
-title: DEMOCRAFT - CGU
+title: Conditions Générales d'Utilisation
 ---
 *Dans la plupart des cas, les documents legaux des entreprises sont des charabias invompréensibles qui soit vous piège, soit vous aide pas.*
 # 🤔 C'est quoi les CGU ?
