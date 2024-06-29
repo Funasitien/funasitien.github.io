@@ -79,7 +79,7 @@ Choisissez votre pseudo, cliquez sur valider puis sur fermé. Votre Minecraft es
 # Comment jouer
 Bon. Votre Launcher fonctionnne. Mais il n'y a pas de bouttons jouer. C'est parce que il faut créé une "instance", une "version" du jeu avec ses propres fichiers et ses propres mods
 
-> [!NOTE]Si vous vous y conaissez en mod
+> [!NOTE] Si vous vous y conaissez en mod
 > Dans ce tuto, je vais vous conseille d'utiliser le modpack **SIMPLY OPTIMIZED** pour jouer sur kernacraft car c'est le meilleur modpack optimizé que je conaisse. Mais tant que votre client est en 1.20, vous pouvez jouer à KERNACRAFT, donc soillez libre d'installer les mods que vous voulez !
 
 ## Créer un profil
@@ -109,11 +109,5 @@ Et c'est finit !
 - [Linux Portable](https://github.com/Diegiwg/PrismLauncher-Cracked/releases/download/7.1/PrismLauncher-Linux-Portable-7.1.tar.gz)
 
 ## PrismLauncher
-- [Windows](https://github.com/Diegiwg/PrismLauncher-Cracked/releases/download/7.1/PrismLauncher-Windows-MinGW-w64-Setup-7.1.exe)
-- [Windows Portable](https://github.com/Diegiwg/PrismLauncher-Cracked/releases/download/7.1/PrismLauncher-Windows-MinGW-w64-Portable-7.1.zip)
-- [Windows ARM](https://github.com/Diegiwg/PrismLauncher-Cracked/releases/download/7.1/PrismLauncher-Windows-MSVC-arm64-Setup-7.1.exe)
-- [Windows ARM Portable](https://github.com/Diegiwg/PrismLauncher-Cracked/releases/download/7.1/PrismLauncher-Windows-MSVC-arm64-Portable-7.1.zip)
-- [Mac OS](https://github.com/Diegiwg/PrismLauncher-Cracked/releases/download/7.1/PrismLauncher-macOS-7.1.tar.gz)
-- [Mac OS Legacy](https://github.com/Diegiwg/PrismLauncher-Cracked/releases/download/7.1/PrismLauncher-macOS-Legacy-7.1.tar.gz)
-- [Linux](https://github.com/Diegiwg/PrismLauncher-Cracked/releases/download/7.1/PrismLauncher-Linux-7.1.tar.gz)
-- [Linux Portable](https://github.com/Diegiwg/PrismLauncher-Cracked/releases/download/7.1/PrismLauncher-Linux-Portable-7.1.tar.gz)
+- [Official Website](https://prismlauncher.org/download/)
+- [GitHub Repo](https://github.com/PrismLauncher/PrismLauncher)

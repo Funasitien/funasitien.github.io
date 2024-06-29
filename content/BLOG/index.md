@@ -1,5 +1,5 @@
 ---
-title: Docuception - Blog
+title: ✒️ Blog
 ---
 
 Articles Récents:

@@ -95,4 +95,14 @@ This is a list of Admonitions aviable Admonitions in Obsidian and compatible wit
 > [!QUOTE]
 > Advises about risks or negative outcomes of certain actions.
 ```
----
+
+# 🏷️ Change the title of the Admonitions
+You can change the title of any admonition using a text after the tag:
+> [!QUOTE] Once A Man Said
+> Markdown is the best programation language of the world
+
+```markdown
+> [!QUOTE] Once A Man Said
+> Markdown is the best programation language of the world
+```
+
