@@ -5,12 +5,9 @@ description: Un Launcher crack qui n'est pas russe
 
 ![Example banner](https://raw.githubusercontent.com/Diegiwg/PrismLauncher-Cracked/develop/program_info/org.prismlauncher.PrismLauncher.logo.source.svg)
 
-:::danger DANGER !
+> [!CAUTION]DANGER ! 
+ > Si vous avez TLauncher sur votre ordinateur, Installer PrismUnlocked et désinstaller TLauncher tout de suite ! Non pas parce qu'il est russe, mais parce qu'il contient différents virus et mineurs de cryptomonées. De rien
 
-Si vous avez TLauncher sur votre ordinateur, **Installer PrismUnlocked et désinstaller TLauncher tou de suite !** Non pas parce qu'il est russe, mais parce qu'il contient différents **virus et mineurs de cryptomonées**. De rien
-
-
-:::
 
 # PrismUnlocked
 PrismUnlocked est un launcher Minecraft qui vous permet de jouer sans compte, et donc sans payer le jeu. 
