@@ -1,5 +1,5 @@
 ---
-title: Conditions Générales de Vente
+title: DEMOCRAFT - Conditions Générales de Vente
 ---
 
 # 🤔 C'est quoi les CGV ?
