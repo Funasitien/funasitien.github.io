@@ -10,7 +10,7 @@ Les CGV, **Condition Générales de Ventes** sont un ou une série de documents 
 
 # 🪬Quelles sont les limites sur DEMOCRAFT ?
 Vous - acheteurs - devez respecter une série de condition pour tout achat de produit sur le site web de DEMOCRAFT :
-- Vous acceptez de renoncer à tout litige sur les plateformes de payement (tel que PayPal ou Stripe). Les seuls raison de litiges pourrait être une mauvaise réception du produit - probablement un problème de pseudonyme de votre côté - et dans ce cas il faut ouvrir un ticket sur notre site web ou sur notre discord. Dans les cas des achats de grade mensuels, vous serrais dédommagé de la perte de temps. Si vous voulez en savoir plus sur pourquoi nous vous demandons de refuser les litiges, [[#💸 Pourquoi refuser les litiges ?]].
+- Vous acceptez de renoncer à tout litige sur les plateformes de payement (tel que PayPal ou Stripe). Les seuls raison de litiges pourrait être une mauvaise réception du produit - probablement un problème de pseudonyme de votre côté - et dans ce cas il faut ouvrir un ticket sur notre site web ou sur notre discord. Dans les cas des achats de grade mensuels, vous serrais dédommagé de la perte de temps. Si vous voulez en savoir plus sur pourquoi nous vous demandons de refuser les litiges, regardez [[#💸 Pourquoi refuser les litiges ?]].
 - Contrairement à beaucoup de services, vous ne pouvez pas effectuez d'action illégal avec nos produit (miner de la cryptomonnaie sur nos serveur par exemple - on ne vend pas de serveurs). **Cependant**, si votre compte Minecraft est perdu, suspendu, sanctionné ou banni, vous ne recevrais pas de remboursement 
 
 # 💸 Pourquoi refuser les litiges ?
