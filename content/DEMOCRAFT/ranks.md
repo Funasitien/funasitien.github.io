@@ -1,5 +1,8 @@
 ---
 title: Ranks Overview
+tags:
+  - democraft
+  - minecraft
 ---
 
 [🥐 Voir la page en français](./grades)

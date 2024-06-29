@@ -1,5 +1,8 @@
 ---
 title: Politique de Confidentialité
+tags:
+  - democraft
+  - minecraft
 ---
 # 🤔 C'est quoi les Politiques de Confidentialités ?
 

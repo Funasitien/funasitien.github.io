@@ -1,5 +1,8 @@
 ---
 title: Conditions Générales de Vente
+tags:
+  - democraft
+  - minecraft
 ---
 
 # 🤔 C'est quoi les CGV ?

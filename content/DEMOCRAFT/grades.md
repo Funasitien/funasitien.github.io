@@ -1,5 +1,8 @@
 ---
 title: Comaratif des Grades
+tags:
+  - democraft
+  - minecraft
 ---
 
 [🍵 See the page in english](./ranks)
