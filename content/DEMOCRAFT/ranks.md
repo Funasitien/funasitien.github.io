@@ -7,7 +7,6 @@ tags:
 
 [🥐 Voir la page en français](./grades)
 
-
 | Avantages              | Player    | MINI          | DEMO      | DEMO+         | DEMO MAX     |
 | ---------------------- | --------- | ------------- | --------- | ------------- | ------------ |
 | Can join DEMOCRAFT     | ✅         | ✅             | ✅         | ✅             | ✅            |

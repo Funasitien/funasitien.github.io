@@ -9,7 +9,7 @@ tags:
 Les Politiques de Confidentialités (ou **Privacy Policy** en anglais) sont un ou une série de documents (oui encore) qui délimite l'utilisation que nous faisons de vos données, la façon dont nous les traitons, partageons et stockons.
 
 # 🗃️ Quelles donné(es) sont stockées, et pourquoi ?
-Nous utilisons un outil que nous appelons [1984](https://stats.democraft.fr) (pas mal la ref) qui collecte les données suivantes:
+Nous utilisons un outil que nous appelons [1984](https://stats.democraft.fr) (pas mal la ref) qui collecte les données suivantes, sur notre site web et notre serveur Minecraft comme indiqué dans nos [[cgu]]:
 - Adresse IP, nom d'utilisateur(s) 
 - Temps de jeu sur le serveur
 - Temps de jeu par serveur
