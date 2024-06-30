@@ -1,6 +1,7 @@
 ---
-title: 📦 TUTORIELS
-tags:
-  - dreamclouds
-  - minecraft
+title: 📚 TUTORIELS
 ---
+
+> [!BUG] WORK-IN-PROGRESS
+
+[[index|🏠 Retour à l'accueil]]

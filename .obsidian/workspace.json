@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "c923702b805a4928",
+    "type": "split",
+    "children": [
+      {
+        "id": "58293804bb2b8a79",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef62cc98594e142a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/BLOG/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4b186624b8f8901a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/TUTO/index.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "7d606208a5f96094",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/BLOG/welcome-29-06.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "754be2120808c279",
+    "type": "split",
+    "children": [
+      {
+        "id": "09406b44e1e4109e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27a87d1f2ab30ff6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2a36fb2a4af3dec9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ecc366e8152670e3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b1a092a1dc6e3789",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c520f1077ccf30f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4f3cf8e59ad69c04",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/BLOG/welcome-29-06.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a4f8b91ddeedfc54",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/BLOG/welcome-29-06.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "404c62bbb4fcad0b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c8b435b7383484f0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/BLOG/welcome-29-06.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false
+    }
+  },
+  "active": "4f3cf8e59ad69c04",
+  "lastOpenFiles": [
+    "content/BLOG/index.md",
+    "content/BLOG/welcome-29-06.md",
+    "content/BLOG/about.md",
+    "content/DEMOCRAFT/index.md",
+    "content/DEMOCRAFT/ranks.md",
+    "content/DREAMCLOUDS/index.md",
+    "content/index.md",
+    "content/TUTO/index.md",
+    "content/TUTO/minecraft/prismcrack.md",
+    "content/TUTO/markdown/admonitions.md",
+    "content/TUTO/markdown/special.md",
+    "content/ODOE/index.md",
+    "content/DEMOCRAFT/cgu.md",
+    "Sans titre",
+    "README.md"
+  ]
+}
