@@ -11,4 +11,4 @@ Contrairement à tout les sites que je généré avec du markdown, **DOCUCEPTION
 # 📶 Etapes
 Pour l'instant, la structure des fichier est en place, ce qui est déjà un bon début ! D'ici les prochaines semaines, j'aimerais pourvoir finir les fichiers exisants et ajouter des descriptions au dossiers.
 
-### [[content/BLOG/index|⬅️ Retour au posts]]
+### [[BLOG/index|⬅️ Retour au posts]]
