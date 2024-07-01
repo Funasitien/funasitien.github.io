@@ -1,8 +1,9 @@
 ---
 title: 📜 Statut DEMOCRAFT
+date:
 ---
 
-*Ce fichier est un document légal en cours de rédaction. Plus d'informations seront précisés sur [[./index|la page d'accueil]] quand l'association sera dans un stade plus avancé*
+*Ce fichier est un document légal en cours de rédaction. Plus d'informations seront précisés sur [[DEMOCRAFT/index|la page d'accueil]] quand l'association sera dans un stade plus avancé*
 
 # ARTICLE PREMIER - NOM
 
@@ -26,8 +27,8 @@ La durée de l’association est illimitée
 # ARTICLE 5 - COMPOSITION
 
 > [!DANGER] À CHANGER
-> Il faut faire des grades plus sympa mais aussi un peu pro et moins bobo royaliste comme fantai.
-> Oui c'était gratuit.
+> Il faut faire des grades plus sympa mais aussi un peu pro et moins bobo royaliste pas comme fantai car il est pasde droite mais tant qu'on parle de lui faudrais le mettre ici tient
+> Et benkuku on va galérer
 
 L'association se compose de :
 

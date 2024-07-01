@@ -14,7 +14,7 @@ tags:
 > [!DANGER]
 > Si vous avez TLauncher sur votre ordinateur, Installer PrismUnlocked et désinstaller TLauncher tout de suite ! Non pas parce qu'il est russe, mais parce qu'il contient différents virus et mineurs de cryptomonées. De rien
 
-# PrismUnlocked
+# Prism Unlocked
 PrismUnlocked est un launcher Minecraft qui vous permet de jouer sans compte, et donc sans payer le jeu. 
 
 > [!INFO] Pour les comptes premiums
@@ -23,7 +23,7 @@ PrismUnlocked est un launcher Minecraft qui vous permet de jouer sans compte, et
 # Avant de commencer
 Il vous faut :
 - Java JDK 17
-- Un fichier d'instalation Prism (Prism Officiel ou PrismUnlocked). Pour PrismUnlocked, les liens de téléchargement sont [en bas de la page](#).
+- Un fichier d'instalation Prism (Prism Officiel ou PrismUnlocked). Pour PrismUnlocked, les liens de téléchargement sont [[#PrismUnlocked]].
 
 # Installer Java JDK 17
 #### Si vous avez dejà Java sur votre ordinateur, vous pouvez passer à [l'étape suivante](#lancer-le-fichier-prism).
@@ -33,7 +33,7 @@ Il vous faut java pour pouvoir lancer Minecraft. L'instalation de java est pluto
    - Si vous êtes sur Mac ou linux, jsp, regardez dans les fichiers.
 2. Lancez le fichier
 3. Acceptez tout les truc qu'il vous demande et cliquez plein de fois sur "OK"
-4. Attend que l'instalation soit finit. Si quelque chose s'est mal passé, vous le saurez dans la suite du tutoriel. Dans ce cas, [venez demander de l'aide sur discord](https://dsc.gg/kernacraft)
+4. Attend que l'instalation soit finit. Si quelque chose s'est mal passé, vous le saurez dans la suite du tutoriel.
 
 # Installer Prism
 ## Lancer le fichier Prism
