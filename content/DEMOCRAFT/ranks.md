@@ -1,5 +1,5 @@
 ---
-title: Ranks Overview
+title: 🏷️ Ranks Overview
 tags:
   - democraft
   - minecraft
