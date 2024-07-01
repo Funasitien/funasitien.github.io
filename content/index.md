@@ -7,9 +7,11 @@ Docuception est une série de documentations reliés entre elles par un site web
 
 | [![PROJETS](img/projets_vector.svg)](BLOG/\|) | [![TEST](img/tutoriels_vector.svg)](TUTO/) |
 | --------------------------------------------- | ------------------------------------------ |
+| [![PROJETS](img/projets_vector.svg)](BLOG/\|) | [![TEST](img/tutoriels_vector.svg)](TUTO/) |
 
 ### 📦 Projets
 
 | [![PROJETS](img/projets_vector.svg)](BLOG/\|) | [![TEST](img/tutoriels_vector.svg)](TUTO/) |
 | --------------------------------------------- | ------------------------------------------ |
+| [![PROJETS](img/projets_vector.svg)](BLOG/\|) | [![TEST](img/tutoriels_vector.svg)](TUTO/) |
 
