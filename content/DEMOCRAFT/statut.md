@@ -11,7 +11,8 @@ Il est fondé entre les adhérents aux présents statuts une association régie 
 
 # ARTICLE 2 - BUT OBJET
 
-Cette association a pour objet de gérer le fonctionnement de l'infrastructure digital du même nom, DEMOCRAFT.
+Cette association a pour objet de gérer le fonctionnement de l'infrastructure digital du même nom, DEMOCRAFT. Elle adlinistre donc :
+- Le développement des différents services ()
 
 # ARTICLE 3 - SIÈGE SOCIAL
 
