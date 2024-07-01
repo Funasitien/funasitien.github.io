@@ -129,6 +129,9 @@ Les délibérations sont prises à la majorité (ou des deux tiers) des membres 
 
 La loi de 1901 n’impose pas l’existence d’un conseil d’administration ou d’un bureau. Ce n’est qu’un usage, pratique et très répandu.
 
+> [!DANGER] À CHANGER
+> Nombre de membres
+
 L'association est dirigée par un conseil de X membres, élus pour X années par l'assemblée générale. Les membres sont rééligibles.
 
 Le conseil étant renouvelé chaque année par moitié, la première année, les membres sortants sont désignés par tirage au sort.
@@ -150,6 +153,9 @@ Le conseil d’administration peut déléguer tel ou tel de ses pouvoirs, pour u
 # ARTICLE 14 – BUREAU
 
 Le conseil d'administration élit parmi ses membres, (à bulletin secret ?), un bureau composé de :
+
+> [!DANGER] À CHANGER
+> GENS A AJOUTER
 
 1) Un-e- président-e- ;
 

@@ -1,5 +1,5 @@
 ---
-title: Comaratif des Grades
+title: 🏷️ Comparatif des Grades
 tags:
   - democraft
   - minecraft

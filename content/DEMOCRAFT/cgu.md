@@ -1,5 +1,5 @@
 ---
-title: Conditions Générales d'Utilisation
+title: 📜 Conditions Générales d'Utilisation
 tags:
   - democraft
   - minecraft

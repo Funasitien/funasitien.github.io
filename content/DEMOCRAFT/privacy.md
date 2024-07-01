@@ -1,5 +1,5 @@
 ---
-title: Politique de Confidentialité
+title: 📜 Politique de Confidentialité
 tags:
   - democraft
   - minecraft
