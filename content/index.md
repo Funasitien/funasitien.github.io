@@ -5,9 +5,7 @@ Docuception est une série de documentations reliés entre elles par un site web
 
 | [![BLOG](img/blog_vector.svg)](BLOG/)        | [![ODOE](img/odoe_vector.svg)](ODOE/) |
 | --------------------------------------------- | ------------------------------------------ |
-
 | [![PROJETS](img/projets_vector.svg)](PROJETS/) | [![TUTO](img/tutoriels_vector.svg)](TUTO/) |
-| ----------------------------------------------- | ------------------------------------------ |
 
 ### 📦 Projets
 
