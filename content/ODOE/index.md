@@ -8,4 +8,4 @@ title: ✒️ One Day On Earth
 
 ![Animated Sky](https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Milky%20Way.png)
 
-[[index|🏠 Retour à l'accueil]]
+#### [[index|🏠 Retour à l'accueil]]

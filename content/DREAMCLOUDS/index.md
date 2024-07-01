@@ -7,4 +7,4 @@ tags:
 
 > [!BUG] WORK-IN-PROGRESS
 
-[[index|🏠 Retour à l'accueil]]
+#### [[index|🏠 Retour à l'accueil]]
