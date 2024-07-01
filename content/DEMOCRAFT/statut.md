@@ -1,5 +1,6 @@
 ---
 title: 📜 Statut DEMOCRAFT
+date:
 ---
 
 *Ce fichier est un document légal en cours de rédaction. Plus d'informations seront précisés sur [[DEMOCRAFT/index|la page d'accueil]] quand l'association sera dans un stade plus avancé*
