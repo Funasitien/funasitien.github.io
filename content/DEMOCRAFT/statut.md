@@ -32,7 +32,8 @@ La durée de l’association est illimitée
 
 L'association se compose de :
 
-a) Membres d'honneur
+a) Administrateurs ou 
+
 
 b) Membres bienfaiteurs
 
