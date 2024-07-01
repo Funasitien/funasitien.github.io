@@ -5,3 +5,7 @@ Docuception est une série de documentations reliés entre elles par un site web
 
 > [!NOTE] Ajouter Des Bouttons
 
+### 📦 Projets
+
+> [!DAMN] Ajouter Des Bouttons
+

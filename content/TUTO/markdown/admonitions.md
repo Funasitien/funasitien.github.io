@@ -79,6 +79,8 @@ This is a list of Admonitions aviable Admonitions in Obsidian and compatible wit
 > [!DANGER]
 > Advises about risks or negative outcomes of certain actions.
 ```
+This one work also with ![ERROR]
+
 ---
 > [!EXAMPLE]
 > Key information users need to know to achieve their goal.
