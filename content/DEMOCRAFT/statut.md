@@ -12,7 +12,9 @@ Il est fondé entre les adhérents aux présents statuts une association régie 
 # ARTICLE 2 - BUT OBJET
 
 Cette association a pour objet de gérer le fonctionnement de l'infrastructure digital du même nom, DEMOCRAFT. Elle adlinistre donc :
-- Le développement des différents services ()
+- Le développement des différents services (serveur minecraft, sites internet)
+- La promotion ce celle-si sur les resaux sociaux
+- [[./SOON|XXX]]
 
 # ARTICLE 3 - SIÈGE SOCIAL
 
@@ -71,11 +73,9 @@ b) Le décès;
 
 c) La radiation prononcée par le conseil d'administration pour non-paiement de la cotisation ou pour motif grave, l'intéressé ayant été invité (par lettre recommandée) à fournir des explications devant le bureau et/ou par écrit.
 
-Préciser les modalités de la radiation, les possibilités de défense et de recours du membre.
+#### Préciser les modalités de la radiation, les possibilités de défense et de recours du membre.
 
 Les motifs graves sont indiqués dans le règlement intérieur.
-
-> [!NOTE] D'où ici le retour aux CGU
 
 # ARTICLE 9 - AFFILIATION
 
@@ -183,7 +183,7 @@ Pour prévenir des difficultés fréquentes, préciser que les fonctions de pré
 
 Toutes les fonctions, y compris celles des membres du conseil d’administration et du bureau, sont gratuites et bénévoles. Seuls les frais occasionnés par l’accomplissement de leur mandat sont remboursés sur justificatifs. Le rapport financier présenté à l’assemblée générale ordinaire présente, par bénéficiaire, les remboursements de frais de mission, de déplacement ou de représentation.
 
-Ces dispositions peuvent être affinées dans un règlement intérieur (nature des frais, des missions, qualité des bénéficiaires, etc.)
+Ces dispositions sont affinées dans le règlement intérieur.
 
 # ARTICLE 16 - REGLEMENT INTERIEUR
 
