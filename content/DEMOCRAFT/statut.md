@@ -1,10 +1,14 @@
+---
+title: 📜 Statut DEMOCRAFT
+---
+
 # ARTICLE PREMIER - NOM
 
-Il est fondé entre les adhérents aux présents statuts une association régie par la loi du 1er juillet 1901 et le décret du 16 août 1901, ayant pour titre ...
+Il est fondé entre les adhérents aux présents statuts une association régie par la loi du 1er juillet 1901 et le décret du 16 août 1901, ayant pour titre DEMOCRAFT
 
 # ARTICLE 2 - BUT OBJET
 
-Cette association a pour objet ...
+Cette association a pour objet de gérer le fonctionnement de l'infrastructure digital du même nom, DEMOCRAFT.
 
 # ARTICLE 3 - SIÈGE SOCIAL
 
