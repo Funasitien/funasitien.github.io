@@ -16,7 +16,7 @@ Le siège social est fixé à ...
 
 # Article 4 - DUREE
 
-La durée de l’association est ...
+La durée de l’association est illimitée
 
 # ARTICLE 5 - COMPOSITION
 
