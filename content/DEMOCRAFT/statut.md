@@ -12,6 +12,9 @@ Cette association a pour objet de gérer le fonctionnement de l'infrastructure d
 
 # ARTICLE 3 - SIÈGE SOCIAL
 
+> [!DANGER] À CHANGER
+> Il faut nous trouver un siège social.
+
 Le siège social est fixé à ...
 
 # Article 4 - DUREE
@@ -19,6 +22,10 @@ Le siège social est fixé à ...
 La durée de l’association est illimitée
 
 # ARTICLE 5 - COMPOSITION
+
+> [!DANGER] À CHANGER
+> Il faut faire des grades plus sympa mais aussi un peu pro et moins bobo royaliste comme fantai.
+> Oui c'était gratuit.
 
 L'association se compose de :
 
@@ -30,9 +37,15 @@ c) Membres actifs ou adhérents
 
 # ARTICLE 6 - ADMISSION
 
+> [!DANGER] À CHANGER
+> Définir les condition d'admissions à l'association
+
 Article optionnel.
 
 # ARTICLE 7 - MEMBRES – COTISATIONS
+
+> [!DANGER] À CHANGER
+> Idem que juste en haut, cotisation ?
 
 Sont membres actifs ceux qui ont pris l'engagement de verser annuellement une somme de .... € à titre de cotisation.
 
@@ -58,6 +71,9 @@ Les motifs graves peuvent être précisés ici ou dans le règlement intérieur.
 
 # ARTICLE 9 - AFFILIATION
 
+> [!ABSTRACT] À RÉFLÉCHIR
+> Là ça marche l'histoire des dreamclouds
+
 La présente association est affiliée à … et se conforme aux statuts et au règlement intérieur de cette fédération (nom, logo, etc.).
 
 Elle peut par ailleurs adhérer à d’autres associations, unions ou regroupements par décision du conseil d’administration.
@@ -70,7 +86,8 @@ Les ressources de l'association comprennent :
 
 2° Les subventions de l'Etat, des départements et des communes.
 
-F Ne pas hésiter à prévoir d'autres ressources si nécessaire et/ou de rédiger ainsi cet article :
+> [!ABSTRACT] À COMPLÉTER
+> Ajouter les trucs de la boutique
 
 3° Toutes les ressources autorisées par les lois et règlements en vigueur. » Si cela n’a pas été fait à l’article 2, préciser ici que l’association exercera des activités économiques et lesquelles (Code de commerce Article L442-7 : « Aucune association (…) ne peut, de façon habituelle, offrir des produits à la vente, les vendre ou fournir des services si ces activités ne sont pas prévues par ses statuts ».)
 
@@ -78,7 +95,7 @@ F Ne pas hésiter à prévoir d'autres ressources si nécessaire et/ou de rédig
 
 L'assemblée générale ordinaire comprend tous les membres de l'association à quelque titre qu'ils soient. Les statuts peuvent prévoir que certains membres de l'association, par exemple qui ne versent qu'une cotisation très faible, ne prennent pas part à l'assemblée générale.
 
-Elle se réunit chaque année au mois de..............
+Elle se réunit chaque année tout les deux mois, en Février, Avril, Juin, Août, Octobre et Décembre.
 
 Quinze jours au moins avant la date fixée, les membres de l'association sont convoqués par les soins du secrétaire. L'ordre du jour figure sur les convocations.
 
