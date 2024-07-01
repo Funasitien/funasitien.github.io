@@ -5,15 +5,13 @@ Docuception est une série de documentations reliés entre elles par un site web
 
 [[Path to file|![PROJETS](img/projets_vector.svg)]]
 
-| [![PROJETS](img/projets_vector.svg)](BLOG/\|) | [![TEST](img/tutoriels_vector.svg)](TUTO/) |
+| [![BLOG](img/blog_vector.svg)](BLOG/)        | [![ODOE](img/odoe_vector.svg)](ODOE/) |
 | --------------------------------------------- | ------------------------------------------ |
 
-| [![PROJETS](img/projets_vector.svg)](BLOG/\|) | [![TEST](img/tutoriels_vector.svg)](TUTO/) |
-| --------------------------------------------- | ------------------------------------------ |
+| [![PROJETS](img/projets_vector.svg)](PROJETS/) | [![TUTO](img/tutoriels_vector.svg)](TUTO/) |
+| ----------------------------------------------- | ------------------------------------------ |
 
 ### 📦 Projets
 
-| [![PROJETS](img/projets_vector.svg)](BLOG/\|) | [![TEST](img/tutoriels_vector.svg)](TUTO/) |
-| --------------------------------------------- | ------------------------------------------ |
-| [![PROJETS](img/projets_vector.svg)](BLOG/\|) | [![TEST](img/tutoriels_vector.svg)](TUTO/) |
-
+| [![DEMOCRAFT](img/democraft_vector.svg)](DEMOCRAFT/) | [![DREAMCLOUDS](img/dreamclouds_vector.svg)](DREAMCLOUDS/) |
+| ---------------------------------------------------- | ---------------------------------------------------------- |
