@@ -2,6 +2,8 @@
 title: 📜 Statut DEMOCRAFT
 ---
 
+*Ce fichier est un document légal en cours de rédaction. Plus d'informations seront précisés sur [[./index|la page d'accueil]] quand l'association sera dans un stade plus avancé*
+
 # ARTICLE PREMIER - NOM
 
 Il est fondé entre les adhérents aux présents statuts une association régie par la loi du 1er juillet 1901 et le décret du 16 août 1901, ayant pour titre DEMOCRAFT
