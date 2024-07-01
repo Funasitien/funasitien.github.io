@@ -34,10 +34,11 @@ L'association se compose de :
 
 a) Administrateurs ou 
 
+b) *aka* staff
 
-b) Membres bienfaiteurs
+c) Membres bienfaiteurs
 
-c) Membres actifs ou adhérents
+d) Membres actifs ou adhérents
 
 # ARTICLE 6 - ADMISSION
 
@@ -51,13 +52,13 @@ Article optionnel.
 > [!DANGER] À CHANGER
 > Idem que juste en haut, cotisation ?
 
-Sont membres actifs ceux qui ont pris l'engagement de verser annuellement une somme de .... € à titre de cotisation.
+Sont membres actifs ceux qui ont pris l'engagement de verser annuellement une somme de **10€** à titre de cotisation.
 
 Sont membres d'honneur ceux qui ont rendu des services signalés à l'association ; ils sont dispensés de cotisations.
 
-Sont membres bienfaiteurs, les personnes qui versent un droit d'entrée de ... € et une cotisation annuelle (de .... €) fixée chaque année par l'assemblée générale.
+Sont membres bienfaiteurs, les personnes qui versent, en plus de leurs cotisation annuelle, un ou plusieurs don à l'association, dans la condition où la valeur total est supérieure à celle de la cotisation.
 
-Toute cotisation pourra être rachetée moyennant le paiement d'une somme minima égale à ….
+*Toute cotisation pourra être rachetée moyennant le paiement d'une somme minima égale à …. `JE COMPREND PAS HELP`*
 
 # ARTICLE 8 - RADIATIONS
 
@@ -71,7 +72,9 @@ c) La radiation prononcée par le conseil d'administration pour non-paiement de 
 
 Préciser les modalités de la radiation, les possibilités de défense et de recours du membre.
 
-Les motifs graves peuvent être précisés ici ou dans le règlement intérieur.
+Les motifs graves sont indiqués dans le règlement intérieur.
+
+> [!NOTE] D'où ici le retour aux CGU
 
 # ARTICLE 9 - AFFILIATION
 
@@ -88,14 +91,18 @@ Les ressources de l'association comprennent :
 
 1° Le montant des droits d'entrée et des cotisations;
 
-2° Les subventions de l'Etat, des départements et des communes.
+2° Le montant des donations reçus par les membres bienfaiteurs
+
+3° Les subventions de l'Etat, des départements et des communes.
+
+4° La recette des produits
 
 > [!ABSTRACT] À COMPLÉTER
 > Ajouter les trucs de la boutique
 
-3° Toutes les ressources autorisées par les lois et règlements en vigueur. » Si cela n’a pas été fait à l’article 2, préciser ici que l’association exercera des activités économiques et lesquelles (Code de commerce Article L442-7 : « Aucune association (…) ne peut, de façon habituelle, offrir des produits à la vente, les vendre ou fournir des services si ces activités ne sont pas prévues par ses statuts ».)
+X° Toutes les ressources autorisées par les lois et règlements en vigueur. » Si cela n’a pas été fait à l’article 2, préciser ici que l’association exercera des activités économiques et lesquelles (Code de commerce Article L442-7 : « Aucune association (…) ne peut, de façon habituelle, offrir des produits à la vente, les vendre ou fournir des services si ces activités ne sont pas prévues par ses statuts ».)
 
-# ARTICLE 11 - ASSEMBLEE GENERALE ORDINAIRE
+# ARTICLE 11 - ASSEMBLÉE GENERALE ORDINAIRE
 
 L'assemblée générale ordinaire comprend tous les membres de l'association à quelque titre qu'ils soient. Les statuts peuvent prévoir que certains membres de l'association, par exemple qui ne versent qu'une cotisation très faible, ne prennent pas part à l'assemblée générale.
 
@@ -121,7 +128,7 @@ Toutes les délibérations sont prises à main levée, excepté l’élection de
 
 Les décisions des assemblées générales s’imposent à tous les membres, y compris absents ou représentés.
 
-# ARTICLE 12 - ASSEMBLEE GENERALE EXTRAORDINAIRE
+# ARTICLE 12 - ASSEMBLEE GÉNÉRALE EXTRAORDINAIRE
 
 Si besoin est, ou sur la demande de la moitié plus un des membres inscrits, (ou par exemple à la demande d’un quart des membres) le président peut convoquer une assemblée générale extraordinaire, suivant les modalités prévues aux présents statuts et uniquement pour modification des statuts ou la dissolution ou pour des actes portant sur des immeubles.
 
@@ -136,7 +143,7 @@ La loi de 1901 n’impose pas l’existence d’un conseil d’administration ou
 > [!DANGER] À CHANGER
 > Nombre de membres
 
-L'association est dirigée par un conseil de X membres, élus pour X années par l'assemblée générale. Les membres sont rééligibles.
+L'association est dirigée par un conseil de X membres, élus pour 1 années par l'assemblée générale. Les membres sont rééligibles.
 
 Le conseil étant renouvelé chaque année par moitié, la première année, les membres sortants sont désignés par tirage au sort.
 
