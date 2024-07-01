@@ -27,8 +27,8 @@ La durée de l’association est illimitée
 # ARTICLE 5 - COMPOSITION
 
 > [!DANGER] À CHANGER
-> Il faut faire des grades plus sympa mais aussi un peu pro et moins bobo royaliste comme fantai.
-> Oui c'était gratuit.
+> Il faut faire des grades plus sympa mais aussi un peu pro et moins bobo royaliste pas comme fantai car il est pasde droite mais tant qu'on parle de lui faudrais le mettre ici tient
+> Et benkuku on va galérer
 
 L'association se compose de :
 
