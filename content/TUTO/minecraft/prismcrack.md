@@ -46,7 +46,7 @@ Après avoir lancer le fichier, vous allez tomber sur cet écran :
 
 ![image](https://github.com/Funasitien/kernadoc/assets/86372093/e10555b5-bcdb-4d81-9b47-de274e898d9f)
 
-Choisissez le language que vous voulez. Si il n'y a que Anglais cela ne posera pas problème. Puis cliquez ur "Suivant" ou "Next".
+Choisissez le language que vous voulez. Si il n'y a que Anglais cela ne posera pas problème. Puis cliquez sur "Suivant" ou "Next".
 
 ## Séléctionner les versions de Java
 
@@ -54,7 +54,7 @@ On arrive à notre java. Vous allez avoir un écran comme celui çi :
 
 ![image](https://github.com/Funasitien/kernadoc/assets/86372093/1e0fed62-ae4d-4155-8677-1b9ef9646ac9)
 
-**Si vous n'avait rien, c'est une erreur**. Sinon, tout se fait tout seul, cliquez sur "Suivant".
+**Si vous n'avait rien, c'est une erreur**. Vous pouvez vous rendre vers [[java|ce tutoriel]] pour l'installer. Sinon, tout se fait tout seul, cliquez sur "Suivant".
 
 ## Thème
 
