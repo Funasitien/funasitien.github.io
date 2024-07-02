@@ -3,7 +3,7 @@
 .button-grid {
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
-    gap: 2.2rem;
+    gap: 1.4rem;
     margin: 0 1rem 0 0;
 
     @media (min-width: 639px) {
