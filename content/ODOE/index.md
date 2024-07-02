@@ -1,5 +1,5 @@
 ---
-title: ✒️ One Day On Earth
+title: ✒️ ONE DAY ON EARTH
 ---
 
 > [!BUG] WORK-IN-PROGRESS
