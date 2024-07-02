@@ -3,8 +3,8 @@ title: 📜 Statut DreamClouds
 date: 2024-07-01
 draft: true
 ---
-
-*Ce fichier est un document légal en cours de rédaction. Plus d'informations seront précisés sur [[DEMOCRAFT/index|la page d'accueil]] quand l'association sera dans un stade plus avancé*
+> [!DANGER] ATTENTION !
+> *Ce fichier est un document légal en cours de rédaction, mais dans un stade encore plus bas que le statut de DEMOCRAFT. Ne vous refferez aucunement à ce documenttant qu'il n'est pas signé.*
 
 # ARTICLE PREMIER - NOM
 

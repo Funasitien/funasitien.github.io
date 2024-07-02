@@ -1,8 +1,9 @@
 ---
-title: Special Abilities
+title: 🍭 Special Abilities
 tags:
   - markdown
   - tuto
+  - en
 ---
 Some characters in Obsidian/Quartz have strange abilities. Let's take a look on them
 

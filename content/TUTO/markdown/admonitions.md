@@ -1,8 +1,9 @@
 ---
-title: Admonitions
+title: 🍭 Admonitions
 tags:
   - markdown
   - tuto
+  - en
 ---
 
 # 📦 Admonitions List
