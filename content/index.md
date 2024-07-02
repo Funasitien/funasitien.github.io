@@ -7,10 +7,10 @@ Docuception est une série de documentations reliés entre elles par un site web
 
 | [![BLOG](img/blog_vector.svg)](BLOG/)       | [![ODOE](img/odoe_vector.svg)](ODOE/)      |
 | ------------------------------------------- | ------------------------------------------ |
-| [![SOON](img/soon_vector.svg)](SOON/) | [![TUTO](img/tutoriels_vector.svg)](TUTO/) |
+| [![SOON](img/soon_vector.svg)](soon/) | [![TUTO](img/tutoriels_vector.svg)](TUTO/) |
 
 # 📦 Projets
 
 | [![DEMOCRAFT](img/democraft_vector.svg)](DEMOCRAFT/) | [![DREAMCLOUDS](img/dreamclouds_vector.svg)](DREAMCLOUDS/) |
 | ---------------------------------------------------- | ---------------------------------------------------------- |
-| [![SOON](img/soon_vector.svg)](SOON/) | [![SOON](img/soon_vector.svg)](SOON/) |
+| [![SOON](img/soon_vector.svg)](soon/) | [![SOON](img/soon_vector.svg)](soon/) |
