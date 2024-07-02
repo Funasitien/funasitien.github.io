@@ -8,16 +8,16 @@ Docuception est une série de documentations reliés entre elles par un site web
 
 <div class="button-grid">
     <a href="BLOG/">
-        <img src="img/blog_vector.svg" style="margin: 0rem;">
+        <img src="img/blog_vector.svg" style="margin: 0rem;" alt="Blog button">
     </a>
     <a href="TUTO/">
-        <img src="img/tutoriels_vector.svg" style="margin: 0rem;">
+        <img src="img/tutoriels_vector.svg" style="margin: 0rem;" alt="Tutorials button">
     </a>
     <a href="RESSOURCES/">
-        <img src="img/ressources_vector.svg" style="margin: 0rem;">
+        <img src="img/ressources_vector.svg" style="margin: 0rem;" alt="Ressources button">
     </a>
     <a href="ODOE/">
-        <img src="img/odoe_vector.svg" style="margin: 0rem;">
+        <img src="img/odoe_vector.svg" style="margin: 0rem;" alt="Essais button">
     </a>
 </div>
 
@@ -25,9 +25,9 @@ Docuception est une série de documentations reliés entre elles par un site web
 
 <div class="button-grid">
     <a href="DEMOCRAFT/">
-        <img src="img/democraft_vector.svg" style="margin: 0rem;">
+        <img src="img/democraft_vector.svg" style="margin: 0rem;" alt="DEMOCRAFT button">
     </a>
     <a href="DREAMCLOUDS/">
-        <img src="img/dreamclouds_vector.svg" style="margin: 0rem;">
+        <img src="img/dreamclouds_vector.svg" style="margin: 0rem;" alt="DREAMCLOUDS button">
     </a>
 </div>
