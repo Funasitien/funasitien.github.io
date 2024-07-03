@@ -14,13 +14,13 @@ Il est fondé entre les adhérents aux présents statuts une association régie 
 Cette association a pour objet de gérer le fonctionnement de l'infrastructure digital du même nom, DEMOCRAFT. Elle adlinistre donc :
 - Le développement des différents services (serveur minecraft, sites internet)
 - La promotion ce celle-si sur les resaux sociaux
-- [[./SOON|XXX]]
+- [[.|XXX]]
 
 # ARTICLE 3 - SIÈGE SOCIAL
 
 Le siège social est fixé à [REDACTED]
 
-Pour des raisons de sécurité, et com
+Pour des raisons de sécurité, et comme l'association n'est pas encore enregistré dans le Journal Français, nous avons décidé de censuré l'adresse du fondateur qui sert de siège social.
 
 # Article 4 - DUREE
 
@@ -34,7 +34,7 @@ La durée de l’association est illimitée
 
 L'association se compose de :
 
-a) Administrateurs ou 
+a) Administrateurs
 
 b) *aka* staff
 
@@ -44,15 +44,9 @@ d) Membres actifs ou adhérents
 
 # ARTICLE 6 - ADMISSION
 
-> [!DANGER] À CHANGER
-> Définir les condition d'admissions à l'association
-
-Article optionnel.
+L'admission à l'association ne nécessite aucune condition - mais l'entrée au Conseil d'administration nécessite l'aprobation par un vote à majorité du dit conseil d'administration.
 
 # ARTICLE 7 - MEMBRES – COTISATIONS
-
-> [!DANGER] À CHANGER
-> Idem que juste en haut, cotisation ?
 
 Sont membres actifs ceux qui ont pris l'engagement de verser annuellement une somme de **10€** à titre de cotisation.
 
@@ -72,16 +66,13 @@ b) Le décès;
 
 c) La radiation prononcée par le conseil d'administration pour non-paiement de la cotisation ou pour motif grave, l'intéressé ayant été invité (par lettre recommandée) à fournir des explications devant le bureau et/ou par écrit.
 
-#### Préciser les modalités de la radiation, les possibilités de défense et de recours du membre.
+> [!DANGER] Préciser les modalités de la radiation, les possibilités de défense et de recours du membre.
 
 Les motifs graves sont indiqués dans le règlement intérieur.
 
 # ARTICLE 9 - AFFILIATION
 
-> [!ABSTRACT] À RÉFLÉCHIR
-> Là ça marche l'histoire des dreamclouds
-
-La présente association est affiliée à … et se conforme aux statuts et au règlement intérieur de cette fédération (nom, logo, etc.).
+La présente association est affiliée à l'association DreamClouds et se conforme aux statuts et au règlement intérieur de cette fédération.
 
 Elle peut par ailleurs adhérer à d’autres associations, unions ou regroupements par décision du conseil d’administration.
 
@@ -89,13 +80,13 @@ Elle peut par ailleurs adhérer à d’autres associations, unions ou regroupeme
 
 Les ressources de l'association comprennent :
 
-1° Le montant des droits d'entrée et des cotisations;
+1. Le montant des droits d'entrée et des cotisations;
 
-2° Le montant des donations reçus par les membres bienfaiteurs
+2. Le montant des donations reçus par les membres bienfaiteurs
 
-3° Les subventions de l'Etat, des départements et des communes.
+3. Les subventions de l'Etat, des départements et des communes.
 
-4° La recette des produits
+4. La recette des produits *XXX*
 
 > [!ABSTRACT] À COMPLÉTER
 > Ajouter les trucs de la boutique
@@ -168,7 +159,7 @@ Le conseil d'administration élit parmi ses membres, (à bulletin secret ?), un
 > [!DANGER] À CHANGER
 > GENS A AJOUTER
 
-1) Un-e- président-e- ;
+1) Deux président-e- ;
 
 2) Un-e- ou plusieurs vice-président-e-s ;
 
