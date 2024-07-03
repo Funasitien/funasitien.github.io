@@ -14,12 +14,11 @@ Il est fondé entre les adhérents aux présents statuts une association régie 
 
 Cette association a pour objet de gérer le fonctionnement de l'infrastructure digital du même nom, DEMOCRAFT.
 
-# ARTICLE 3 - SIÈGE SOCIAL
+# # ARTICLE 3 - SIÈGE SOCIAL
 
-> [!DANGER] À CHANGER
-> Il faut nous trouver un siège social.
+Le siège social est fixé à [REDACTED]
 
-Le siège social est fixé à ...
+Pour des raisons de sécurité, et comme l'association n'est pas encore enregistré dans le Journal Français, nous avons décidé de censuré l'adresse du fondateur qui sert de siège social.
 
 # Article 4 - DUREE
 

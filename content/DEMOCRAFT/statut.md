@@ -34,17 +34,17 @@ La durée de l’association est illimitée
 
 L'association se compose de :
 
-a) Administrateurs
+1. **Administrateurs**, présidents de l'associations.
 
-b) *aka* staff
+2. **Membres du conseil**, élu par le conseil d'administration
 
-c) Membres bienfaiteurs
+3. **Membres bienfaiteurs** définit ci dessous
 
-d) Membres actifs ou adhérents
+4. **Membres actifs ou adhérents** définit ci dessous
 
 # ARTICLE 6 - ADMISSION
 
-L'admission à l'association ne nécessite aucune condition - mais l'entrée au Conseil d'administration nécessite l'aprobation par un vote à majorité du dit conseil d'administration.
+L'admission à l'association ne nécessite aucune condition - mais l'entrée au Conseil d'administration nécessite l'approbation par un vote à majorité du dit conseil d'administration.
 
 # ARTICLE 7 - MEMBRES – COTISATIONS
 
@@ -129,20 +129,16 @@ Les délibérations sont prises à la majorité (ou des deux tiers) des membres 
 
 # ARTICLE 13 - CONSEIL D'ADMINISTRATION
 
-La loi de 1901 n’impose pas l’existence d’un conseil d’administration ou d’un bureau. Ce n’est qu’un usage, pratique et très répandu.
-
 > [!DANGER] À CHANGER
 > Nombre de membres
 
-L'association est dirigée par un conseil de X membres, élus pour 1 années par l'assemblée générale. Les membres sont rééligibles.
+L'association est dirigée par un conseil formé des président et des autres membres du conseil. Les membres du conseil sont votés pour un an, mais contrairement au présidents, leurs place n'est pas définitive.
 
-Le conseil étant renouvelé chaque année par moitié, la première année, les membres sortants sont désignés par tirage au sort.
-
-Le renouvellement des membres du conseil par fraction est préférable.
+A noté que les membres du conseil peuvent demander à devenir président(e) de l'association. Un vote à majorité sera effectué par les présidents actifs
 
 En cas de vacances, le conseil pourvoit provisoirement au remplacement de ses membres. Il est procédé à leur remplacement définitif par la plus prochaine assemblée générale. Les pouvoirs des membres ainsi élus prennent fin à l'expiration le mandat des membres remplacés.
 
-(Distinguer clairement les prérogatives de l’AG et du CA concernant par exemple les modalités de représentation de l’association en justice, etc.)
+> [!QUESTION] Distinguer clairement les prérogatives de l’AG et du CA concernant par exemple les modalités de représentation de l’association en justice, etc.
 
 Le conseil d'administration se réunit au moins une fois tous les six mois, sur convocation du président, ou à la demande du quart de ses membres. Les réunions du conseil peuvent être plus fréquentes.
 
@@ -159,13 +155,11 @@ Le conseil d'administration élit parmi ses membres, (à bulletin secret ?), un
 > [!DANGER] À CHANGER
 > GENS A AJOUTER
 
-1) Deux président-e- ;
+1. Un ou plusieurs président-e- ;
 
-2) Un-e- ou plusieurs vice-président-e-s ;
+2. Un-e- secrétaire et, s'il y a lieu, un-e- secrétaire adjoint-e- ;
 
-3) Un-e- secrétaire et, s'il y a lieu, un-e- secrétaire adjoint-e- ;
-
-4) Un-e- trésorier-e-, et, si besoin est, un-e- trésorier-e- adjoint-e-.
+3. Un-e- trésorier-e-, et, si besoin est, un-e- trésorier-e- adjoint-e-.
 
 Pour prévenir des difficultés fréquentes, préciser que les fonctions de président et de trésorier ne sont pas cumulables. Préciser, ici ou dans un règlement intérieur, les fonctions, attributions et pouvoirs respectifs des membres du bureau.
 
