@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🌨️ Docuception",
+    pageTitle: "🍭 Docuception",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -16,15 +16,15 @@ const config: QuartzConfig = {
     },
     locale: "fr-FR",
     baseUrl: "txt.dreamclouds.fr",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", ".trash"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Poppins",
+        body: "Poppins",
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
@@ -65,7 +65,7 @@ const config: QuartzConfig = {
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
-      Plugin.TableOfContents({ renderEngine: "katex", collapseByDefault: true }),
+      Plugin.TableOfContents({collapseByDefault: true }),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex(),
