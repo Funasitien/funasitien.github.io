@@ -1,3 +1,5 @@
 ---
 title: 🗃️ RESSOURCES
+tags:
+  - ressource
 ---

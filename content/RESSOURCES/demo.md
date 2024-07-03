@@ -1,5 +1,7 @@
 ---
 title: 📒 Markdown Demo File
+tags:
+  - ressource
 ---
 
 # h1 Heading 8-)
