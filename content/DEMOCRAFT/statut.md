@@ -18,10 +18,9 @@ Cette association a pour objet de gérer le fonctionnement de l'infrastructure d
 
 # ARTICLE 3 - SIÈGE SOCIAL
 
-> [!DANGER] À CHANGER
-> Il faut nous trouver un siège social.
+Le siège social est fixé à [REDACTED]
 
-Le siège social est fixé à ...
+Pour des raisons de sécurité, et com
 
 # Article 4 - DUREE
 
