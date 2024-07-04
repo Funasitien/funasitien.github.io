@@ -10,7 +10,7 @@ tags:
 This is a list of Admonitions aviable Admonitions in Obsidian and compatible with Quartz V4
 
 > [!SUCCESS]
-> Useful information that users should know, even when skimming content.
+> Aliases: “success”, “check”, “done”
 
 ```markdown
 > [!SUCCESS]
@@ -33,8 +33,16 @@ This is a list of Admonitions aviable Admonitions in Obsidian and compatible wit
 > Useful information that users should know, even when skimming content.
 ```
 ---
-> [!ABSTRACT]
+> [!Todo]
+> Aliases: “abstract”, “summary”, “tldr”
+
+```markdown
+> [!Todo]
 > Useful information that users should know, even when skimming content.
+```
+---
+> [!ABSTRACT]
+> Aliases: “abstract”, “summary”, “tldr”
 
 ```markdown
 > [!ABSTRACT]
@@ -42,7 +50,7 @@ This is a list of Admonitions aviable Admonitions in Obsidian and compatible wit
 ```
 ---
 > [!TIP]
-> Helpful advice for doing things better or more easily.
+> Aliases: “tip”, “hint”, “important”
 
 ```markdown
 > [!TIP]
@@ -50,7 +58,7 @@ This is a list of Admonitions aviable Admonitions in Obsidian and compatible wit
 ```
 ---
 > [!QUESTION]
-> Useful information that users should know, even when skimming content.
+> Aliases: “question”, “help”, “faq”
 
 ```markdown
 > [!QUESTION]
@@ -58,11 +66,19 @@ This is a list of Admonitions aviable Admonitions in Obsidian and compatible wit
 ```
 ---
 > [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
+> Aliases: “warning”, “attention”, “caution”
 
 ```markdown
 > [!WARNING]
 > Urgent info that needs immediate user attention to avoid problems.
+```
+---
+> [!Failure]
+> Aliases: “failure”, “missing”, “fail”
+
+```markdown
+> [!Failure]
+> Key information users need to know to achieve their goal.
 ```
 ---
 > [!BUG]
@@ -74,7 +90,7 @@ This is a list of Admonitions aviable Admonitions in Obsidian and compatible wit
 ```
 ---
 > [!DANGER]
-> Advises about risks or negative outcomes of certain actions.
+> Aliases: “danger”, “error”
 
 ```markdown
 > [!DANGER]
@@ -92,7 +108,7 @@ This one work also with ![ERROR]
 ```
 ---
 > [!QUOTE]
-> Advises about risks or negative outcomes of certain actions.
+> Aliases: “quote”, “cite”
 
 ```markdown
 > [!QUOTE]
