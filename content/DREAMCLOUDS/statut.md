@@ -2,17 +2,20 @@
 title: 📜 Statut DreamClouds
 date: 2024-07-01
 draft: true
+tags:
+  - legal
+  - dreamclouds
 ---
 > [!DANGER] ATTENTION !
-> *Ce fichier est un document légal en cours de rédaction, mais dans un stade encore plus bas que le statut de DEMOCRAFT. Ne vous refferez aucunement à ce documenttant qu'il n'est pas signé.*
+> *Ce fichier est un document légal en cours de rédaction, mais dans un stade encore plus bas que le statut de DEMOCRAFT. Ne vous refferez aucunement à ce document tant qu'il n'est pas signé.*
 
 # ARTICLE PREMIER - NOM
 
-Il est fondé entre les adhérents aux présents statuts une association régie par la loi du 1er juillet 1901 et le décret du 16 août 1901, ayant pour titre DEMOCRAFT
+Il est fondé entre les adhérents aux présents statuts une association régie par la loi du 1er juillet 1901 et le décret du 16 août 1901, ayant pour titre < pas sur enft >
 
 # ARTICLE 2 - BUT OBJET
 
-Cette association a pour objet de gérer le fonctionnement de l'infrastructure digital du même nom, DEMOCRAFT.
+Cette association a pour but de fournir et mettre en commun les créations des adhérents, puor permettre la création de projets créatifs commun.
 
 # # ARTICLE 3 - SIÈGE SOCIAL
 
@@ -26,26 +29,19 @@ La durée de l’association est illimitée
 
 # ARTICLE 5 - COMPOSITION
 
-> [!DANGER] À CHANGER
-> Il faut faire des grades plus sympa mais aussi un peu pro et moins bobo royaliste pas comme fantai car il est pasde droite mais tant qu'on parle de lui faudrais le mettre ici tient
-> Et benkuku on va galérer
-
 L'association se compose de :
 
-a) Administrateurs ou 
+1. Un ou plusieurs Président(es)
 
-b) *aka* staff
+2. Membres bienfaiteurs
 
-c) Membres bienfaiteurs
-
-d) Membres actifs ou adhérents
+3. Membres actifs ou adhérents
 
 # ARTICLE 6 - ADMISSION
 
-> [!DANGER] À CHANGER
-> Définir les condition d'admissions à l'association
+> [!DANGER] CHOISIR UN AGE
 
-Article optionnel.
+L'association est ouverte à tout les jeunes, de X à X ans
 
 # ARTICLE 7 - MEMBRES – COTISATIONS
 
@@ -57,8 +53,6 @@ Sont membres actifs ceux qui ont pris l'engagement de verser annuellement une so
 Sont membres d'honneur ceux qui ont rendu des services signalés à l'association ; ils sont dispensés de cotisations.
 
 Sont membres bienfaiteurs, les personnes qui versent, en plus de leurs cotisation annuelle, un ou plusieurs don à l'association, dans la condition où la valeur total est supérieure à celle de la cotisation.
-
-*Toute cotisation pourra être rachetée moyennant le paiement d'une somme minima égale à …. `JE COMPREND PAS HELP`*
 
 # ARTICLE 8 - RADIATIONS
 
@@ -78,24 +72,24 @@ Les motifs graves sont indiqués dans le règlement intérieur.
 
 # ARTICLE 9 - AFFILIATION
 
-> [!ABSTRACT] À RÉFLÉCHIR
-> Là ça marche l'histoire des dreamclouds
 
-La présente association est affiliée à … et se conforme aux statuts et au règlement intérieur de cette fédération (nom, logo, etc.).
+La présente association est affiliée à l'association DEMOCRAFT, et partage son équipe mais aussi ses services avec l'association DEMOCRAFT.
 
-Elle peut par ailleurs adhérer à d’autres associations, unions ou regroupements par décision du conseil d’administration.
+L'association est ouverte au affiliation - car elles permettent à nos adherents de fonder leurs propres projets.
+
+Elle peut par ailleurs adhérer à d’autres associations, unions ou regroupements par décision du conseil d’administration. 
 
 # ARTICLE 10 - RESSOURCES
 
 Les ressources de l'association comprennent :
 
-1° Le montant des droits d'entrée et des cotisations;
+1. Le montant des droits d'entrée et des cotisations;
 
-2° Le montant des donations reçus par les membres bienfaiteurs
+2. Le montant des donations reçus par les membres bienfaiteurs
 
-3° Les subventions de l'Etat, des départements et des communes.
+3. Les subventions de l'Etat, des départements et des communes.
 
-4° La recette des produits
+4. La recette des produits
 
 > [!ABSTRACT] À COMPLÉTER
 > Ajouter les trucs de la boutique
