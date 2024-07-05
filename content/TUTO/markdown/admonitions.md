@@ -125,3 +125,14 @@ You can change the title of any admonition using a text after the tag:
 > Markdown is the best programation language of the world
 ```
 
+
+```css
+.callout {
+  &[data-callout="custom"] {
+    --color: #customcolor;
+    --border: #custombordercolor;
+    --bg: #custombg;
+    --callout-icon: url("data:image/svg+xml; utf8, <custom formatted svg>"); //SVG icon code
+  }
+}
+```
