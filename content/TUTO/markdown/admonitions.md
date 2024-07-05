@@ -124,7 +124,10 @@ You can change the title of any admonition using a text after the tag:
 > [!QUOTE] Once A Man Said
 > Markdown is the best programation language of the world
 ```
+# 🏷️ Custom Admonitions
 
+> [!CUSTOM] Once A Man Said
+> Markdown is the best programation language of the world
 
 ```css
 .callout {
