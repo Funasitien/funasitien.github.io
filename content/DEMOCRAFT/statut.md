@@ -8,17 +8,18 @@ title: 🪶 DEMOCRAFT STUDIO
 DEMOCRAFT STUDIOS est une **association de fait**, ce qui signifie que nous somme une association légal - mais qui n'est pas inscrite dans le journal français. Elle a pour but de gérer l'organisation et le développement du serveur Minecraft **DEMOCRAFT** et de ses services associés (tel que le site web, le serveur discord, le système de statistique, etc...). Sa durée est illimitée.
 
 # 👥 Composition
-## Fonctionnement
+## Groupes
 L'association se compose de :
 
 1. **Administrateurs**, présidents de l'associations.
 2. **Membres bienfaiteurs** définit ci dessous
 3. **Membres actifs ou adhérents** définit ci dessous
-
+## Fonctionnement
 L'admission à l'association nécessite aucune condition l'approbation au préalable par un vote à majorité du conseil d'administration.
 
 Sont membres bienfaiteurs toute personne qui effectue une donation à l'association au delà de 10€. Ils sont autorisé à participer aux conseil d'administrations mais ne peuvent pas décider, sauf avec accord préalable du conseil.
 
+## Radiation (Expulsion)
 Tout les membres de l'association font partit du conseil d'administration. Les membres peuvent être congédiés par le conseil d'administration si il ne sont plus présent ou pour un motif grave, tel que:
 
 - Vol ou utilisation non autorisé de tout produit de l'association
