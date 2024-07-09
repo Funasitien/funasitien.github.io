@@ -61,11 +61,11 @@ Sont membres bienfaiteurs, les personnes qui versent, en plus de leurs cotisatio
 
 La qualité de membre se perd par :
 
-a) La démission;
+1. La démission;
 
-b) Le décès;
+2. Le décès;
 
-c) La radiation prononcée par le conseil d'administration pour non-paiement de la cotisation ou pour motif grave, l'intéressé ayant été invité (par lettre recommandée) à fournir des explications devant le bureau et/ou par écrit.
+3. La radiation prononcée par le conseil d'administration pour non-paiement de la cotisation ou pour motif grave, l'intéressé ayant été invité (par lettre recommandée) à fournir des explications devant le bureau et/ou par écrit.
 
 > [!DANGER] Préciser les modalités de la radiation, les possibilités de défense et de recours du membre.
 
