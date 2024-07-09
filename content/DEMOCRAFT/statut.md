@@ -38,7 +38,23 @@ Tout les membres de l'association font partit du conseil d'administration. Les m
 
 # ✒️ Signatures 
 
-<div class="button-grid">
+<div class="signature-grid">
+    <a href="#">
+        <img src="img/sign-funa.png"  alt="Signature Funasitien">
+        <p>Funasitien, Président</p>
+    </a>
+    <a href="#">
+        <img src="img/sign-funa.png"  alt="Signature Funasitien">
+        <p>Funasitien, Président</p>
+    </a>
+    <a href="#">
+        <img src="img/sign-funa.png"  alt="Signature Funasitien">
+        <p>Funasitien, Président</p>
+    </a>
+    <a href="#">
+        <img src="img/sign-funa.png"  alt="Signature Funasitien">
+        <p>Funasitien, Président</p>
+    </a>
     <a href="#">
         <img src="img/sign-funa.png"  alt="Signature Funasitien">
         <p>Funasitien, Président</p>
