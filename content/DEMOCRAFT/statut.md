@@ -33,12 +33,18 @@ Tout les membres de l'association font partit du conseil d'administration. Les m
 
 **DEMOCRAFT STUDIOS** possède les ressources suivantes :
 1. Le **montant des donations** reçus par les membres bienfaiteurs
-2. Les subventions de l'Etat, des départements, des communes ou de tout organisme habilité à la dotation de celles-ci.
+2. Les **subventions de l'Etat**, des départements, des communes ou de tout organisme habilité à la dotation de celles-ci.
 3. Les **recettes des produits** de la boutique de DEMOCRAFT : vente de grades, objets virtuelles et serveur à la demande.
+
+# ✒️ Signatures 
 
 <div class="button-grid">
     <a href="#">
-        <img src="img/sign-funa.png" style="margin: 0rem;" alt="Signature Funasitien">
+        <img src="img/sign-funa.png"  alt="Signature Funasitien">
+        <p>Funasitien, Président</p>
+    </a>
+    <a href="#">
+        <img src="img/sign-funa.png"  alt="Signature Funasitien">
         <p>Funasitien, Président</p>
     </a>
 </div>
