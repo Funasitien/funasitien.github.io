@@ -8,18 +8,30 @@ title: 🪶 DEMOCRAFT STUDIO
 DEMOCRAFT STUDIOS est une **association de fait**, ce qui signifie que nous somme une association légal - mais qui n'est pas inscrite dans le journal français. Elle a pour but de gérer l'organisation et le développement du serveur Minecraft **DEMOCRAFT** et de ses services associés (tel que le site web, le serveur discord, le système de statistique, etc...). Sa durée est illimitée.
 
 # 👥 Composition
-
+## Fonctionnement
 L'association se compose de :
 
 1. **Administrateurs**, présidents de l'associations.
+2. **Membres bienfaiteurs** définit ci dessous
+3. **Membres actifs ou adhérents** définit ci dessous
 
-2. **Membres du conseil**, élu par le conseil d'administration
+L'admission à l'association nécessite aucune condition l'approbation au préalable par un vote à majorité du conseil d'administration.
 
-3. **Membres bienfaiteurs** définit ci dessous
+Sont membres bienfaiteurs toute personne qui effectue une donation à l'association au delà de 10€. Ils sont autorisé à participer aux conseil d'administrations mais ne peuvent pas décider, sauf avec accord préalable du conseil.
 
-4. **Membres actifs ou adhérents** définit ci dessous
+Tout les membres de l'association font partit du conseil d'administration. Les membres peuvent être congédiés par le conseil d'administration si il ne sont plus présent ou pour un motif grave, tel que:
 
-L'admission à l'association ne nécessite aucune condition - mais l'entrée au Conseil d'administration nécessite l'approbation par un vote à majorité du dit conseil d'administration.
+- Vol ou utilisation non autorisé de tout produit de l'association
+- Propos ou image dangereuse pour l'association - tel que tout propos à caractère illegaux
+
+## Composition actuelle
+
+- Funasitien Dreamcloud, président/administrateur
 
 # 🛒 Ressources
+
+**DEMOCRAFT STUDIOS** possède les ressources suivantes :
+1. Le **montant des donations** reçus par les membres bienfaiteurs
+2. Les subventions de l'Etat, des départements, des communes ou de tout organisme habilité à la dotation de celles-ci.
+3. Les **recettes des produits** de la boutique de DEMOCRAFT : vente de grades, objets virtuelles et serveur à la demande.
 
