@@ -38,21 +38,25 @@ Tout les membres de l'association font partit du conseil d'administration. Les m
 2. Les **subventions de l'Etat**, des départements, des communes ou de tout organisme habilité à la dotation de celles-ci.
 3. Les **recettes des produits** de la boutique de DEMOCRAFT : vente de grades, objets virtuelles et serveur à la demande.
 
-# ✒️ Signatures 
+# 📖 Conseil d'administration
+Tout les adhérents acceptés par le conseil d'administration sont accéptés dans celui-çi.
+Le conseil d'administration se réuni tout les deux mois, pour discuter de l'avancé du projet, *de ses tenant et aboutissants*.
+Toute décision est voté par l'ensemble du conseil. 
+
 
 <div class="signature-grid">
-    <a href="#">
-        <img src="img/sign-funa.png"  alt="Signature Funasitien">
-        <p>Funasitien, Président</p>
+    <a href="#" style="display: flex; align-items: center; flex-direction: column; height: 14rem; justify-content: end;">
+        <img src="img/sign-funa.png"  alt="Signature Funasitien" style="margin-bottom: 0px;">
+        <p style="margin-top: 0px;">Funasitien, Président</p>
     </a>
-    <a href="#">
-        <img src="img/sign-fantai.png"  alt="Signature Funasitien">
+    <a href="#" style="display: flex; align-items: center; flex-direction: column; height: 14rem; justify-content: end;">
+        <img src="img/sign-fantai.png"  alt="Signature Fantaisiici">
         <p>Fantaisiici, Président</p>
     </a>
-    <a href="#">
-        <img src="img/sign-benku.png"  alt="Signature Funasitien">
+    <a href="#" style="display: flex; align-items: center; flex-direction: column; height: 14rem; justify-content: end;">
+        <img src="img/sign-benku.png"  alt="Signature Benkuro11">
         <p>Benkuro11, Président</p>
     </a>
 </div>
 
-*Statut publié le XX/XX/XXXX - Dernière mise à jour le XX/XX/XXXX*
+*Statut publié le 09/07/2024 - Dernière mise à jour le 09/07/2024*
