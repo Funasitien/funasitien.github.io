@@ -45,6 +45,14 @@ Tout les membres de l'association font partit du conseil d'administration. Les m
         <img src="img/sign-funa.png"  alt="Signature Funasitien">
         <p>Funasitien, Président</p>
     </a>
+    <a href="#">
+        <img src="img/sign-fantai.png"  alt="Signature Funasitien">
+        <p>Fantaisiici, Président</p>
+    </a>
+    <a href="#">
+        <img src="img/sign-benku.png"  alt="Signature Funasitien">
+        <p>Benkuro11, Président</p>
+    </a>
 </div>
 
 *Statut publié le XX/XX/XXXX - Dernière mise à jour le XX/XX/XXXX*
