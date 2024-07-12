@@ -35,9 +35,9 @@ tags:
 
 # 👑 Grade Staff
 
-| Grade      | Guide                    | Buildeur                 | Dev                      | Staff                    | Admin              | Fondateur               |
+| Grades     | Guide                    | Buildeur                 | Dev                      | Staff                    | Admin              | Fondateur               |
 | ---------- | ------------------------ | ------------------------ | ------------------------ | ------------------------ | ------------------ | ----------------------- |
-| Obtention: | Inscription (par ticket) | Recrutement (par ticket) | Recrutement (par ticket) | Recrutement (par ticket) | Gradation du staff | T'arrive trop tard chef |
+| Obtention: | Inscription (par ticket) | Recrutement  | Recrutement  | Recrutement | Gradation du staff | T'arrive trop tard chef |
 
 
 # 🏷️ Autres Grades 
