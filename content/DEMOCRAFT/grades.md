@@ -29,12 +29,15 @@ tags:
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Condition: | - Une vidéo / des vidéos qui accumulent 100 / 1000 vues (sur youtube)<br>- Avoir une chaine axé autour de Minecraft (n'est pas obligé d'être le jeu principal mais doit en faire parti)<br>- Doit avoir fait une vidéo sur DEMOCRAFT au préalable | - Faire un live twitch au moins une fois par semaine.<br>- Faire un live sur Minecraft au moins une fois par mois<br>- Faire un live sur DEMOCRAFT au moins une fois par mois |
 | Perissions | Grade DEMO (modifié) + préfix youtube                                                                                                                                                                                                             | Grade DEMO (modifié)  + préfix twitch                                                                                                                                         |
+
+
 *Note : Votre chaine doit respecter les conditions d'utilisation de la plateforme que vous utilisez*
 
 # 👑 Grade Staff
 
-| Grade | Guide | Buildeur | Dev | Staff | Admin | Fondateur |
-| ----- | ----- | -------- | --- | ----- | ----- | --------- |
+| Grade      | Guide                    | Buildeur                 | Dev                      | Staff                    | Admin              | Fondateur               |
+| ---------- | ------------------------ | ------------------------ | ------------------------ | ------------------------ | ------------------ | ----------------------- |
+| Obtention: | Inscription (par ticket) | Recrutement (par ticket) | Recrutement (par ticket) | Recrutement (par ticket) | Gradation du staff | T'arrive trop tard chef |
 
 
 # 🏷️ Autres Grades 
