@@ -15,4 +15,4 @@ Docuception est une série de documentations reliés entre elles par un site web
 
 | [![DEMOCRAFT](img/democraft_vector.svg)](DEMOCRAFT/) | [![DREAMCLOUDS](img/dreamclouds_vector.svg)](DREAMCLOUDS/) |
 | ---------------------------------------------------- | ---------------------------------------------------------- |
-| [![soon](img/soon_vector.svg)](soon)                | [![soon](img/soon_vector.svg)](soon)                      |
+| [![soon](img/soon_vector.svg)](soon)                 | [![soon](img/soon_vector.svg)](soon)                       |

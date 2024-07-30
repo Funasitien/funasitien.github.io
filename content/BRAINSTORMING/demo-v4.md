@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 ---
 
 # ⚙️ Optimisation
@@ -30,4 +30,4 @@ draft: true
 
 ### 💟 Cœur
 - Autres patchs rôles/nouveau(x) rôles
-- mode
+- Modes de jeux pas étendables à rework (Arcade)
