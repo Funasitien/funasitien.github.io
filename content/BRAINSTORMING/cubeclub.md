@@ -14,14 +14,8 @@ Nom: cube club
 
 # Vrac
 - système économique comme or
-  -> Cosmétiques 2D ou 3D, badges?Emotes?Monnaie?
+  -> Cosmétiques 2D ou 3D, badges?Emotes? Monnaie?
+  -> Donat-I ?
 - Site azuriom avec thème custom
   -> Maquete ?
-  
-
-                                                                                                        
- _ _ _     _      _____     _       _        _____   _                    _____     _   _               
-| | | |___| |_   |     |___| |_ ___|_|_ _   |     |_| |_ _ ___ ___ _ _   |   __|___| |_| |_ ___ ___ ___ 
-| | | | -_| . |  | | | | .'|  _|  _| |_'_|  |  |  | . | | |_ -| -_| | |  |  |  | .'|  _|  _| .'|  _| .'|
-|_____|___|___|  |_|_|_|__,|_| |_| |_|_,_|  |_____|___|_  |___|___|_  |  |_____|__,|_| |_| |__,|___|__,|
-                                                      |___|       |___|                                 
+  -> Ore Ui ?
