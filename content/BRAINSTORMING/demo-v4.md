@@ -1,11 +1,15 @@
 ---
 draft: false
 ---
+# 🔎 Contexte
+< nope >
 
 # ⚙️ Optimisation
 
-### 🛏 BedWars
+### 🏙 Lobby
+- Clean
 
+### 🛏 BedWars
 - Déchargement du lobby avec l'addon payant de sync
 - Optimization des games avec le système de clone
 
@@ -32,4 +36,17 @@ draft: false
 - Autres patchs rôles/nouveau(x) rôles
 - Modes de jeux pas étendables à rework (Arcade)
 
+# 💾 Code
+
+### 🌐 Site Web
+- Passer à Ore UI
+- Faire une opti globale 
+- Supprimer les comptes bots
+
+### 🌌 Realms
+- système de commande (ClientXCMD)
+- panel GUI
+
+### 💟 Cœur 
+- développement et 
 
