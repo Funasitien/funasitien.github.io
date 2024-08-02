@@ -48,5 +48,5 @@ draft: false
 - panel GUI
 
 ### 💟 Cœur 
-- développement et 
+- développement et push du demophone
 
