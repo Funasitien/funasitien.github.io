@@ -2,7 +2,7 @@
 draft: false
 ---
 # 🔎 Contexte
-< nope >
+Comme le petit fufu prend des vacances aussi, il note ses idées passagères quelque part (ici) pour ne pas les oublier
 
 # ⚙️ Optimisation
 
@@ -48,5 +48,5 @@ draft: false
 - [ ] panel GUI
 
 ### 💟 Cœur 
-- [ ] développement et push du demophone
-
+- [ ] DEMOPHONE
+  - [ ] 

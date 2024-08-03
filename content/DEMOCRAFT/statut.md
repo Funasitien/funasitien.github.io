@@ -1,7 +1,6 @@
 ---
 title: 🪶 DEMOCRAFT STUDIO
 ---
-
 ![Logo DEMOCRAFT STUDIO](/img/demo-studio.png)
 
 # ❇️ À propos de DEMOCRAFT STUDIOS
@@ -15,7 +14,7 @@ L'association se compose de :
 2. **Membres bienfaiteurs** définit ci-dessous
 3. **Membres actifs ou adhérents** définit ci-dessous
 ## Fonctionnement
-L'admission à l'association nécessite aucune condition l'approbation au préalable par un vote à majorité du conseil d'administration.
+L'admission à l'association nécessite l'approbation au préalable par un vote à majorité du conseil d'administration.
 
 Sont membres bienfaiteurs toute personne qui effectue une donation à l'association au-delà de **10€**. Ils sont autorisés à participer aux conseils d'administrations mais ne peuvent pas décider, sauf avec un accord préalable du conseil.
 
@@ -59,4 +58,4 @@ Toute décision est voté par l'ensemble du conseil.
     </a>
 </div>
 
-*Statut publié le 09/07/2024 - Dernière mise à jour le 09/07/2024*
+*Statut publié le 09/07/2024 - Dernière mise à jour le 03/08/2024*
