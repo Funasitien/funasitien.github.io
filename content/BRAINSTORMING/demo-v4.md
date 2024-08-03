@@ -23,7 +23,8 @@ Comme le petit fufu prend des vacances aussi, il note ses idées passagères que
 - [ ] Rework et patch les permissions actuelles
 - [ ] ajouter un grade mod
    - [ ] Staff comprend Anim + Mod
-- [ ] XXX
+- [ ] Render + simulation distance
+- [ ] Calculs Ram sur les petites nodes
 # 🧠 Réflexions
 
 ### 🛏 BedWars
@@ -49,4 +50,7 @@ Comme le petit fufu prend des vacances aussi, il note ses idées passagères que
 
 ### 💟 Cœur 
 - [ ] DEMOPHONE
-  - [ ] 
+   - [ ] Dessin
+   - [ ] Développement 
+   - [ ] Généralisation Mondes
+   - [ ] Généralisation Mini-Jeux
