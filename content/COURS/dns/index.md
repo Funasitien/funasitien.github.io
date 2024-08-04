@@ -14,6 +14,6 @@ Les noms de domaines sont composés de la manière suivante :
 
 #### <span style="color: teal;">WWW</span> & <span style="color: blue;">TXT</span>
 
-#### <span style="color: teal;">DREAMCLOUDS</span>
+#### <span style="color: yellow;">DREAMCLOUDS</span>
 
 #### <span style="color: red;">FR</span>
