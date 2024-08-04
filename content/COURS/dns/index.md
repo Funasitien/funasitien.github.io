@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 ---
 # 🗺 C'est quoi le DNS ?
 Le DNS est un protocole, comme l'HTTP ou le TCP/IP qui permet de résoudre les propriétés des noms de domaines
@@ -8,4 +8,12 @@ Le DNS est un protocole, comme l'HTTP ou le TCP/IP qui permet de résoudre les p
 
 Les noms de domaines sont composés de la manière suivante :
 
-==www==.==txt==.==dreamclouds==.==fr==
+```ansi
+[2;36mwww[0m.[2;34mtxt[0m.[2;33mdreamclouds[0m.[2;31mfr[0m
+```
+
+#### <span style="color: teal;">WWW</span> & <span style="color: blue;">TXT</span>
+
+#### <span style="color: teal;">DREAMCLOUDS</span>
+
+#### <span style="color: red;">FR</span>
