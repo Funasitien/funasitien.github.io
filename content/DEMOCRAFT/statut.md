@@ -1,5 +1,7 @@
 ---
 title: 🪶 DEMOCRAFT STUDIO
+date: 2024-07-09
+draft: true
 ---
 ![Logo DEMOCRAFT STUDIO](/img/demo-studio.png)
 
