@@ -54,3 +54,8 @@ Comme le petit fufu prend des vacances aussi, il note ses idées passagères que
    - [ ] Développement 
    - [ ] Généralisation Mondes
    - [ ] Généralisation Mini-Jeux
+
+# 7️⃣ Les 7 Jours de Maj
+
+- ##### Thème Azuriom
+- 
