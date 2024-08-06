@@ -69,3 +69,7 @@ Comme le petit fufu prend des vacances aussi, il note ses idées passagères que
 - ##### Maj bedrock (mais compliqué)
 - ##### Maj IA
 - ##### Maj Bedwars
+
+# 📑  Idées une par une
+
+## 
