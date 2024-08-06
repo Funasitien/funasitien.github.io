@@ -57,6 +57,8 @@ Comme le petit fufu prend des vacances aussi, il note ses idées passagères que
 
 # 💬 Traductions
 - ##### Party&Friends (PAF)
+- ##### Party&Friends Bedrock (Floodgate)
+- ##### E
 
 # 7️⃣ Les 7 Jours de Maj
 
