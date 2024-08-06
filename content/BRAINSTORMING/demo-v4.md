@@ -67,9 +67,20 @@ Comme le petit fufu prend des vacances aussi, il note ses idées passagères que
 - ##### DEMOPHONE
 - ##### Maj Infra 
 - ##### Maj bedrock (mais compliqué)
-- ##### Maj IA
+- ##### Maj IA + trademark
 - ##### Maj Bedwars
+- ##### Maj trad
 
 # 📑  Idées une par une
 
-## 
+## 🛏 Bedwars
+Le bedwars est un gros problème : c'est un des modes de jeux qui fonctionne le plus, mais aussi celui le plus fade et le plus buggé.
+
+C'est pourquoi, *au grand malheur de fantai*, je voudrais proposer une refonte totale de la boutique pour adapter le serveur au PVP 1.21. Il faudrais donc tout revoir, mais ça nous permettrait de rendre le jeu beaucoup plus fun. Et pourquoi pas ajouter la Mace (très très cher) ?
+
+## ⚔️ KIT PVP
+Pour l'instant, le KIT PVP est un serveur un peu mélange avec plusieurs modes de jeux dessus. Je voudrais essayer de les séparer, ce qui amènerais une superbe opti. L'idée est donc d'avoir
+- un serveur Duels 1.21
+- un serveur Duels 1.8
+- un serveur KitPVP (pas possible pour l'instant en 1.8)
+Il faudra préparer des kits pour chaque serveur (oui on a du taff)
