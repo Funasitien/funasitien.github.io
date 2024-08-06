@@ -55,7 +55,15 @@ Comme le petit fufu prend des vacances aussi, il note ses idées passagères que
    - [ ] Généralisation Mondes
    - [ ] Généralisation Mini-Jeux
 
+# 💬 Traductions
+- ##### Party&Friends (PAF)
+
 # 7️⃣ Les 7 Jours de Maj
 
 - ##### Thème Azuriom
-- 
+- ##### Thème Plan 1984
+- ##### DEMOPHONE
+- ##### Maj Infra 
+- ##### Maj bedrock (mais compliqué)
+- ##### Maj IA
+- ##### Maj Bedwars
