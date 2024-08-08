@@ -17,5 +17,8 @@ Cette licence s'applique, au moment de sa dernière mise à jour, à **DEMOCRAFT
 
 Tout contenu créé par DEMOCRAFT est sujet au droit d'auteur ; vous devez donc avoir l'autorisation de son auteur avant de l'utiliser, et respecter son refus ou le retrait de sont accord. Ce concept est une loi française que vous devez respecter sous peine de poursuite judiciaire par notre organisme (DEMOCRAFT STUDIOS)
 
- # Propriété Intellectuelle 
- # 🔢 Cas par Cas
+# 💡 Propriété Intellectuelle 
+DEMOCRAFT, son logo, ses titres 2d t ses personnages 
+
+# 🔢 Cas par Cas
+# 🖨 Copyright 
