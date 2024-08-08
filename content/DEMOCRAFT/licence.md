@@ -6,6 +6,7 @@ tags:
   - democraft
   - licence
 draft: false
+date: 2024-07-09
 ---
 Vous êtes sur le point de lire notre **licence**, document qui définit les règles de ce que vous pouvez faire et ce que vous ne pouvez pas faire avec nos créations.
 
