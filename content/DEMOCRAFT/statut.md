@@ -2,6 +2,9 @@
 title: 🪶 DEMOCRAFT STUDIO
 date: 2024-07-09
 draft: false
+tags:
+  - democraft
+  - legal
 ---
 ![Logo DEMOCRAFT STUDIO](/img/demo-studio.png)
 
