@@ -20,8 +20,9 @@ tags:
 | Homes                    | 5         | 8             | 12        | 15            | 20           |
 | Cooldown Téléportation   | 10s       | 10s           | 10s       | ❎             | ❎            |
 | Booster de coins*        | ❌         | ❌             | +50%      | +100%         | +200%        |
-| Avatar Personalisé[^1]   |           |               |           |               |              |
-| Commande `/`             | ✅         | ✅             | ✅         | ✅             | ✅            |
+| Avatar Personalisé*      | ❌         | ✅             | ✅         | ✅             | ✅            |
+
+[^1] * Obtenez le dessin de votre skin minecraft dans le style de DEMOCRAFT.
 
 # 🎥 Grades Créateurs
 
