@@ -13,3 +13,8 @@ Un bon entre deux peux etre **de faire un mix** entre modes de jeux de cratfok r
 
 # Un dernier petit mot
 J'ai écrit ça en 10 minutes juste pour vius l'envoyer, j'ai vrm la flemme de corriger mes fautes + celle de mon correcteur qui me change toutes mes abréviations en nom perdu de crustacés
+
+
+Hi ! I would want to setting up something a bot technic, so i'm here to ask you some help
+
+I Wang to create an ssh user which 
