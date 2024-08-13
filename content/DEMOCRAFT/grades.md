@@ -45,13 +45,17 @@ tags:
 # 👑 Grade Staff
 
 ### 🧰 Support
-### 🃏Guide
+##### Fonction
+##### Recrutement
+### 🧐 Guide
 ### 🎨 Graphiste
 ### ⚒️ Buildeur
 ### 💾 Développeur
 ### 🗝 Staff
 ### ✨️ Administrateur
 ### 👑 Fondateur 
+
+*Note : tout les membres du staff, peu importe leur grade, sont bénévoles et ne sont pas rémunéré(e)s*
 
 # 🏷️ Autres Grades 
 ### 💙 Ami
