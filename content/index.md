@@ -33,3 +33,5 @@ Docuception est une série de documentations reliés entre elles par un site web
 </div>
 
 Vous voulez tester le thème du site ? [[RESSOURCES/demo|Visitez la page de démo]] !
+
+# :LiFan:
