@@ -1,4 +1,6 @@
-# 🔏 Politique de Condidentialité
+---
+title: 🔏 Politique de Condidentialité
+---
 ## 📚 PdC, quesaquo ? 
 La politique de confidentialité d'un site internet est un document **légal** qui définit quel donnés un site internet collecte sur vous, comment et à quelle but.
 
