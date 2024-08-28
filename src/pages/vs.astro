@@ -1,26 +1,370 @@
 ---
-import "@fontsource/poppins";
-import "@fontsource/poppins/800.css";
-
+import Layout from "../layouts/main.astro";
+import { Icon } from "astro-icon/components";
+import { Image } from "astro:assets";
 ---
 
-<html lang="fr" class="selection:bg-sky-200 selection:text-sky-900">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
-    <link rel="stylesheet" type="text/css" href="/font/font.css" />
-    <link rel="sitemap" href="/sitemap-index.xml" />
-    <title>...</title>
-    <meta content="..." property="og:title" />
-  </head>
-  <style>
-    body {
-      font-family: "Poppins", sans-serif;
-      transition: all 0.25s cubic-bezier(0.427, 0.073, 0.105, 0.997) 0.1s;
-    }
-  </style>
-  <body class="bg-slate-900 text-red-800">
-    <p class="pt-10 pl-4">Moi aussi je fatigue.</p>
-    </body>
-</html>
+<Layout>
+  <h1 class="font-bold text-4xl text-center mt-20">Le Vrais Versus</h1>
+  <h2 class="text-center text-lg">
+    Plus de mensonges. Plus de poudre de perlinpinpin. Parlons fait.
+  </h2>
+  <div class="flex mx-auto items-center justify-center">
+    <table class="table-fixed m-2 p-2 border-separate border-spacing-0">
+      <tr>
+        <thead>
+          <th class="lg:w-96"></th>
+          <th class="border-l-2 border-t-2 w-72 rounded-tl-xl" align="center">
+            <img
+              src="/img/hetoflop.png"
+              class="w-52 h-auto rounded-lg justify-center p-2"
+              alt=""
+            />
+          </th>
+          <th class="border-l-2 border-t-2 w-72" align="center">
+            <img
+              src="/img/wynaria.png"
+              class="w-52 h-auto rounded-lg justify-center p-2"
+              alt=""
+            />
+          </th>
+          <th class="border-x-2 border-t-2 w-72 rounded-tr-xl bg-base-200">
+            <img
+              src="/img/democraft.png"
+              class="w-72 h-auto justify-center"
+              alt=""
+            />
+          </th>
+        </thead>
+      </tr>
+      <tbody>
+        <tr class="h-10 border">
+          <td class="font-bold text-center border-l-2 border-t-2 rounded-tl-xl"
+            >Concept</td
+          >
+          <td align="center" class="border-l-2 border-t-2">
+            <Icon
+              name="mingcute:close-circle-fill"
+              class="text-2xl text-error"
+            />
+          </td>
+          <td align="center" class="border-l-2 border-t-2">
+            <Icon
+              name="mingcute:forbid-circle-fill"
+              class="text-2xl text-warning"
+            />
+          </td>
+          <td align="center" class="border-x-2 border-t-2">
+            <Icon
+              name="mingcute:check-circle-fill"
+              class="text-2xl text-success"
+            />
+          </td>
+        </tr>
+
+        <tr class="h-10 border-l border-t">
+          <td class="font-bold text-center border-l-2 border-t-2"
+            >Originalité</td
+          >
+          <td align="center" class="border-l-2 border-t-2">
+            <Icon
+              name="mingcute:close-circle-fill"
+              class="text-2xl text-error"
+            />
+          </td>
+          <td align="center" class="border-l-2 border-t-2">
+            <Icon
+              name="mingcute:forbid-circle-fill"
+              class="text-2xl text-warning"
+            />
+          </td>
+          <td align="center" class="border-x-2 border-t-2">
+            <Icon
+              name="mingcute:check-circle-fill"
+              class="text-2xl text-success"
+            />
+          </td>
+        </tr>
+
+        <tr class="h-10 border">
+          <td class="font-bold text-center border-l-2 border-t-2"
+            >Orthographe</td
+          >
+          <td align="center" class="border-l-2 border-t-2">
+            <Icon
+              name="mingcute:close-circle-fill"
+              class="text-2xl text-error"
+            />
+          </td>
+          <td align="center" class="border-l-2 border-t-2">
+            <Icon
+              name="mingcute:close-circle-fill"
+              class="text-2xl text-error"
+            />
+          </td>
+          <td align="center" class="border-x-2 border-t-2">
+            <Icon
+              name="mingcute:forbid-circle-fill"
+              class="text-2xl text-warning"
+            />
+          </td>
+        </tr>
+
+        <tr class="h-10 border">
+          <td class="font-bold text-center border-l-2 border-t-2">Sécurité</td>
+          <td align="center" class="border-l-2 border-t-2">
+            <Icon
+              name="mingcute:close-circle-fill"
+              class="text-2xl text-error"
+            />
+          </td>
+          <td align="center" class="border-l-2 border-t-2">
+            <Icon
+              name="mingcute:close-circle-fill"
+              class="text-2xl text-error"
+            />
+          </td>
+          <td align="center" class="border-x-2 border-t-2">
+            <Icon
+              name="mingcute:check-circle-fill"
+              class="text-2xl text-success"
+            />
+          </td>
+        </tr>
+
+        <tr class="h-10 border">
+          <td class="font-bold text-center border-l-2 border-t-2">Support</td>
+          <td align="center" class="border-l-2 border-t-2">
+            <Icon
+              name="mingcute:close-circle-fill"
+              class="text-2xl text-error"
+            />
+          </td>
+          <td align="center" class="border-l-2 border-t-2">
+            <Icon
+              name="mingcute:close-circle-fill"
+              class="text-2xl text-error"
+            />
+          </td>
+          <td align="center" class="border-x-2 border-t-2">
+            <Icon
+              name="mingcute:check-circle-fill"
+              class="text-2xl text-success"
+            />
+          </td>
+        </tr>
+
+        <tr class="h-10 border">
+          <td class="font-bold text-center border-l-2 border-y-2 rounded-bl-xl"
+            >Légalité</td
+          >
+          <td align="center" class="border-l-2 border-y-2">
+            <Icon
+              name="mingcute:forbid-circle-fill"
+              class="text-2xl text-warning"
+            />
+          </td>
+          <td align="center" class="border-l-2 border-y-2">
+            <Icon
+              name="mingcute:forbid-circle-fill"
+              class="text-2xl text-warning"
+            />
+          </td>
+          <td align="center" class="border-2 rounded-br-xl">
+            <Icon
+              name="mingcute:check-circle-fill"
+              class="text-2xl text-success"
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-center italic">
+    <a
+      href="#shop"
+      class="text-neutral-content flex flex-row items-center text-center justify-center"
+      >Pourquoi faire un classement, c'est pas très mature ça <Icon
+        class="ml-2"
+        name="mingcute:external-link-fill"
+      /></a
+    >
+  </p>
+  <p class="text-center italic">
+    <a
+      href="#why"
+      class="text-neutral-content flex flex-row items-center text-center justify-center"
+      >Mais c'est fou t'as quoi contre Wyntaria ? Et Hetonia c'est à toi chef. <Icon
+        class="ml-2"
+        name="mingcute:external-link-fill"
+      /></a
+    >
+  </p>
+  <div class="mb-10 mt-8">
+    <article class="prose mx-4 lg:mx-8 w-full max-w-fit">
+      <h1>🔎 Voyions ça en détail</h1>
+
+      <h2>📦 Concept</h2>
+      <p>
+        <strong>HETONIA</strong> n'avait aucun concept. J'ai aucun screen de quand
+        je lui ai demandé, mais je vous promets que je l'ai dm et qu'il m'a répondu
+        "C'est quoi un concept ?"
+      </p>
+      <p><strong>WYNARIA</strong> [je suis ban]</p>
+      <p>
+        <strong>DEMOCRAFT</strong> est (ou en tout cas était) le premier serveur
+        minecraft mini-jeux francophone à accepter les vetsions bedrocks sur les
+        mini-jeux.
+      </p>
+
+      <h2>🌟 Originalité</h2>
+      <p>
+        <strong>HETONIA</strong> provenais d'un setup gratuit trouvé sur internet.
+        <a
+          target="_blank"
+          href="https://web.archive.org/web/20231103104702/https://builtbybit.com/resources/custom-survival-setup-free.28737/">
+          ça ne vous rapelle rien ?
+        </a>
+      </p>
+      <p>
+        <strong>WYNARIA</strong> [je suis ban], mais les GUI proviennent du setup
+        gratuit d'Hétonia. Mais sans les textures, c'est la hess chez Wynaria.
+      </p>
+      <p>
+        <strong>DEMOCRAFT</strong> a certe utilisé des assets de la communauté, mais
+        avec la permission des créateurs et en les créditant. (exemple : les cosmétiques
+        sur le menu principal provenait de MineClub qui a fermé depuis )
+      </p>
+
+      <h2>✒️ Orthographe</h2>
+      <p>
+        <strong>HETONIA</strong> - je ne vais pas les attaquer gratuitement. Rendez
+        vous sur <a target="_blank" href="https://studio.hetonia.fr"
+          >le site du studio</a
+        > et faites vous votre propre avis.
+      </p>
+      <p>
+        <strong>WYNARIA</strong> Je n'ai pas regardé leur serveur minecraft, mais
+        leur <a href="https://wynaria.fr/cgu" target="_blank">CGU</a> est déjà pas
+        mal
+      </p>
+      <p>
+        <strong>DEMOCRAFT</strong> - je ne vais pas dire qu'on est parfait, mais
+        on sait conjuguer le verbe "avoir"
+      </p>
+
+      <h2>🛡️ Sécurité</h2>
+      <p>
+        <strong>WYNARIA</strong> n'a même pas d'https sur son site web. Vous savez
+        où passe vos coordonnés bancaires.
+      </p>
+
+      <h2>🛟 Support</h2>
+      <p>
+        <strong>HETONIA</strong> et <strong>WYNARIA</strong> - banni pour rien quoi.
+        J'ai une copie exacte de mon message qui m'a valu un banissement, si ça vous
+        interesse
+      </p>
+      <h2>📜 Légalité</h2>
+      <p>
+        <strong>HETONIA</strong> et <strong>WYNARIA</strong> ne sont sous aucun organisme
+        légal partagé.
+        <strong>CELA NE REND PAS LEUR ACTIVITE ILLEGALE</strong>, vous mettez
+        juste vos données entre les mains d'une unique personne (puisque rien ne
+        régule le partage)
+      </p>
+      <p>
+        <strong>DEMOCRAFT</strong> a toujours été organisé sous <strong
+          >DIAMOND-HEBERG</strong
+        > et procède actuellement à la création de sa propre association.
+      </p>
+    </article>
+
+    <article class="prose mx-4 lg:mx-8 w-full max-w-fit mt-20">
+      <h1>Note de l'auteur (Funa)</h1>
+      <h2 id="rage">😡 T'as quoi contre Wynaria ?</h2>
+      <p>
+        <strong>Je n'ai rien contre Wynaria.</strong> Je ne peux pas dire que je
+        m'entend parfaitement avec lelapin - mais cette critique ne vise pas un serveur
+        en particulié.
+      </p>
+
+      <h2 id="why">🤔 Pourquoi faire cette critique</h2>
+      <p>
+        Lelapin m'a trop fait perdre de temps pour des mensonges illusoires, et
+        m'a volé beaucoup trop de travail, idée et code pour que je reste
+        passif.
+      </p>
+      <p>
+        Mon but n'est pas de faire le gros rageux qui attaque pour rien mais
+        bien de mettre en valeur certains mensonges qui ont été obfusqués. Ma
+        première idée était de faire un comparatif, car j'étais tombé sur un
+        design de comparatif juste magnifique et je voulez le reproduire - mais
+        comme le précise ces notes, l'idée est de critiquer un comportement, pas
+        un serveur.
+      </p>
+      <p class="underline">
+        A noté que je ne suis pas responsable des actions de Lechat - je ne suis
+        pas un baby-sitter
+      </p>
+
+      <h2 id="shop">
+        🛒 Ça fait un peu comparatif commercial le tableau nan ?
+      </h2>
+      <p>
+        Même si cette page a les abords d'un comparatif commercial, c'est avant
+        tout une critique importante de la façon de travailler de lelapin. Et
+        puis je suis addict aux interfaces utilisateurs, mais ça c'est un autre
+        débat.
+      </p>
+    </article>
+
+    <article class="prose mx-4 lg:mx-8 w-full max-w-fit mt-20">
+      <h1>Si vous ne connaissez pas de Lelapin...</h1>
+      <h2 id="who">🥸 Mais que vous avez croisé une de ces personnes :</h2>
+      <ul>
+        <li>
+          <a target="_blank" href="https://fr.namemc.com/profile/sunwith.1"
+            >Sunwith</a
+          > sur NameMC/Minecraft
+        </li>
+        <li>
+          <a target="_blank" href="https://fr.namemc.com/profile/lapin36.1"
+            >lapin36</a
+          > sur NameMC/Minecraft
+        </li>
+        <li>
+          <a target="_blank" href="https://github.com/lapin360">lapin360</a> sur
+          GitHub
+        </li>
+        <li>United36 sur Discord</li>
+        <li>stophainepls toujours sur Discord <span class="underline">cocasse, j'aime bien</span></li>
+      </ul>
+      <p>C'est lelapin. Magique, nan ?</p>
+      <p class="italic">
+        N'hésitez pas à me signaler si il change de pseudo. Google vous le
+        rendera
+      </p>
+      <p class="font-bold text-error">
+        Mais n'allez pas le harcler. Le but de cette critique est de prévenir
+        des dégats futurs. Pas d'en créer des pires
+      </p>
+
+      <h2 id="yeah">
+        😏Ou que quelqu'un d'autre mériterais une critique comme ça...
+      </h2>
+      <p>
+        Mon code est open source ! Faite vous plaisir - la liberté d'expression
+        est une liberté fondamental de l'etre humain. Mais n'oubliez pas de le
+        faire avec respect - l'honnèteté fait toujours plus mal que les
+        mensonges ;)
+      </p>
+
+      <h2 id="more">🫡 D'autres critiques sur des gens pas sympas</h2>
+      <p class="italic">
+        Personne n'a encore déclaré une fork de cette page. DM @funasitien sur
+        discord pour ajouter ta page ici :D
+      </p>
+    </article>
+  </div>
+</Layout>
