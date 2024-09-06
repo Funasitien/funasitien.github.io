@@ -1,5 +1,7 @@
 ---
 title: 🍎 Mission Compote
+description: 
+date: 2024-09-06
 ---
 # 👥️️ Acteurs
 - L'Agente: **Clemmmmm/Éléa**
