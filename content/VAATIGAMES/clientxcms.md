@@ -10,13 +10,13 @@ draft: false
 
 ## 📱 Mobile
 - Header
-  - -> Ajuster la position, enlever la border et ajouter du padding
+  - -> Ajuster la position, enlever la border et ajouter du padding au boutton hamburger
 - Footer
   - -> 2 colones, plus de span, padding à gauche et text centré
-- icone expiré mes services
-  - -> *Celui là il faut que je le retrouve*
+- icone expiré mes services et d'expiration en gris au lieu de vert/rouge
+  - -> Enlever la class `.text-gray`
 - couleur boutton profil + outline générale pas primaire
-  - -> ⚠️ Nuances de la couleur primaire dispo ?
+  - ⚠️ *Nuances de la couleur primaire dispo ?*
 
 # 💣 A tester
 - Dropdown custom ne fonctionnent pas sur mobile
