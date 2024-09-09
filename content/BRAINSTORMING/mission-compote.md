@@ -1,7 +1,8 @@
 ---
 title: 🍎 Mission Compote
-description: 
+description: Plan complet de la première création original de La Prod™, foireux comme on aime
 date: 2024-09-06
+draft: true
 ---
 
 # 🔦 Synopsis
@@ -17,17 +18,17 @@ A la fin, elle se goure et prend un pot de compote pour bébé.
 Figuration : Guilhem (com d'hab), élodie [si elle n'est pas en béquilles]
 
 ### 🎲 Équipe de production
-###### Magistralement et magnifiquement dirigé par **La Prod™**
+*Magistralement et magnifiquement dirigé par **La Prod™***
 - Caméra:
 - Ingé Son:
 - Script (aka carrefour):
 
 # 🪓 Séquencage
 
-| Scène | Description | Lieu              | Acteurs       |
-| ----- | ----------- | ----------------- | ------------- |
-| 1     |             | Assenceur         | Agente        |
-| 2     |             | Maison à un étage | A.            |
-| 3     |             | Rue(s)            | A.            |
-| 4     |             | Parc              | Agente + Chef |
+| S   | Description | Lieu              | Acteurs       |
+| --- | ----------- | :---------------- | ------------- |
+| 1   |             | Assenceur         | Agente        |
+| 2   |             | Maison à un étage | A.            |
+| 3   |             | Rue(s)            | A.            |
+| 4   |             | Parc              | Agente + Chef |
 
