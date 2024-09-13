@@ -1,0 +1,1 @@
+> So, first of all, what are your impression about this victory here at Vejle ?
