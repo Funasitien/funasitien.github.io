@@ -9,8 +9,8 @@ L'agente C était infiltré depuis des années dans la vie de Pomme, un journali
 - Billy x 
 - Le Mec Paumé (Pomme):
 ## 🃏 Staff
+- Elodie
 - 
 # 📅 Planning de tournage
-*En attente de l'autorité parental d'Élodie*
 
 
