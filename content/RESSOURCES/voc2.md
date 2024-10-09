@@ -23,7 +23,7 @@ title: Vocab Anglais #2
 - deliberately = intenionally
 
 ---
-- urisprudence,
+- jurisprudence,
 - to set a precedent,
 - to sue,
 - to overlap,
@@ -39,3 +39,5 @@ title: Vocab Anglais #2
 - to breach, fine;
 - woolly= unclear, 
 - confused, vague;
+
+-----
