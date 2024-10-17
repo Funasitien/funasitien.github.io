@@ -7,6 +7,9 @@ title: 🌈 Qreative
 > [!INFO] Antécédents Créatifs ?
 > Si vous avez connu la Dragonix Craft ou DreamCloud Development, [[#↔️ Transition des projets|cette rubrique]] deverait vous intéresser.
 # 🌈 Groupe Qreative
+
+![Pof de Logo](./Qreative-Logo.svg)
+
 Dites bonjour au groupe Qreative ! Qreative est une association avec un concept simple : **créer**.
 
 ## 🤝 Groupe de Communautés Créatives
