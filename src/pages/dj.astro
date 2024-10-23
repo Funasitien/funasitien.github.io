@@ -10,7 +10,7 @@ import Layout from "../layouts/main.astro";
       <p class="text-2xl">This is the first section of the website.</p>
     </div>
 
-    <div class="min-h-screen h-screen flex flex-col items-center justify-center text-center px-4 snap-start bg-green-500 text-white">
+    <div class="h-screen flex flex-col items-center justify-center text-center px-4 snap-start bg-green-500 text-white">
       <h2 class="text-4xl font-bold mb-4">Section 2</h2>
       <p class="text-2xl">This is the second section of the website.</p>
     </div>
@@ -30,6 +30,10 @@ import Layout from "../layouts/main.astro";
       <p class="text-2xl">This is the fifth section of the website.</p>
     </div>
   </div>
+
+  <button id="to-top-button" onclick="scrollToNextSection()" title="Go To Top" class="hidden fixed z-90 bottom-8 right-8 border-0 w-16 h-16 rounded-full drop-shadow-md bg-indigo-500 text-white text-3xl font-bold">
+      &uarr;
+  </button>
 
   <script is:inline>
     document.addEventListener('wheel', function(event) {
