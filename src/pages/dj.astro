@@ -31,7 +31,7 @@ import Layout from "../layouts/main.astro";
     </div>
   </div>
 
-  <button id="to-top-button" onclick="scrollToNextSection()" title="Go To Top" class="fixed z-90 bottom-20 right-8 border-0 w-16 h-16 rounded-full drop-shadow-md bg-indigo-500 text-white text-3xl font-bold">
+  <button id="to-top-button" onclick="scrollToNextSection()" title="Go To Top" class="fixed z-90 bottom-24 right-8 border-0 w-16 h-16 rounded-full drop-shadow-md bg-indigo-500 text-white text-3xl font-bold">
       &uarr;
   </button>
 
@@ -47,18 +47,22 @@ import Layout from "../layouts/main.astro";
     });
 
     function scrollToNextSection() {
-      const currentSection = document.getElementsByClassName('snap-start')[0];
-      const nextSection = currentSection.nextElementSibling;
-      if (nextSection) {
-        nextSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      const currentSection = getCurrentSection();
+      if (currentSection) {
+        const nextSection = currentSection.nextElementSibling;
+        if (nextSection) {
+          nextSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
       }
     }
 
     function scrollToPreviousSection() {
-      const currentSection = document.getElementsByClassName('snap-start')[0];
-      const previousSection = currentSection.previousElementSibling;
-      if (previousSection) {
-        previousSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      const currentSection = getCurrentSection();
+      if (currentSection) {
+        const previousSection = currentSection.previousElementSibling;
+        if (previousSection) {
+          previousSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
       }
     }
   </script>
