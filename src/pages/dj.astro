@@ -1,0 +1,62 @@
+---
+import Layout from "../layouts/main.astro";
+---
+
+<Layout>
+
+  <div class="flex flex-col h-screen overflow-auto snap-y snap-mandatory">
+    <div class="h-screen flex flex-col items-center justify-center text-center px-4 snap-start bg-blue-500 text-white">
+      <h2 class="text-4xl font-bold mb-4">Section 1</h2>
+      <p class="text-2xl">This is the first section of the website.</p>
+    </div>
+
+    <div class="h-screen flex flex-col items-center justify-center text-center px-4 snap-start bg-green-500 text-white">
+      <h2 class="text-4xl font-bold mb-4">Section 2</h2>
+      <p class="text-2xl">This is the second section of the website.</p>
+    </div>
+
+    <div class="h-screen flex flex-col items-center justify-center text-center px-4 snap-start bg-yellow-500 text-white">
+      <h2 class="text-4xl font-bold mb-4">Section 3</h2>
+      <p class="text-2xl">This is the third section of the website.</p>
+    </div>
+
+    <div class="h-screen flex flex-col items-center justify-center text-center px-4 snap-start bg-red-500 text-white">
+      <h2 class="text-4xl font-bold mb-4">Section 4</h2>
+      <p class="text-2xl">This is the fourth section of the website.</p>
+    </div>
+
+    <div class="h-screen flex flex-col items-center justify-center text-center px-4 snap-start bg-purple-500 text-white">
+      <h2 class="text-4xl font-bold mb-4">Section 5</h2>
+      <p class="text-2xl">This is the fifth section of the website.</p>
+    </div>
+  </div>
+
+  <script is:inline>
+    document.addEventListener('wheel', function(event) {
+      if (event.deltaY > 0) {
+        // Scroll down
+        scrollToNextSection();
+      } else {
+        // Scroll up
+        scrollToPreviousSection();
+      }
+    });
+
+    function scrollToNextSection() {
+      const currentSection = document.getElementsByClassName('snap-start')[0];
+      const nextSection = currentSection.nextElementSibling;
+      if (nextSection) {
+        nextSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+
+    function scrollToPreviousSection() {
+      const currentSection = document.getElementsByClassName('snap-start')[0];
+      const previousSection = currentSection.previousElementSibling;
+      if (previousSection) {
+        previousSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+  </script>
+    
+</Layout>
