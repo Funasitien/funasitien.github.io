@@ -1,5 +1,6 @@
 ---
-import Layout from "../layouts/main.astro";
+import Layout from "../../layouts/main.astro";
+import { Icon } from "astro-icon/components";
 ---
 
 <Layout>
@@ -33,7 +34,7 @@ import Layout from "../layouts/main.astro";
   </div>
 
   <button id="to-top-button" onclick="scrollToNextSection()" title="Go To Top" class="fixed z-90 bottom-24 right-8 border-0 w-16 h-16 rounded-full drop-shadow-md bg-indigo-500 text-white text-3xl font-bold">
-      &uarr;
+      <Icon name="mingcute:arrow-down-fill" />
   </button>
 
   <script is:inline>
