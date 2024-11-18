@@ -33,7 +33,7 @@ Cependant, le code de nos concept, Mini Jeux, serveurs et site web sont notre pr
 Tout nos dessins (assets) que nous n'avons pas acheté à des tiers nous appartiennent. Vous ne pouvez donc pas les utiliser, mais nous ne pouvons pas vous empêcher de vous en inspirer, comme par exemple de créer vos propres avatars dans le style de DEMOCRAFT.
 
 > [!TIP] Attention aux anciens projets !
-> Ils ne sont pas tombé sous le droit commun ! Pour Wynaria par exemple, la marque, le code et les assets (principalement GUI) nous appartiennent toujours (à Benkuro11) et **ne peuvent donc pas être réutilisé, sauf avec son accord.**
+> Ils ne sont pas tombé sous le droit commun ! Pour Wyntaria par exemple, la marque, le code et les assets (principalement GUI) nous appartiennent toujours (à Benkuro11) et **ne peuvent donc pas être réutilisé, sauf avec son accord.**
 
 # 🖨 Copyright 
 DEMOCRAFT est Copyright de 2022 à 2024. Tout droit réservé DEMOCRAFT STUDIOS.
