@@ -4,7 +4,7 @@ title: 💾 Rush Dérush
 ```yaml
 M2TS-FCP: Départ clip#1
 ```
-## zamuel-ordi
+### zamuel-ordi
 - 00:00 - 00:30 : sous la table
 
 ### 092424
@@ -51,6 +51,9 @@ M2TS-FCP: Départ clip#1
 ### Clip 34
 - Alexandre ligote Thomas
 
+<h3 style="text-align: center">Vrais Derush 1</h3>
+
+```
 Clip 4 : CC1 p1p1
 Clip 7 : p2p2
 Clip 8 : p3p1
@@ -63,3 +66,4 @@ Clip 21 : scène final Clip + action au ptn att
 Clip 23 : action tue la elle
 Clip 25 : ett euh prise 2 Clip tambour au pire 
 Clip 31 : CC2 la ça tourne on fait le clap prise 
+```
