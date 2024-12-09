@@ -26,7 +26,7 @@ M2TS-FCP: Départ clip#1
 ### 085032
 - Début : zam fait son discours face caméra
 ### Clip 9
-- C'est génial, j'adore le tournage
+- C'est génial, j'adore le doublage
 ### Clip 13
 - Alexandre sous la table
 ### Le Bureau des plaintes
@@ -43,7 +43,6 @@ M2TS-FCP: Départ clip#1
 - Alexandre film de boulle
 ### Clip 26
 - Chanson clem
-
 ### Clip 28
 - Wiziouwiii voix off de wish ft. Guilhem
 ### Clip 33
