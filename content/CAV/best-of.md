@@ -1,8 +1,8 @@
 ---
 title: 💾 Rush Dérush
 ---
-```
-M2TS FCP : Départ clip#1
+```yaml
+M2TS-FCP: Départ clip#1
 ```
 ## zamuel-ordi
 - 00:00 - 00:30 : sous la table
@@ -62,4 +62,4 @@ Clip 20 : ok prise 2
 Clip 21 : scène final Clip + action au ptn att
 Clip 23 : action tue la elle
 Clip 25 : ett euh prise 2 Clip tambour au pire 
-Clip 31 : CC2 la ça tourne on fait le clap prise 2
+Clip 31 : CC2 la ça tourne on fait le clap prise 
