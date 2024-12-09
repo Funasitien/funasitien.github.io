@@ -1,7 +1,9 @@
 ---
 title: 💾 Rush Dérush
 ---
-
+```
+MTS FCP : Départ clip#1
+```
 ## zamuel-ordi
 - 00:00 - 00:30 : sous la table
 
@@ -21,6 +23,29 @@ title: 💾 Rush Dérush
 - 02:50 : Impro Sextape
 - 04:40 : Daron.png
 - 05:40 : On insulte guilhem et zamuel fait un crime
-
 ### 085032
 - Début : zam fait son discours face caméra
+### Clip 9
+- C'est génial, j'adore le tournage
+### Clip 13
+- Alexandre sous la table
+### Le Bureau des plaintes
+- Clip 19
+### Aaaaaaction
+- Clip 13
+- Clip 14
+- Clip 15
+- Clip 19
+### (Raphael) la perche
+- Clip 20
+
+Clip 4 : CC1 p1p1
+Clip 7 : p2p2
+Clip 8 : p3p1
+Clip 9 : CC2 pxpx
+Clip 10 CC2 Roger
+Clip xx CC2 Clem
+Clip 16 : Face Zam p5 scène du gun
+Clip 17 : Claque la porte de bz
+Clip 20 : ok prise 2
+Clip 21 : scène final Clip + action au ptn att
