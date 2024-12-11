@@ -21,3 +21,19 @@ Reprise via Égypte de Algérie Maroc Tunisie Libie
 ###### -> débarquement en Sicile 
 10/07/43
 24/07/43 -> Mussolini destitué et arrêté
+
+## Une guerre d'anéantissement
+### Violences & Crimes de guerre
+Exactions contres pop ; pillages meutres & vX
+1 Allemand = 50 civils
+Russie et US aussi violents
+Japonais pas sympa
+
+Bombardements de but civils -> coventry -> blitz
+
+### Génocides & crimes contres  l'humanité
+#### Définitions
+- Génocide : entrée dans les droits de l'ONU en 48
+- Crime contre $H$ : créé à Nuremberg
+#### Origines
+- Antisémitisme au cœur de la théorie ratiale des $Nazis$
