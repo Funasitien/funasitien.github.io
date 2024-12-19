@@ -2,7 +2,7 @@
 title: 🍎 ww2
 draft: false
 ---
-![wall](./wall.jpeg)
+![wall](./wall.jpg)
 **22/06/41** : opération Barbarosa. En finir avec le Judeobolchévisme et espace vitale -> romp le pacte de non agression. 4 offensives :
 - Leningrade
 - Kiev -> chute le 19/09/41
