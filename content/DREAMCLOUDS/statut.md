@@ -1,21 +1,25 @@
 ---
 title: 📜 Statut Qreative
 date: 2024-07-01
-draft: true
+draft: false
 tags:
   - legal
   - dreamclouds
   - qreative
 ---
-Qreative est une **association de fait**, ce qui signifie que nous sommes une association légale - mais qui n'est pas inscrite dans le journal français. Elle a pour but de lier 
+Qreative est une **association de fait**, ce qui signifie que nous sommes une association légale - mais qui n'est pas inscrite dans le journal français.
+
+Elle a pour but de **lier les projets créatifs** et de proposer un framework solide - par l'entraide entre les différents projets pour construire le meilleur environnement possible.
 
 # 👥 Composition
 ## Groupes
 L'association se compose de :
 
-1. **Administrateurs**, présidents de l’association.
-2. **Membres bienfaiteurs** définit ci-dessous
-3. **Membres actifs ou adhérents** définit ci-dessous
+1. **Présidents**
+2. **Membres du conseil d'administration**
+3. **Membres bienfaiteurs**
+4. **Membres actifs ou adhérents**
+
 ## Fonctionnement
 L'admission à l'association nécessite l'approbation au préalable par un vote à majorité du conseil d'administration.
 
@@ -27,13 +31,19 @@ Tout les membres de l'association font partit du conseil d'administration. Les m
 - Vol ou utilisation non autorisé de tout produit de l'association
 - Propos ou image dangereuse pour l'association - tel que tout propos à caractère illegaux
 
-## Composition actuelle
+## Conseil Actuel
 
-- Funasitien Dreamcloud, président/administrateur
-- Fantaisiici, président/administrateur
-- Benkuro11, président/administrateur
+Composition actuel du conseil d'administration. Dernière mise à jour : #25-12-24 .
+
+- Funasitien Dreamcloud - Président
+- Vaati73, Président
 
 # 🛒 Ressources
+
+
+> [!NOTE] Title
+> Finitions.
+
 
 **DEMOCRAFT STUDIOS** possède les ressources suivantes :
 1. Le **montant des donations** reçus par les membres bienfaiteurs
