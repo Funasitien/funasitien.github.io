@@ -1,6 +1,6 @@
 ---
 title: 📜 Statut Qreative
-date: 2024-07-01
+date: 2024-12-25
 draft: false
 tags:
   - legal
@@ -40,47 +40,13 @@ Composition actuel du conseil d'administration. Dernière mise à jour : #25-12-
 
 # 🛒 Ressources
 
-
-> [!NOTE] Title
-> Finitions.
-
-
-**DEMOCRAFT STUDIOS** possède les ressources suivantes :
+**Qreative** possède les ressources suivantes :
 1. Le **montant des donations** reçus par les membres bienfaiteurs
 2. Les **subventions de l'Etat**, des départements, des communes ou de tout organisme habilité à la dotation de celles-ci.
-3. Les **recettes des produits** de la boutique de DEMOCRAFT : vente de grades, objets virtuelles et serveur à la demande.
+3. Les **recettes des produits** de la boutique de ses projets tierces : vente d'objets virtuels et serveur à la demande.
 
 # 📖 Conseil d'administration
-Tout les adhérents acceptés par le conseil d'administration sont accéptés dans celui-çi.
 Le conseil d'administration se réuni tout les deux mois, pour discuter de l'avancé du projet, *de ses tenant et aboutissants*.
 Toute décision est voté par l'ensemble du conseil. 
-
-<style>
-.signature-grid {
-	 display: grid;
-	 grid-template-columns: repeat(2, minmax(0, 1fr));
-	 gap: 1.5rem;
-}
- @media (min-width: 639px) {
-	 .signature-grid {
-		 grid-template-columns: repeat(3, minmax(0, 1fr));
-	}
-}
- 
-</style>
-<div class="signature-grid ">
-    <a href="#" style="display: flex; align-items: center; flex-direction: column; height: 14rem; justify-content: end;">
-        <img src="/img/sign-funa.png"  alt="Signature Funasitien" style="margin-bottom: 0px; max-height: 10rem; width: auto;">
-        <p style="margin-top: 0px;">Funasitien, Président</p>
-    </a>
-    <a href="#" style="display: flex; align-items: center; flex-direction: column; height: 14rem; justify-content: end;">
-        <img src="/img/sign-fantai.png"  alt="Signature Fantaisiici" style="max-height: 10rem; width: auto;">
-        <p>Fantaisiici, Président</p>
-    </a>
-    <a href="#" style="display: flex; align-items: center; flex-direction: column; height: 14rem; justify-content: end;">
-        <img src="/img/sign-benku.png" alt="Signature Benkuro11" style="max-height: 10rem; width: auto;">
-        <p>Benkuro11, Président</p>
-    </a>
-</div>
 
 *Statut publié le 09/07/2024 - Dernière mise à jour le 03/08/2024*
