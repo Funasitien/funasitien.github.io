@@ -47,5 +47,6 @@ Composition actuel du conseil d'administration. Dernière mise à jour : #25-12-
 # 📖 Conseil d'administration
 Le conseil d'administration se réuni tout les deux mois, pour discuter de l'avancé du projet, *de ses tenant et aboutissants*.
 Toute décision est voté par l'ensemble du conseil. 
+< à préciser >
 
 *Statut publié le #XX-XX-2025 - Dernière mise à jour le #05-01-2024*
