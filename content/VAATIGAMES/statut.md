@@ -57,6 +57,6 @@ Composition actuel du conseil d'administration. Dernière mise à jour : #25-12-
 
 # 📖 Conseil d'administration
 Le conseil d'administration se réuni tout les deux mois, pour discuter de l'avancé du projet, *de ses tenant et aboutissants*.
-Toute décision est voté par l'ensemble du conseil. 
+Toute décision est voté par l'ensemble du conseil au vote à majorité simple. 
 
 C'est ce conseil qui gère la sécurité de l’infrastructure et de toute possible alerte de sécurité.  
