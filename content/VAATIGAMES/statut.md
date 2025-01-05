@@ -6,14 +6,15 @@ tags:
   - legal
   - vaatigames
 ---
+# 📜 Statut Vaatigames
 
 Vaatigames est un hébergeur cloud philanthropique, un fournisseur de serveur en lignes pour les petits projets.
 Vaatigames offre à des petits projets/créateurs de contenu les ressources nécessaires pour réaliser leurs projets.
 
 Son Siège Social est au 
 
-# 👥 Composition
-## Groupes
+## 👥 Composition
+### Groupes
 L'association se compose de :
 
 1. **Présidents**
@@ -21,12 +22,12 @@ L'association se compose de :
 3. **Membres bienfaiteurs**
 4. **Membres actifs ou adhérents**
 
-## Fonctionnement
+### Fonctionnement
 L'admission à l'association nécessite l'approbation au préalable par un vote à majorité du conseil d'administration.
 
 Sont membres bienfaiteurs toute personne qui effectue une donation à l'association au-delà de **10€**. Ils sont autorisés à participer aux conseils d'administrations mais ne peuvent pas décider, sauf avec un accord préalable du conseil.
 
-## Radiation (Expulsion)
+### Radiation (Expulsion)
 Les membres peuvent être congédiés par le conseil d'administration si il ne sont plus présent ou pour un motif grave, tel que:
 
 - Vol ou utilisation non autorisé de tout produit de l'association
@@ -42,21 +43,31 @@ Toute défense est autorisée, mais le membre concerné ne peut être assisté a
 Le membre est informé, en présentiel si possible et au cas échéant par e-mail, du refus ou de la validation de sa radiation.
 Dans le cas où le conseil d’administration respecte la procédure de radiation, aucun appel ne peut être soumis.
 
-## Conseil Actuel
+### Conseil Actuel
 Composition actuel du conseil d'administration. Dernière mise à jour : #25-12-24 .
 
 - Funasitien Dreamcloud - Président
 - Vaati73, Président
 
 
-# 🛒 Ressources
+## 🛒 Ressources
 **Vaatigames** possède les ressources suivantes :
 1. Le **montant des donations** reçus par les membres bienfaiteurs
 2. Les **subventions de l'Etat**, des départements, des communes ou de tout organisme habilité à la dotation de celles-ci.
 3. Les **recettes des produits** de la boutique de ses projets tierces : vente d'objets virtuels et serveur à la demande.
 
-# 📖 Conseil d'administration
-Le conseil d'administration se réuni tout les deux mois, pour discuter de l'avancé du projet, *de ses tenant et aboutissants*.
-Toute décision est voté par l'ensemble du conseil au vote à majorité simple. 
+## 📖 Conseil d'administration 
+Le conseil d'administration se réunit une tout les deux mois, avec la possibilité de convocations exceptionnelles en cas d'urgence.  
+Chaque réunion est précédée d’un ordre du jour clair et suivie d’un compte rendu détaillé.
 
-C'est ce conseil qui gère la sécurité de l’infrastructure et de toute possible alerte de sécurité.  
+Le conseil est composé des rôles suivants : Président, Secrétaire, Trésorier & tout élu au conseil d'administration.
+### Sujets
+Les sujets suivants sont évoqué à chaque convocation. D'autres sujets peuvent aussi être remontés
+- Budget
+### Votes
+- **Décisions critiques** : Vote à majorité qualifiée (⅔ des voix).
+- **Sécurité** : Une équipe dédiée surveille les alertes et réalise des audits réguliers.
+
+Les indicateurs clés de performance sont présentés à chaque réunion pour évaluer l’avancée du projet et ajuster les priorités.
+
+Un canal de communication permanent est mis en place pour assurer un suivi continu entre les réunions.
