@@ -9,7 +9,7 @@ tags:
 
 Vaatigames est une **association de fait**, ce qui signifie que nous sommes une association légale - mais qui n'est pas inscrite dans le journal français.
 
-< description >
+Vaatigames est un hébergeur cloud philanthropique, un fournisseur de serveur en lignes pour les petits projets.
 
 # 👥 Composition
 ## Groupes
@@ -47,6 +47,7 @@ Composition actuel du conseil d'administration. Dernière mise à jour : #25-12-
 # 📖 Conseil d'administration
 Le conseil d'administration se réuni tout les deux mois, pour discuter de l'avancé du projet, *de ses tenant et aboutissants*.
 Toute décision est voté par l'ensemble du conseil. 
-< à préciser >
+
+C'est ce conseil qui gère la sécurité de l’infrastructure et de toute possible alerte de sécurité.  
 
 *Statut publié le #XX-XX-2025 - Dernière mise à jour le #05-01-2024*
