@@ -44,7 +44,7 @@ Le membre est informé, en présentiel si possible et au cas échéant par e-mai
 Dans le cas où le conseil d’administration respecte la procédure de radiation, aucun appel ne peut être soumis.
 
 ### Conseil Actuel
-Composition actuel du conseil d'administration. Dernière mise à jour : #25-12-24 .
+Composition actuel du conseil d'administration.
 
 - Funasitien Dreamcloud - Président
 - Vaati73, Président
