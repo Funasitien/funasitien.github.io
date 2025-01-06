@@ -6,6 +6,7 @@ tags:
   - legal
   - vaatigames
 ---
+
 # 📜 Statut Vaatigames
 
 Vaatigames est un hébergeur cloud philanthropique, un fournisseur de serveur en lignes pour les petits projets.
@@ -48,7 +49,6 @@ Composition actuel du conseil d'administration.
 
 - Funasitien Dreamcloud - Président
 - Vaati73, Président
-
 
 ## 🛒 Ressources
 **Vaatigames** possède les ressources suivantes :
