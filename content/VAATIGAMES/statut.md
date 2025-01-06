@@ -1,7 +1,7 @@
 ---
 title: 📜 Statut Vaatigames
 date: 2024-12-25
-draft: false
+draft: true
 tags:
   - legal
   - vaatigames
@@ -64,9 +64,11 @@ Le conseil est composé des rôles suivants : Président, Secrétaire, Trésorie
 ### Sujets
 Les sujets suivants sont évoqué à chaque convocation. D'autres sujets peuvent aussi être remontés
 - Budget
+- Point Sécurité (de l'infrastructure)
 ### Votes
-- **Décisions critiques** : Vote à majorité qualifiée (⅔ des voix).
-- **Sécurité** : Une équipe dédiée surveille les alertes et réalise des audits réguliers.
+- **Décisions critiques** : Vote à majorité qualifiée (⅔ des voix)
+- **Budget** : Vote à majorité absolue
+- **Autres Décisions** : Vote à majorité relative
 
 Les indicateurs clés de performance sont présentés à chaque réunion pour évaluer l’avancée du projet et ajuster les priorités.
 

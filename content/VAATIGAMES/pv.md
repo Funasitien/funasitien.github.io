@@ -1,5 +1,6 @@
 ---
 title: 📝 PV Vaatigames
+draft: true
 ---
 
 # PROCÈS-VERBAL DE L'ASSEMBLÉE CONSTITUTIVE VAATIGAMES
@@ -37,3 +38,5 @@ ont tenu une assemblée constitutive.
 ## Signatures :
 Président de l’assemblée : Arnaud MARTEAU
 Secrétaire de l’assemblée :  Guilhem CANIS
+
+![Signature OMG](signG.png)
