@@ -1,7 +1,7 @@
 ---
 title: 📜 Statut Vaatigames
 date: 2024-12-25
-draft: true
+draft: false
 tags:
   - legal
   - vaatigames
