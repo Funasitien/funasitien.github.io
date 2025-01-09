@@ -75,3 +75,51 @@
 2. ```sql
    SELECT texte, titre FROM citations JOIN films ON citations.id_film = films.id_film ORDER BY films.annee ASC;
    ```
+
+# Exercies
+
+9. ```sql
+   +--------+--------------+------+-----+---------+-------+
+   | Field  | Type         | Null | Key | Default | Extra |
+   +--------+--------------+------+-----+---------+-------+
+   | rank   | int(11)      | NO   | PRI | NULL    |       |
+   | artist | varchar(100) | YES  |     | NULL    |       |
+   | title  | varchar(100) | YES  |     | NULL    |       |
+   | year   | int(11)      | YES  |     | NULL    |       |
+   +--------+--------------+------+-----+---------+-------+
+   ```
+10. ```sql
+    SELECT * from songs ORDER BY rank ASC;
+    ```
+
+11. ```sql
+    SELECT artist, title from songs WHERE rank = 100;
+    ```
+
+12. ```sql
+    SELECT * from songs WHERE artist = "Aretha Franklin";
+    ```
+
+13. ```sql
+    SELECT * from songs WHERE year >= 2000 ORDER BY year ASC;
+    ```
+
+14. ```sql
+    SELECT count(*) from songs WHERE year <= 2000 AND year >= 1900;
+    ```
+
+15. ```sql
+    SELECT * from songs WHERE title LIKE '%rock%';
+    ```
+
+16. ```sql
+    SELECT * from songs WHERE year = 1971;
+    ```
+
+17. ```sql
+    SELECT count(*) AS nb, year from songs GROUP BY year ORDER BY nb DESC;
+    ```
+
+18. ```sql
+    SELECT count(*) AS nb, artist from songs GROUP BY artist ORDER BY nb DESC;
+    ```
