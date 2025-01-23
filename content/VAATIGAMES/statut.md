@@ -10,9 +10,9 @@ tags:
 # 📜 Statut Vaatigames
 
 Vaatigames est un hébergeur cloud philanthropique, un fournisseur de serveur en lignes pour les petits projets.
-Vaatigames offre à des petits projets/créateurs de contenu les ressources nécessaires pour réaliser leurs projets.
+Vaatigames offre à des petits projets/créateurs de contenu les ressources nécessaires pour réaliser leurs projets (tel que des seveurs ou des morceau de codes par exemple).
 
-Son Siège Social est au 
+Son Siège Social est au [SIEGE]
 
 ## 👥 Composition
 ### Groupes
@@ -44,16 +44,10 @@ Toute défense est autorisée, mais le membre concerné ne peut être assisté a
 Le membre est informé, en présentiel si possible et au cas échéant par e-mail, du refus ou de la validation de sa radiation.
 Dans le cas où le conseil d’administration respecte la procédure de radiation, aucun appel ne peut être soumis.
 
-### Conseil Actuel
-Composition actuel du conseil d'administration.
-
-- Funasitien Dreamcloud - Président
-- Vaati73, Président
-
 ## 🛒 Ressources
 **Vaatigames** possède les ressources suivantes :
 1. Le **montant des donations** reçus par les membres bienfaiteurs
-2. Les **subventions de l'Etat**, des départements, des communes ou de tout organisme habilité à la dotation de celles-ci.
+2. Les **subventions de l’État**, des départements, des communes ou de tout organisme habilité à la dotation de celles-ci.
 3. Les **recettes des produits** de la boutique de ses projets tierces : vente d'objets virtuels et serveur à la demande.
 
 ## 📖 Conseil d'administration 
@@ -61,14 +55,15 @@ Le conseil d'administration se réunit une tout les deux mois, avec la possibili
 Chaque réunion est précédée d’un ordre du jour clair et suivie d’un compte rendu détaillé.
 
 Le conseil est composé des rôles suivants : Président, Secrétaire, Trésorier & tout élu au conseil d'administration.
+
 ### Sujets
 Les sujets suivants sont évoqué à chaque convocation. D'autres sujets peuvent aussi être remontés
 - Budget
-- Point Sécurité (de l'infrastructure)
+
 ### Votes
-- **Décisions critiques** : Vote à majorité qualifiée (⅔ des voix)
-- **Budget** : Vote à majorité absolue
-- **Autres Décisions** : Vote à majorité relative
+- **Décisions critiques** : Vote à majorité qualifiée (⅔ des voix).
+- **Sécurité** : Majorité absolue
+- **Autres Votes** : Majorité relative
 
 Les indicateurs clés de performance sont présentés à chaque réunion pour évaluer l’avancée du projet et ajuster les priorités.
 
