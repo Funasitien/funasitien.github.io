@@ -1,8 +1,12 @@
 ---
-title: moi.xls
+title: 
 draft: false
 description: Qu'es ce que je vais faire de ce brol
 ---
+
+> [!TIP] C'est quoi ce truc ?
+> Si vous n'avez pas reçu cette page par DM, vous venez de tomber *par hasard* sur un essaie de Cinéma. Je vous conseil personnellement de quitter cette page - pour votre santé mentale.
+
 # 📚 Tableau
 | Ce que j'aime | Ce que j'aime pas  | Qui je suis | Mes Projets                |
 | ------------- | ------------------ | ----------- | -------------------------- |
@@ -36,6 +40,9 @@ Scenario suspendu ou finit ?
 ### ⌛️ L'origine
 Un petit garçon est assis sur un banc. Il est avec ses amis. Ils discutent de quelqu'un, très négativement. La discussion continue pendent une longue minute, sans prendre à partie le garçon. Puis ils le regarde, rient, puis partent. Il comprend alors que c'est lui cette personne.
 
+#### 💥 Attaques Possibles
+- Physique (why kiara)
+- 
 #### 💬 Dialogue
 <center><strong>Ami 1</strong></center>
 <center>C'est fou comme il est moche quand même</center>
