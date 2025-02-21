@@ -3,7 +3,7 @@
     "name": "Funasitien's Portfolio",
     "icons": [
         {
-            "src": "/img/logo.png",
+            "src": "/logo.png",
             "type": "image/png",
             "sizes": "512x512"
         }
