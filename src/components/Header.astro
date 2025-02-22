@@ -2,30 +2,36 @@
 import { Icon } from "astro-icon/components";
 ---
 
-<div
-  class="navbar bg-transparent md:px-64">
+<div class="navbar bg-transparent lg:px-64">
   <div class="navbar-start m-4">
-    <a href="/" class="text-xl py-2 px-4 rounded-btn hover:border-neutral-content hover:bg-neutral inline-flex flex-wrap items-center gap-4 border-base-300 border-4 border-dashed transition-all duration-500 ease-in-out">
+    <a
+      href="/"
+      class="text-xl py-2 px-4 rounded-btn hover:border-neutral-content hover:bg-neutral inline-flex flex-wrap items-center gap-4 border-base-300 border-4 border-dashed transition-all duration-500 ease-in-out">
       Funasitien
     </a>
   </div>
 
   <div class="navbar-end">
-    <div class="sm:hidden py-1 px-4 rounded-btn hover:bg-neutral hover:border-neutral-content inline-flex flex-wrap items-center gap-4 border-base-300 border-4 border-dashed transition-all duration-500 ease-in-out">
+    <div
+      class="md:hidden py-1 px-4 rounded-btn hover:bg-neutral hover:border-neutral-content inline-flex flex-wrap items-center gap-4 border-base-300 border-4 border-dashed transition-all duration-500 ease-in-out">
       <button onclick="toggleDropdown()">
         <img class="w-8 h-8" src="/icons/balloons.png" alt="Menu Hamburger" />
       </button>
     </div>
-    <div class="max-sm:hidden py-1 px-4 rounded-btn hover:bg-neutral hover:border-neutral-content inline-flex flex-wrap items-center gap-4 border-base-300 border-4 border-dashed transition-all duration-500 ease-in-out">
-      <a class="link link-hover decoration-dashed decoration-2 inline-flex items-center gap-2">
+    <div
+      class="max-md:hidden py-1 px-4 rounded-btn hover:bg-neutral hover:border-neutral-content inline-flex flex-wrap items-center gap-4 border-base-300 border-4 border-dashed transition-all duration-500 ease-in-out">
+      <a
+        class="link link-hover decoration-dashed decoration-2 inline-flex items-center gap-2">
         <img class="w-8 h-8" src="/icons/home.png" alt="Home" />
         Accueil
       </a>
-      <a class="link link-hover decoration-dashed decoration-2 inline-flex items-center gap-2">
+      <a
+        class="link link-hover decoration-dashed decoration-2 inline-flex items-center gap-2">
         <img class="w-8 h-8" src="/icons/books.png" alt="Books" />
         Projets
       </a>
-      <a class="link link-hover decoration-dashed decoration-2 inline-flex items-center gap-2">
+      <a
+        class="link link-hover decoration-dashed decoration-2 inline-flex items-center gap-2">
         <img class="w-8 h-8" src="/icons/head.png" alt="Head White" />
         Contact
       </a>
@@ -34,31 +40,65 @@ import { Icon } from "astro-icon/components";
         data-toggle-theme="pastel,night"
         data-act-class="pastel"
         aria-label="Theme Switcher">
-        <img class="w-8 h-8 dark:hidden" src="/icons/light.png" alt="White Them Palette" />
-        <img class="w-8 h-8 hidden dark:block" src="/icons/dark.png" alt="Dark Them Palette" />
+        <img
+          class="w-8 h-8 dark:hidden"
+          src="/icons/light.png"
+          alt="White Them Palette"
+        />
+        <img
+          class="w-8 h-8 hidden dark:block"
+          src="/icons/dark.png"
+          alt="Dark Them Palette"
+        />
       </button>
     </div>
   </div>
 </div>
 
-<ul id="dropdownMenu" class="menu bg-base-200 rounded-box mx-4 hidden border-base-300 border-4 border-dashed transition-all duration-500 ease-in-out hover:border-neutral-content">
-  <li><a class="inline-flex items-center gap-2">
-    <img class="w-8 h-8" src="/icons/home.png" alt="Home" />
-    Accueil
-  </a></li>
-  <li><a class="inline-flex items-center gap-2">
-    <img class="w-8 h-8" src="/icons/books.png" alt="Books" />
-    Projets
-  </a></li>
-  <li><a class="decoration-2 inline-flex items-center gap-2">
-    <img class="w-8 h-8" src="/icons/head.png" alt="Head White" />
-    Contact
-  </a></li>
+<ul
+  id="dropdownMenu"
+  class="menu bg-base-200 rounded-box mx-4 hidden border-base-300 border-4 border-dashed transition-all duration-500 ease-in-out hover:border-neutral-content">
+  <li>
+    <a class="inline-flex items-center gap-2">
+      <img class="w-8 h-8" src="/icons/home.png" alt="Home" />
+      Accueil
+    </a>
+  </li>
+  <li>
+    <a class="inline-flex items-center gap-2">
+      <img class="w-8 h-8" src="/icons/books.png" alt="Books" />
+      Projets
+    </a>
+  </li>
+  <li>
+    <a class="decoration-2 inline-flex items-center gap-2">
+      <img class="w-8 h-8" src="/icons/head.png" alt="Head White" />
+      Contact
+    </a>
+  </li>
+  <li>
+    <button
+        data-toggle-theme="pastel,night"
+        data-act-class="pastel"
+        aria-label="Theme Switcher">
+        <img
+          class="w-8 h-8 dark:hidden"
+          src="/icons/light.png"
+          alt="White Them Palette"
+        />
+        <img
+          class="w-8 h-8 hidden dark:block"
+          src="/icons/dark.png"
+          alt="Dark Them Palette"
+        />
+        Changer de Thème
+      </button>
+  </li>
 </ul>
 
 <script is:raw>
   function toggleDropdown() {
-    const dropdownMenu = document.getElementById('dropdownMenu');
-    dropdownMenu.classList.toggle('hidden');
+    const dropdownMenu = document.getElementById("dropdownMenu");
+    dropdownMenu.classList.toggle("hidden");
   }
 </script>

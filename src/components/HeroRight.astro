@@ -1,0 +1,52 @@
+---
+import { Icon } from "astro-icon/components";
+
+const {
+  title,
+  alt,
+  image_text = "En savoir plus",
+  image_url = "#",
+  button_text = "#",
+  button_url = "#",
+  icon = "tabler:info-circle-filled",
+  icon_class,
+} = Astro.props;
+---
+
+<div class="min-h-96 flex py-2 flex-col-reverse lg:flex-row ml-4 lg:py-6">
+  <div class="lg:w-1/2 flex justify-center">
+    <img
+      src={image_url}
+      class:list={["flex w-full h-auto rounded-lg justify-center", icon_class]}
+      alt={image_text}
+    />
+  </div>
+  <div class="lg:w-1/2">
+    <div class="justify-end flex w-full">
+      <div class="pr-3">
+        <h1 class="text-end text-3xl lg:text-4xl font-bold">{title}</h1>
+        <h3 class="magic text-end">{alt}</h3>
+      </div>
+      {
+        icon.includes("/") && (
+          <img
+            src={icon}
+            class="h-16 w-auto bg-primary justify-center p-1 rounded-lg"
+            alt={title}
+          />
+        )
+      }
+      {!icon.includes("/") && <Icon name={icon} class="text-6xl" />}
+    </div>
+    <p class="py-6 text-lg text-end text-pretty">
+      <slot />
+    </p>
+    {
+      !button_text.includes("#") && (
+        <a class="btn btn-primary " href={button_url}>
+          {button_text}
+        </a>
+      )
+    }
+  </div>
+</div>

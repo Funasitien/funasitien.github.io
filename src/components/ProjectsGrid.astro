@@ -1,0 +1,13 @@
+---
+import { Icon } from "astro-icon/components";
+import Carte from "./Carte.astro";
+---
+<div class="grid grid-cols-1 md:grid-cols-10 gap-4 mb-2 mx-4">
+    <Carte titre="Projet 1" image="https://source.unsplash.com/random/800x600" description="Description du projet 1" />
+    <Carte titre="Projet 2" image="https://source.unsplash.com/random/800x600" description="Description du projet 2" />
+    <Carte titre="Projet 3" image="https://source.unsplash.com/random/800x600" description="Description du projet 3" />
+
+    <div class="bg-neutral rounded-badge flex items-center justify-center">
+       <Icon name="tabler:arrow-big-right" class="text-6xl" />
+    </div>
+</div>

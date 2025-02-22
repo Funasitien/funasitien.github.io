@@ -4,6 +4,7 @@
   "version": "0.1.3",
   "scripts": {
     "dev": "astro dev",
+    "dev:host": "astro dev --host",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
@@ -26,8 +27,7 @@
     "theme-change": "^2.5.0"
   },
   "devDependencies": {
-    "@iconify-json/mingcute": "^1.1.15",
-    "@iconify-json/nonicons": "^1.1.7",
+    "@iconify-json/tabler": "^1.1.15",
     "@iconify-json/simple-icons": "^1.1.88",
     "daisyui": "^4.7.3"
   }

@@ -1,6 +1,10 @@
 ---
 import Layout from "../layouts/main.astro";
 import { Icon } from "astro-icon/components";
+
+import HeroLeft from "../components/HeroLeft.astro";
+import HeroRight from "../components/HeroRight.astro";
+import ProjectsGrid from "../components/ProjectsGrid.astro";
 ---
 
 <Layout title="Funasitien DreamCloud">
@@ -12,4 +16,18 @@ import { Icon } from "astro-icon/components";
         </div>
         <img class="w-64 h-64" src="/renders/under_construction.png" alt="Rendu 3D 2" />
     </div>
+    <HeroLeft
+        title="Funasitien DreamCloud"
+        alt="Developpeur Web Fullstack"
+        image_url="/renders/box_construction.png"
+        image_text="Rendu 3D 1"
+        button_text="En savoir plus"
+        button_url="/about"
+        icon="tabler:info-circle-filled"
+        icon_class="bg-primary"
+        >
+        ddzazdaazd
+    </HeroLeft> 
+    
+    <ProjectsGrid/>
 </Layout>
