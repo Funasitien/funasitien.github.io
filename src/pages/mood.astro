@@ -1,0 +1,41 @@
+---
+import Layout from "../layouts/main.astro";
+import Carte from "../components/Carte.astro";
+import Toolbox from "../components/Toolbox.astro";
+import { Icon } from "astro-icon/components";
+---
+
+<Layout title="MOOD">
+    <div class="mx-4 lg:mx-32 my-5 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div>
+          <h1 class="text-4xl font-bold inline-flex justify-center gap-1 md:gap-2">
+            <Icon name="tabler:list-search" class="text-4xl" />
+            A Propos
+          </h1>
+          <p class="text-lg">wip wip wip wip</p>
+        </div>
+        <img src="/projets/mood.png" alt="MOODS banner" class="h-40 md:h-64 rounded-badge" />
+      </div>
+  <div class="mx-4 lg:mx-32 my-5">
+    <h1 class="text-4xl font-bold inline-flex justify-center gap-1 md:gap-2">
+      <Icon name="tabler:webhook" class="text-4xl"/>
+      Technologies
+    </h1>
+    <div class="grid grid-cols-2 md:grid-cols-6 gap-6 my-4">
+        <Toolbox icon="hugeicons:music-note-02" name="Audis" color="bg-error border-error-content text-error-content"/>
+        
+        <Toolbox icon="tabler:brand-nuxt" name="Nuxt" />
+        <Toolbox icon="tabler:brand-react" name="React" />
+        <Toolbox icon="tabler:brand-vue" name="Vue" />
+        <Toolbox icon="tabler:brand-tailwind" name="TailwindCSS" />
+
+        <Toolbox icon="tabler:brand-github" name="GitHub CI" />
+    </div>
+  </div>
+  <div class="mx-4 lg:mx-32 my-5">
+    <h1 class="text-4xl font-bold inline-flex justify-center gap-1 md:gap-2">
+      <Icon name="tabler:link-plus" class="text-4xl"/>
+      Liens Utiles
+    </h1>
+  </div>
+</Layout>
