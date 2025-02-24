@@ -83,7 +83,7 @@ Un petit garçon est assis sur un banc. Il est avec ses amis. Ils discutent de q
 Voyage -> Générique
 Arrivé au lycée : proposition invitation cinéma
 ### 📽 Le Cinéma
-###### 👤 Élodie, Alexandre
+###### 👤 Élodie, Alexandre, Thomas
 Le *✨️ Pédophile ✨️* marche toujours. Montrer que la méchanceté est toujours présente : es normale ? Ou es ce moi le problème ? Silence, grossisement.
 ### 🧱 Le Travail
 ###### 👤 DEMO.
@@ -91,5 +91,7 @@ Stress. Rentre chez soi en soufflant. Pour se "défouler", allume son ordinateur
 ### 🫥 La "Nouvelle"
 ###### 👤 Gabi
 Écriture un minima selon personne. Idée de positivité, *✨️ d'espoir ✨️*, 
+###### 📝 Rédaction
+Message : "Hey, ça va ? Tu fait quelque chose demain ?"
 ### 🌑 Scène Finale
 Discussion avec le fantôme, acceptation de l'existence et que le problème ne se réglera pas dans un futur proche. *Survie*, il faut feinter la boule noir et accepter ses tords.
