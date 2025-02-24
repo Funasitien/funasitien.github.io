@@ -16,16 +16,6 @@ description: Qu'es ce que je vais faire de ce brol
 | La musique    |                    |             | PokéKerna                  |
 
 # 🎬 Film
-## ✨️ Fiction
-Scenario suspendu ou finit ?
-### Suspendu
-- Pas besoins d'inventer
-  -> "Décevant"
-### Finit
-- Fictif mais histoire compressible
-  -> Mensonge ou aide ?
-
-**Idée de fin:** résolution possible du problème des autres, possible de rencontrer qq d'autre... Ou pas.
 
 ## 📅 Scenario
 - Lycée entrecoupé des scènes
@@ -39,10 +29,11 @@ Scenario suspendu ou finit ?
 ## 🖤 Situations
 ### ⌛️ L'origine
 Un petit garçon est assis sur un banc. Il est avec ses amis. Ils discutent de quelqu'un, très négativement. La discussion continue pendent une longue minute, sans prendre à partie le garçon. Puis ils le regarde, rient, puis partent. Il comprend alors que c'est lui cette personne.
-
 #### 💥 Attaques Possibles
 - Physique (why kiara)
-- 
+- Personnalité de merde (pas original, rien)
+- Goûts (csc)
+- Clément, je me comprend
 #### 💬 Dialogue
 <center><strong>Ami 1</strong></center>
 <center>C'est fou comme il est moche quand même</center>
@@ -87,14 +78,19 @@ Un petit garçon est assis sur un banc. Il est avec ses amis. Ils discutent de q
 
 ## 🧭 Construction
 ### ✈️ Introduction
-**Idées** : Réveil (BN déjà là, à la limitite un bonjour ironique)
--> Montre la chambre (endroit intéressant car personel)
--> $In‎  Medias‎  Res$ :  Montrer que c'est un quotidien connu
--> Transition vers Scène suivante : Grossissement
-## 🫠
-#### 👤
-## 🫥 La "Nouvelle"
-#### 👤
+*Transition: allume la lumière dans la chambre pour recupérer son écharpe*.
+### 🏤 Lycée (Transition Écharpe)
+Voyage -> Générique
+Arrivé au lycée : proposition invitation cinéma
+### 📽 Le Cinéma
+###### 👤 Élodie, Alexandre
+Le *✨️ Pédophile ✨️* marche toujours. Montrer que la méchanceté est toujours présente : es normale ? Ou es ce moi le problème ? Silence, grossisement.
+### 🧱 Le Travail
+###### 👤 DEMO.
+Stress. Rentre chez soi en soufflant. Pour se "défouler", allume son ordinateur. Crescendo dans la vitesse, mais aussi dans la diminution du stress 
+### 🫥 La "Nouvelle"
+###### 👤 Gabi
+Écriture un minima selon personne. Idée de positivité, *✨️ d'espoir ✨️*, 
 ### 🌑 Scène Finale
 Discussion avec le fantôme, acceptation de l'existence et que le problème ne se réglera pas dans un futur proche. *Survie*, il faut feinter la boule noir et accepter ses tords.
 
@@ -133,3 +129,14 @@ Identification sans caractère Ontologique
 
 Personnes sans visages [geo imaginaire](#)
 ##### Intérieur 🆚️ Extérieur
+
+### ✨️ Fiction
+Scenario suspendu ou finit ?
+### Suspendu
+- Pas besoins d'inventer
+  -> "Décevant"
+### Finit
+- Fictif mais histoire compressible
+  -> Mensonge ou aide ?
+
+**Idée de fin:** résolution possible du problème des autres, possible de rencontrer qq d'autre... Ou pas.
