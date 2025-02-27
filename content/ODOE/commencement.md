@@ -26,3 +26,25 @@ Le passé n'est plus aussi douloureux qu'il l'a été, mais je garde en moi quel
 Je trouve les traumatismes fascinant. Imaginez : vous oubliez, du jour au lendemain, comment marcher. Vos souvenir passé vous rapelerons comment, sans même y penser, vous étiez capable de vous déplacer dans l'espace. Mais à présent, même avec la conscience que cet oubli est présent, vous restez incapable de marcher. Pour ma part, le traumatisme a touché à une émotion déjà difficile à comprendre : l'amour.
 
 # 🖤 Plus abstrait que l'amour
+
+Mais que signifie un amour défaillant ? Bonne nouvelle, il ne vient pas seul, et certains de ses camarades l'accompagne tour au long de son existence : la confiance à soi même comme aux autres en prend un coup, son estime de soi dégringole, et avec un peu de chance, vous sombrez dans la plus profonde tristesse que vous ne connaîtreriez sans doute jamais.
+
+Voilà une exposition simple et efficace de mon mal-être : une incompréhension totale de ses propres sentiments et un sentiment constant d'agression et de méchanceté, rend gratuite toute remarque mal jugé.
+
+ .
+
+ .
+
+C'est un bien triste tableau, je vous l'accorde. Mais une bonne nouvelle persiste : je suis resté en vie. Je pourrais chercher les raisons, mais ce n'est pas le but d'aujourd'hui. Car là où nous pourrions baisser les bras, je vais vous guider à travers mon parcours pour essayer de me comprendre, et de savoir si oui ou non j'ai tord de me blesser autant, pour si peut. Bienvenu dans une odyssée, non pas de l'amour mais de l'espoir, qui est loin d'être finit mais déjà bien commencé.
+
+# 👤 Les grands sont responsables
+
+Quoi de mieux pour obtenir des conseille sur la santé mentale qu'une infirmière scolaire ? Si vous pensiez à un psychologue, c'est là où j'ai finit après deux séances. J'étais motivé, j'avais préparé mes questions à l'avance, chercher ce qui n'allait pas, ce qui pouvait clocher. Je lui expose mon histoire, harcèlement, amis imaginaire, rien de bien méchant. Mais mon espoir s'arrêta net : "Tout va bien". C'est en partit cette phrase qui m'inspire à faire cette chronique, cette ironie de me dire qu'avec tout ce qui peux passer dans ma tête, je peux aller bien. Je rentre chez moi, livide, avec plus de questions que de réponses.
+
+J'ai parlé brièvement d'un ami imaginaire. Ne vous y attaché pas ! Si j'ai bien avancé sur quelque chose au fil de ces mois de recherches, c'est bien sur le statut de ma "folie", même si c'est plus qu'exagérer de l'appeler de cette manière. Là où l'amour mais fait tourner en rond, j'ai compris que ce que j'avais au profond de ma tête n'était qu'une bête erreur de conception : je l'ai appelé **syndrome de l'enfant rêveur**.
+
+Imaginez. C'est tout. Ce syndrome est bête et méchant, mais c'est ce qui fait sa force. Le syndrome de l'enfant rêveur consiste, en sa définition actuel, à une utilisation démesuré de l'imaginaire, et à une barrière entre la réalité et l'imagination flou, mal placé voir inexistante. Une imagination sans limites, comme on pourrait l'appelé, rendre normal une flamme sur votre bureau car elle vous occupe, *et qu'on s'ennuie sacrément dans cette salle d'attente*.
+
+
+> [!warning]
+> La nuit porte conseil
