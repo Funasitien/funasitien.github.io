@@ -1,3 +1,8 @@
+---
+title: 🔮 Histoire que vous compreniez...
+description: Il faudrait bien que je vous l'explique un jour.
+---
+
 J'ai toujours voulu commencer cette série, mais je n'ai jamais trouvé le courage d'écrire cette première ligne. De remplir cette première page.
 
 Au début je voulais le faire en prose. Soit.
@@ -16,4 +21,8 @@ Alors il est vrais que cette chronique devait au départ être une critique de l
 
 # 🎏 Le problème d'une vie
 
-Le passé n'est plus aussi douloureux qu'il l'a été, mais je garde en moi quelques séquelle de la magnifique destruction dont sont capables les êtres humains
+Le passé n'est plus aussi douloureux qu'il l'a été, mais je garde en moi quelques séquelle de la magnifique destruction dont sont capables les êtres humains. Et les psy pourrons vous promettre tout les miracles : certaines blessures laisseront des cicatrices, peu importe le mal que vous vous donnez à les soigner. C'est ce qu'on appelle couramment un traumatisme, et c'est un élément sur lequel je vais légèrement m'attardé dessus
+
+Je trouve les traumatismes fascinant. Imaginez : vous oubliez, du jour au lendemain, comment marcher. Vos souvenir passé vous rapelerons comment, sans même y penser, vous étiez capable de vous déplacer dans l'espace. Mais à présent, même avec la conscience que cet oubli est présent, vous restez incapable de marcher. Pour ma part, le traumatisme a touché à une émotion déjà difficile à comprendre : l'amour.
+
+# 🖤 Plus abstrait que l'amour
