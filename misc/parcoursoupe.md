@@ -1,0 +1,4 @@
+J'ai participer à l'organisation & l'administration de plusieurs soirées jeux vidéos dans mon lycée (lan), ce qui m'a amener à gérer des groupes d'élèves, à la fois dans l'animation des divers épreuves mais aussi la gestion de la restauration, des entrés...
+
+J'effectue d'abord de la Gymnastique en club en tant que sport extra-scolaires depuis 9 ans (La Renaisqance Gymnastique). Nous avons d'ailleurs participer à une compétition internationale il y a 3 ans à Neuchâtel en Suisse. Je fait également du dessins et du piano durant mon temps libre.
+Je fait aussi partie de la section Cinéma du Lycée Yves Kernanec, en tant qu'option depuis deux ans. J'ai effectué divers tournage, participé à l'organisation du festival libres regard il y a un an et en tant que jury il y a deux ans. J'ai aussi fait 4 ans de théâtre dans mon ancien collège, et nous avons joués au théâtre du nord.
