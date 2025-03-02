@@ -21,17 +21,4 @@ Docuception est une série de documentations reliés entre elles par un site web
     </a>
 </div>
 
-# 📦 Projets
-
-<div class="button-grid">
-    <a href="DEMOCRAFT/">
-        <img src="img/democraft_vector.svg" style="margin: 0rem;" alt="DEMOCRAFT button">
-    </a>
-    <a href="DREAMCLOUDS/">
-        <img src="img/dreamclouds_vector.svg" style="margin: 0rem;" alt="DREAMCLOUDS button">
-    </a>
-</div>
-
 Vous voulez tester le thème du site ? [[RESSOURCES/demo|Visitez la page de démo]] !
-
-# :LiFan:
