@@ -8,4 +8,10 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
   site: 'https://f.dreamclouds.fr',
   integrations: [tailwind(), icon(), mdx(), sitemap()],
+  experimental: {
+    viewTransitions: true
+  },
+  prefetch: {
+    prefetchAll: true
+  }
 });
