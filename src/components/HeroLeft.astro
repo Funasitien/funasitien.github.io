@@ -6,6 +6,7 @@ const {
   alt,
   image_text = "En savoir plus",
   image_url = "#",
+  image_class,
   button_text = "#",
   button_url = "#",
   icon = "tabler:info-circle-filled",
@@ -17,7 +18,7 @@ const {
   <div class="lg:w-1/2 flex max-h-96 justify-center md:justify-end max-sm:mt-4">
     <img
       src={image_url}
-      class:list={['w-auto min-h-96 rounded-badge', icon_class]}
+      class:list={['w-auto min-h-96 rounded-badge', image_class]}
       alt={image_text}
     />
   </div>
