@@ -23,7 +23,7 @@ const {
   </div>
   <div class="lg:w-1/2">
     <div class="justify-end flex w-full">
-      <div class="pr-3">
+      <div>
         <h1 class="text-end text-3xl lg:text-4xl font-bold">{title}</h1>
         <h3 class="magic text-end">{alt}</h3>
       </div>
@@ -36,7 +36,7 @@ const {
           />
         )
       }
-      {!icon.includes("/") && <Icon name={icon} class="text-6xl" />}
+      {!icon.includes("/") && icon !== "#" && <Icon name={icon} class="text-6xl pl-3" />}
     </div>
     <p class="py-6 text-lg text-end text-pretty">
       <slot />
