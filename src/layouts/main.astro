@@ -1,4 +1,5 @@
 ---
+import { ClientRouter } from 'astro:transitions';
 import "@fontsource/poppins";
 import "@fontsource/poppins/800.css";
 import Header from "../components/Header.astro";
@@ -37,6 +38,7 @@ const {
       import { themeChange } from "theme-change";
       themeChange();
     </script>
+    <ClientRouter />
   </head>
   <style>
     body {
