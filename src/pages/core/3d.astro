@@ -9,10 +9,10 @@ import ProjectsGrid from "../../components/ProjectsGrid.astro";
 
 <Layout>
 <div class="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 dark:bg-gray-800 py-6 sm:py-12">
-  <img src="/core/light_beams.jpg" alt="" class="bolck dark:hidden absolute top-1/2 left-1/2 max-w-none -translate-x-1/2 -translate-y-1/2" />
-  <img src="/core/dark_beams.jpg" alt="" class="hidden dark:block absolute top-1/2 left-1/2 max-w-none -translate-x-1/2 -translate-y-1/2" />
+  <img src="/core/light_beams.jpg" alt="" class="bolck dark:hidden absolute top-1/2 left-1/2 max-h-screen max-w-none -translate-x-1/2 -translate-y-1/2" />
+  <img src="/core/dark_beams.jpg" alt="" class="hidden dark:block absolute top-1/2 left-1/2 max-h-screen max-w-none -translate-x-1/2 -translate-y-1/2" />
   <div class="absolute inset-0 bg-[url(/core/grid.svg)] bg-center"></div>
-  <div class="absolute bottom-0 md:bottom-5 z-50 flex justify-center w-full min-w-full">
+  <div class="fixed absolute bottom-0 md:bottom-5 z-50 flex justify-center w-full min-w-full">
     <div class="bg-base-300 md:rounded-2xl p-2 flex justify-center gap-2 max-sm:w-full">
     <a href="">
       <img src="/icons/light.png" class="w-12 h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary transition-all duration-100 p-1 rounded-xl"/>
