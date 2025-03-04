@@ -17,13 +17,27 @@ import ProjectsGrid from "../../components/ProjectsGrid.astro";
     <a href="">
       <img src="/icons/light.png" class="w-12 h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary transition-all duration-100 p-1 rounded-xl"/>
     </a>
-    <a href="">
-      <img src="/icons/cube.png" class="w-12 h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary transition-all duration-100 p-1 rounded-xl"/>
-    </a>
-    <a href="">
-      <img src="/icons/pixel.png" class="w-12 h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary transition-all duration-100 p-1 rounded-xl"/>
-    </a>
-    <a href="/core">
+    <div class="tooltip" data-tip="hello">
+      <div class="tooltip-content">
+        <div class="animate-bounce text-orange-400 -rotate-10 text-2xl font-black">
+          Wow!
+        </div>
+      </div>
+      <a href="/core/3d">
+        <img src="/icons/cube.png" class="w-12 h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary transition-all duration-100 p-1 rounded-xl"/>
+      </a>
+    </div>
+    <div class="tooltip" data-tip="hello">
+      <div class="tooltip-content">
+        <div class="animate-bounce text-orange-400 -rotate-10 text-2xl font-black">
+          Wow!
+        </div>
+      </div>
+      <a href="/core/pixel">
+        <img src="/icons/pixel.png" class="w-12 h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary transition-all duration-100 p-1 rounded-xl"/>
+      </a>
+    </div>
+    <a href="/core/music">
       <img src="/icons/disc.png" class="w-12 h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary transition-all duration-100 p-1 rounded-xl"/>
     </a>
     </div>
