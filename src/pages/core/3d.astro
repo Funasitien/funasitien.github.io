@@ -17,22 +17,12 @@ import ProjectsGrid from "../../components/ProjectsGrid.astro";
     <a href="">
       <img src="/icons/light.png" class="w-12 h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary transition-all duration-100 p-1 rounded-xl"/>
     </a>
-    <div class="tooltip" data-tip="hello">
-      <div class="tooltip-content">
-        <div class="animate-bounce text-orange-400 -rotate-10 text-2xl font-black">
-          Wow!
-        </div>
-      </div>
+    <div class="tooltip" data-tip="Modèle 3D">
       <a href="/core/3d">
         <img src="/icons/cube.png" class="w-12 h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary transition-all duration-100 p-1 rounded-xl"/>
       </a>
     </div>
-    <div class="tooltip" data-tip="hello">
-      <div class="tooltip-content">
-        <div class="animate-bounce text-orange-400 -rotate-10 text-2xl font-black">
-          Wow!
-        </div>
-      </div>
+    <div class="tooltip" data-tip="Pixel Art">
       <a href="/core/pixel">
         <img src="/icons/pixel.png" class="w-12 h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary transition-all duration-100 p-1 rounded-xl"/>
       </a>
@@ -44,12 +34,12 @@ import ProjectsGrid from "../../components/ProjectsGrid.astro";
   </div> 
 
   <div class="flex flex-col md:flex-row p-2 md:p-20">
-    <div class="bg-lime-500 flex w-full md:w-2/3 max-sm:hidden"></div>
-    <div class="bg-red-500 flex w-full h-full md:w-1/3">    
-    <div class="mask mask-custom bg-base-content h-full md:h-[30rem] w-full md:w-[30rem] z-50 rounded-badge text-base-300">
-      <iframe class="w-full h-full bg-base-300"  title="Kart 1" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/6007809ac3c0448db4465b67e64657c5/embed?autostart=1&transparent=1"> </iframe>
+    <div class="bg-lime-500 flex w-full md:w-2/3 max-sm:hidden z-30"></div>
+    <div class="bg-red-500 flex w-full h-full md:w-1/3 z-30">    
+      <div class="mask mask-custom bg-base-content h-full md:h-[30rem] w-full md:w-[30rem] z-50 rounded-badge text-base-300">
+        <iframe class="w-full h-full bg-base-300"  title="Kart 1" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/6007809ac3c0448db4465b67e64657c5/embed?autostart=1&transparent=1"> </iframe>
+      </div>
     </div>
-  </div>
   </div>
 </div>
 </Layout>
