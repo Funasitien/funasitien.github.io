@@ -1,6 +1,7 @@
 ---
 import Layout from "../../layouts/core.astro";
 import List from "../../components/SoundcloudList.astro";
+import { Icon } from "astro-icon/components";
 ---
 
 <Layout>
@@ -13,21 +14,29 @@ import List from "../../components/SoundcloudList.astro";
       class="fixed start-0 bottom-0 md:bottom-5 z-50 flex justify-center w-full min-w-full"
     >
       <div
-        class="bg-base-300 md:rounded-2xl p-2 flex justify-center gap-2 max-sm:w-full"
+        class="bg-base-300 md:rounded-2xl p-2 flex justify-center gap-2 max-md:w-full"
       >
+       <div class="tooltip" data-tip="Accueil">
+          <a href="/core">
+            <img
+              src="/icons/home.png"
+              class="w-auto h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary hover:rounded-xl transition-all duration-100 p-1"
+            />
+          </a>
+        </div>
         <div class="tooltip" data-tip="Design">
           <a href="">
             <img
               src="/icons/light.png"
-              class="w-12 h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary transition-all duration-100 p-1 rounded-xl"
+              class="w-12 h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary hover:rounded-xl transition-all duration-100 p-1"
             />
           </a>
         </div>
-        <div class="tooltip" data-tip="Modèle 3D">
+        <div class="tooltip" data-tip="Modèles 3D">
           <a href="/core/3d">
             <img
               src="/icons/cube.png"
-              class="w-12 h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary transition-all duration-100 p-1 rounded-xl"
+              class="w-12 h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary hover:rounded-xl transition-all duration-100 p-1"
             />
           </a>
         </div>
@@ -35,7 +44,7 @@ import List from "../../components/SoundcloudList.astro";
           <a href="/core/pixel">
             <img
               src="/icons/pixel.png"
-              class="w-12 h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary transition-all duration-100 p-1 rounded-xl"
+              class="w-12 h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary hover:rounded-xl transition-all duration-100 p-1"
             />
           </a>
         </div>
@@ -43,7 +52,7 @@ import List from "../../components/SoundcloudList.astro";
           <a href="/core/music">
             <img
               src="/icons/disc.png"
-              class="w-12 h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary transition-all duration-100 p-1 rounded-xl"
+              class="w-12 h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary hover:rounded-xl transition-all duration-100 p-1"
             />
           </a>
         </div>
@@ -51,13 +60,21 @@ import List from "../../components/SoundcloudList.astro";
     </div>
 
     <div class="absolute flex flex-col md:flex-row justify-center p-2 md:p-20 z-20 h-screen w-full gap-12">
-      <div class="max-sm:min-h-[30%] flex w-full h-3/5 md:w-3/5 z-30 md:h-full">
+      <div id="bdiv" class="flex flex-col w-full md:w-3/5 z-30 h-4/5 md:h-full">
+        <div class="flex w-full text-2xl md:text-4xl font-bold items-center gap-4">
+          <img
+              src="/icons/disc.png"
+              class="w-12 h-12 md:w-16 md:h-16"
+            />
+            Musiques
+        </div>
         <ul
-          class="list block bg-base-100 rounded-box shadow-md overflow-auto w-full h-fit my-16"
+          class="list block bg-base-100 rounded-box shadow-md overflow-auto w-full h-fit my-12"
         >
-          <List
+        <List
           titre = "Bule"
-          icon = "tabler:car-filled"
+          description = 'Titre n°x de la série "Chill Time". Réalisé en 2022'
+          icon = "tabler:chart-bubble-filled"
           icon_bg = "bg-red-300 dark:bg-red-800"
           link = "https://soundcloud.com/bydreamcloud/bule"
           data="1199421853">
@@ -65,7 +82,8 @@ import List from "../../components/SoundcloudList.astro";
         </List>
         <List
           titre = "Lovibe - Snow Edition"
-          icon = "tabler:car-filled"
+          description = 'Titre n°x de la série "Chill Time". Réalisé en 2022'
+          icon = "tabler:snowman"
           icon_bg = "bg-red-300 dark:bg-red-800"
           link = "https://soundcloud.com/bydreamcloud/lovibe-snow-edition"
           data="1200310972">
@@ -73,14 +91,27 @@ import List from "../../components/SoundcloudList.astro";
         </List>
         </ul>
       </div>
-      <div class="max-sm:min-h-[45%] flex w-full h-1/3 md:w-1/3 z-30 md:h-full">
+      <div id="idiv" class="flex flex-col w-full md:w-1/3 z-30 h-4/5 md:h-full max-md:hidden">
+        <div class="">
+          <div class="flex flex-row place-content-between">
+            <span class="badge badge-primary badge-xl font-bold" id="title">
+              Bule
+            </span>
+            <button class="btn btn-ghost btn-sm md:hidden" onclick="hideI()">
+              <Icon name="tabler:arrow-big-left-filled" class="text-3xl" />
+            </button>
+          </div>
+          <p id="description" class="p-2 text-base-content">
+            Titre n°x de la série "Chill Time". Réalisé en 2022
+          </p>
+        </div>
         <div
-          class="mask mask-custom bg-base-content h-full w-full z-50 rounded-4xl text-base-300 flex items-center justify-center"
+          class="mask mask-custom bg-base-300 h-full w-full z-50 rounded-4xl text-base-content"
         >
           <iframe
-            class="w-full bg-base-300 iframe"
-            title="Kart 1"
-            height="450"
+            class="w-full h-full bg-base-100 shadow-md mt-8 iframe"
+            title="Musique Iframe Magiiique"
+            frameborder="0"
             allowfullscreen
             allow="autoplay; fullscreen; xr-spatial-tracking"
             xr-spatial-tracking
@@ -88,7 +119,7 @@ import List from "../../components/SoundcloudList.astro";
             execution-while-not-rendered
             web-share
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1199421853&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"
-          >
+            >
           </iframe>
         </div>
       </div>
@@ -98,14 +129,25 @@ import List from "../../components/SoundcloudList.astro";
   <script is:inline>
     const buttons = document.querySelectorAll("button.core");
     const iframe = document.querySelector(".iframe");
+    const idiv = document.querySelector("#idiv");
+    const bdiv = document.querySelector("#bdiv");
 
     buttons.forEach((button) => {
       button.addEventListener("click", () => {
         const coreValue = button.getAttribute("data-core");
         if (coreValue) {
           iframe.src = coreValue;
+          bdiv.classList.add("max-md:hidden")
+          idiv.classList.remove("max-md:hidden")
+          document.querySelector("#title").innerHTML = button.getAttribute("data-titre");
+          document.querySelector("#description").innerHTML = button.getAttribute("data-description");
         }
       });
     });
+
+    function hideI() {
+      bdiv.classList.remove("max-md:hidden")
+      idiv.classList.add("max-md:hidden")
+    }
   </script>
 </Layout>

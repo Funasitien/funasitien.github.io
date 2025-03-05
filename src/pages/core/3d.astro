@@ -61,7 +61,7 @@ import { Icon } from "astro-icon/components";
 
     <div class="absolute flex flex-col md:flex-row justify-center p-2 md:p-20 z-20 h-screen w-full gap-12">
       <div id="bdiv" class="flex flex-col w-full md:w-3/5 z-30 h-4/5 md:h-full">
-        <div class="flex w-full text-2xl md:text-4xl font-bold items-center gap-2">
+        <div class="flex w-full text-2xl md:text-4xl font-bold items-center gap-4">
           <img
               src="/icons/cube.png"
               class="w-12 h-12 md:w-16 md:h-16"
@@ -82,7 +82,7 @@ import { Icon } from "astro-icon/components";
         </List>
         <List
           titre = "Platine"
-          description = "Platine"
+          description = "1<br>2"
           icon = "tabler:disc-filled"
           icon_bg = "bg-purple-300 dark:bg-purple-800"
           data="9fb7fa79afbf47868c793dca10a5db93">
@@ -90,8 +90,17 @@ import { Icon } from "astro-icon/components";
           <div class="badge badge-xs">🎹 Instrument</div>
         </List>
         <List
+          titre = "Guitare"
+          description = "1<br>2"
+          icon = "tabler:brand-netease-music"
+          icon_bg = "bg-sky-300 dark:bg-sky-800"
+          data="9aef4e3ca0434bb5a3f52e8ff14d179d">
+          <div class="badge badge-xs badge-error">🌟 DEMOCRAFT</div>
+          <div class="badge badge-xs">🎹 Instrument</div>
+        </List>
+        <List
           titre = "Piano"
-          description = "Piano"
+          description = "1<br>2"
           icon = "tabler:piano"
           icon_bg = "bg-purple-300 dark:bg-purple-800"
           data="7e265a3e18a34643a047ba64449e9520">
@@ -99,13 +108,22 @@ import { Icon } from "astro-icon/components";
           <div class="badge badge-xs">🎹 Instrument</div>
         </List>
         <List
-          titre = "Guitare"
-          description = "Guitare"
-          icon = "tabler:brand-netease-music"
-          icon_bg = "bg-sky-300 dark:bg-sky-800"
-          data="9aef4e3ca0434bb5a3f52e8ff14d179d">
+          titre = "DEMO la BRIQUE"
+          description = "1<br>2"
+          icon = "tabler:building-tunnel"
+          icon_bg = "bg-rose-200 dark:bg-rose-800"
+          data="20bdd8d4376447459f48d0f4e1426f24">
           <div class="badge badge-xs badge-error">🌟 DEMOCRAFT</div>
-          <div class="badge badge-xs">🎹 Instrument</div>
+          <div class="badge badge-xs">🦄 Mascotte</div>
+        </List>
+        <List
+          titre = "CACTOUS le CACTUS"
+          description = "1<br>2"
+          icon = "tabler:cactus-filled"
+          icon_bg = "bg-lime-300 dark:bg-lime-800"
+          data="a5cef7c3acf54491ad32fcf6fd0069ca">
+          <div class="badge badge-xs badge-error">🌟 DEMOCRAFT</div>
+          <div class="badge badge-xs">🦄 Mascotte</div>
         </List>
         </ul>
       </div>
@@ -115,7 +133,7 @@ import { Icon } from "astro-icon/components";
             <span class="badge badge-primary badge-xl font-bold" id="title">
               Kart Rouge
             </span>
-            <button class="btn btn-ghost btn-sm md:ho" onclick="hideI()">
+            <button class="btn btn-ghost btn-sm md:hidden" onclick="hideI()">
               <Icon name="tabler:arrow-big-left-filled" class="text-3xl" />
             </button>
           </div>
