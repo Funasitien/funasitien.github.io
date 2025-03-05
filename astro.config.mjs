@@ -7,7 +7,10 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://futur.funacode.pages.dev',
-  integrations: [tailwindcss(), icon(), mdx(), sitemap()],
+  integrations: [icon(), mdx(), sitemap()],
+  vite: {
+    plugins: [tailwindcss()],
+  },
   prefetch: {
     prefetchAll: false
   }
