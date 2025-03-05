@@ -1,0 +1,27 @@
+---
+import { Icon } from "astro-icon/components";
+const {
+  titre,
+  icon,
+  icon_bg,
+  link,
+  data,
+} = Astro.props;
+---
+<li class="list-row list-col-grow">
+    <div class:list={["flex justify-center items-center rounded-xl px-1.5", icon_bg]}>
+      <Icon name={icon} class="text-4xl" />
+    </div>
+    <div>
+      <div class="text-lg font-semibold">{titre}</div>
+      <div>
+        <slot />
+      </div>
+    </div>
+    <a class="btn btn-square btn-ghost" href={link} target="_blank">
+      <Icon name="tabler:external-link" class="size-[1.6em]"/>
+    </a>
+    <button class="btn btn-square btn-primary core" data-core=`https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/${data}&color=%23ff5500&auto_play=true&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true`>
+      <Icon name="tabler:zoom-scan" class="size-[1.6em]"/>
+    </button>
+  </li>

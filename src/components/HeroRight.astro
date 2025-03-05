@@ -14,11 +14,11 @@ const {
 } = Astro.props;
 ---
 
-<div class="min-h-96 flex py-2 flex-col-reverse lg:flex-row ml-4 lg:py-6 px-4 lg:px-64 ">
+<div class="min-h-96 flex py-2 flex-col-reverse lg:flex-row ml-4 lg:py-6 gap-8">
   <div class="lg:w-1/2 flex justify-start">
     <img
       src={image_url}
-      class:list={["flex w-full h-auto rounded-lg justify-center", image_class]}
+      class:list={["flex w-full h-auto rounded-4xl justify-center", image_class]}
       alt={image_text}
     />
   </div>

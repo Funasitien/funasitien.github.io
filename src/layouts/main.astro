@@ -12,7 +12,7 @@ const {
 } = Astro.props;
 ---
 
-<html lang="fr" class="selection:bg-sky-200 selection:text-sky-700 transition-all duration-500 ease-in-out ">
+<html lang="fr" data-theme="superlight" class="selection:bg-sky-200 selection:text-sky-700 transition-all duration-500 ease-in-out ">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
@@ -28,7 +28,7 @@ const {
     <script is:inline>
       // ☝️ This script prevent the FART effect.
       if (localStorage.getItem("theme") === null) {
-        document.documentElement.setAttribute("data-theme", "night");
+        document.documentElement.setAttribute("data-theme", "superlight");
       } else
         document.documentElement.setAttribute(
           "data-theme",
