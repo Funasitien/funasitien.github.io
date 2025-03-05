@@ -1,6 +1,7 @@
 ---
 import Layout from "../../layouts/core.astro";
 import List from "../../components/SketchfabList.astro";
+import { Icon } from "astro-icon/components";
 ---
 
 <Layout>
@@ -13,13 +14,13 @@ import List from "../../components/SketchfabList.astro";
       class="fixed start-0 bottom-0 md:bottom-5 z-50 flex justify-center w-full min-w-full"
     >
       <div
-        class="bg-base-300 md:rounded-2xl p-2 flex justify-center gap-2 max-sm:w-full"
+        class="bg-base-300 md:rounded-2xl p-2 flex justify-center gap-2 max-md:w-full"
       >
-       <div class="tooltip" data-tip="Musique">
+       <div class="tooltip" data-tip="Musiques">
           <a href="/core">
             <img
               src="/icons/home.png"
-              class="w-auto h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary transition-all duration-100 p-1"
+              class="w-auto h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary hover:rounded-xl transition-all duration-100 p-1"
             />
           </a>
         </div>
@@ -27,15 +28,15 @@ import List from "../../components/SketchfabList.astro";
           <a href="">
             <img
               src="/icons/light.png"
-              class="w-12 h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary transition-all duration-100 p-1"
+              class="w-12 h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary hover:rounded-xl transition-all duration-100 p-1"
             />
           </a>
         </div>
-        <div class="tooltip" data-tip="Modèle 3D">
+        <div class="tooltip" data-tip="Modèles 3D">
           <a href="/core/3d">
             <img
               src="/icons/cube.png"
-              class="w-12 h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary transition-all duration-100 p-1"
+              class="w-12 h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary hover:rounded-xl transition-all duration-100 p-1"
             />
           </a>
         </div>
@@ -43,7 +44,7 @@ import List from "../../components/SketchfabList.astro";
           <a href="/core/pixel">
             <img
               src="/icons/pixel.png"
-              class="w-12 h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary transition-all duration-100 p-1"
+              class="w-12 h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary hover:rounded-xl transition-all duration-100 p-1"
             />
           </a>
         </div>
@@ -51,7 +52,7 @@ import List from "../../components/SketchfabList.astro";
           <a href="/core/music">
             <img
               src="/icons/disc.png"
-              class="w-12 h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary transition-all duration-100 p-1"
+              class="w-12 h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary hover:rounded-xl transition-all duration-100 p-1"
             />
           </a>
         </div>
@@ -59,25 +60,47 @@ import List from "../../components/SketchfabList.astro";
     </div>
 
     <div class="absolute flex flex-col md:flex-row justify-center p-2 md:p-20 z-20 h-screen w-full gap-12">
-      <div id="bdiv" class="max-sm:min-h-[30%] flex w-full h-3/5 md:w-3/5 z-30 md:h-full">
+      <div id="bdiv" class="max-md:min-h-[30%] flex flex-col w-full h-3/5 md:w-3/5 z-30 md:h-full">
+        <div class="flex w-full text-2xl md:text-4xl font-bold items-center gap-2">
+          <img
+              src="/icons/cube.png"
+              class="w-12 h-12 md:w-16 md:h-16 hover:-translate-y-2 hover:scale-110 hover:bg-primary transition-all duration-100 p-1"
+            />
+            Modèles 3D
+        </div>
         <ul
-          class="list block bg-base-100 rounded-box shadow-md overflow-auto w-full h-fit my-16"
+          class="list block bg-base-100 rounded-box shadow-md overflow-auto w-full h-fit my-12"
         >
-          <List titre = "Kart Rouge"
+        <List
+          titre = "Kart Rouge"
+          description = "Véhicule réalisé pour un mode de jeux de course de karts sur DEMOCRAFT."
           icon = "tabler:car-filled"
           icon_bg = "bg-red-300 dark:bg-red-800"
           data="6007809ac3c0448db4465b67e64657c5">
           <div class="badge badge-xs badge-error">🌟 DEMOCRAFT</div>
           <div class="badge badge-xs">🚗 Véhicule</div>
         </List>
-        <List titre = "Platine"
+        <List
+          titre = "Platine"
+          description = "Platine"
           icon = "tabler:disc-filled"
           icon_bg = "bg-purple-300 dark:bg-purple-800"
           data="9fb7fa79afbf47868c793dca10a5db93">
           <div class="badge badge-xs badge-error">🌟 DEMOCRAFT</div>
           <div class="badge badge-xs">🎹 Instrument</div>
         </List>
-        <List titre = "Guitare"
+        <List
+          titre = "Piano"
+          description = "Piano"
+          icon = "tabler:piano"
+          icon_bg = "bg-purple-300 dark:bg-purple-800"
+          data="7e265a3e18a34643a047ba64449e9520">
+          <div class="badge badge-xs badge-error">🌟 DEMOCRAFT</div>
+          <div class="badge badge-xs">🎹 Instrument</div>
+        </List>
+        <List
+          titre = "Guitare"
+          description = "Guitare"
           icon = "tabler:brand-netease-music"
           icon_bg = "bg-sky-300 dark:bg-sky-800"
           data="9aef4e3ca0434bb5a3f52e8ff14d179d">
@@ -86,15 +109,25 @@ import List from "../../components/SketchfabList.astro";
         </List>
         </ul>
       </div>
-      <div id="idiv" class="max-sm:min-h-[45%] flex flex-col w-full h-1/3 md:w-1/3 z-30 md:h-full max-sm:hidden">
+      <div id="idiv" class="max-md:min-h-[45%] flex flex-col w-full h-1/3 md:w-1/3 z-30 md:h-full max-md:hidden">
         <div class="">
-        <button class="btn btn-ghost" onclick="hideI()">O</button>
+          <div class="flex flex-row place-content-between">
+            <span class="badge badge-primary badge-xl font-bold" id="title">
+              Kart Rouge
+            </span>
+            <button class="btn btn-ghost btn-sm md:ho" onclick="hideI()">
+              <Icon name="tabler:arrow-big-left-filled" class="text-3xl" />
+            </button>
+          </div>
+          <p id="description" class="p-2 text-base-content">
+            Véhicule réalisé pour un mode de jeux de course de karts sur DEMOCRAFT.
+          </p>
         </div>
         <div
-          class="mask mask-custom bg-base-content h-full w-full z-50 rounded-4xl text-base-300"
+          class="mask mask-custom bg-base-300 h-full w-full z-50 rounded-4xl text-base-content"
         >
           <iframe
-            class="w-full h-full bg-base-300 iframe"
+            class="w-full h-full bg-base-100 shadow-md iframe"
             title="Kart 1"
             frameborder="0"
             allowfullscreen
@@ -122,15 +155,17 @@ import List from "../../components/SketchfabList.astro";
         const coreValue = button.getAttribute("data-core");
         if (coreValue) {
           iframe.src = coreValue;
-          bdiv.classList.add("max-sm:hidden")
-          idiv.classList.remove("max-sm:hidden")
+          bdiv.classList.add("max-md:hidden")
+          idiv.classList.remove("max-md:hidden")
+          document.querySelector("#title").innerHTML = button.getAttribute("data-titre");
+          document.querySelector("#description").innerHTML = button.getAttribute("data-description");
         }
       });
     });
 
     function hideI() {
-      bdiv.classList.remove("max-sm:hidden")
-      idiv.classList.add("max-sm:hidden")
+      bdiv.classList.remove("max-md:hidden")
+      idiv.classList.add("max-md:hidden")
     }
   </script>
 </Layout>

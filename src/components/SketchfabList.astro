@@ -2,6 +2,7 @@
 import { Icon } from "astro-icon/components";
 const {
   titre,
+  description,
   icon,
   icon_bg,
   data,
@@ -20,7 +21,7 @@ const {
     <a class="btn btn-square btn-ghost" href=`https://sketchfab.com/models/${data}` target="_blank">
       <Icon name="tabler:external-link" class="size-[1.6em]"/>
     </a>
-    <button class="btn btn-square btn-primary core" data-core=`https://sketchfab.com/models/${data}/embed?autostart=1&transparent=1`>
+    <button class="btn btn-square btn-primary core" data-titre={ titre } data-description={ description } data-core=`https://sketchfab.com/models/${data}/embed?autostart=1&transparent=1`>
       <Icon name="tabler:zoom-scan" class="size-[1.6em]"/>
     </button>
   </li>
