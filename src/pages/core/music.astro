@@ -5,7 +5,7 @@ import { Icon } from "astro-icon/components";
 ---
 
 <Layout>
-  <div class="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 dark:bg-gray-800 py-6 sm:py-12">
+  <div class="relative flex min-h-screen flex-col justify-center overflow-hidden py-6 sm:py-12">
     <img src="/core/light_beams.jpg" alt="" class="bolck dark:hidden absolute top-1/2 left-1/2 max-w-none -translate-x-1/2 -translate-y-1/2" />
     <img src="/core/dark_beams.jpg" alt="" class="hidden dark:block absolute top-1/2 left-1/2 max-w-none -translate-x-1/2 -translate-y-1/2" />
     
@@ -56,6 +56,21 @@ import { Icon } from "astro-icon/components";
             />
           </a>
         </div>
+        <button
+          data-toggle-theme="superlight,superdark"
+          data-act-class="superlight"
+          aria-label="Theme Switcher">
+          <img
+            class="w-12 h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary hover:rounded-xl transition-all duration-100 p-1 dark:hidden"
+            src="/icons/light.png"
+            alt="White Them Palette"
+          />
+          <img
+            class="w-12 h-12 hover:-translate-y-2 hover:scale-110 hover:bg-primary hover:rounded-xl transition-all duration-100 p-1 hidden dark:block"
+            src="/icons/dark.png"
+            alt="Dark Them Palette"
+          />
+        </button>
       </div>
     </div>
 
@@ -75,7 +90,7 @@ import { Icon } from "astro-icon/components";
           titre = "Bule"
           description = 'Titre n°x de la série "Chill Time". Réalisé en 2022'
           icon = "tabler:chart-bubble-filled"
-          icon_bg = "bg-red-300 dark:bg-red-800"
+          icon_bg = "bg-sky-300 dark:bg-sky-900"
           link = "https://soundcloud.com/bydreamcloud/bule"
           data="1199421853">
           <div class="badge badge-xs badge-success">🍃 Chill Time</div>
@@ -83,26 +98,26 @@ import { Icon } from "astro-icon/components";
         <List
           titre = "LoVibe"
           description = 'Titre n°x de la série "Chill Time". Réalisé en 2022'
-          icon = "tabler:chart-bubble-filled"
-          icon_bg = "bg-red-300 dark:bg-red-800"
+          icon = "tabler:plant"
+          icon_bg = "bg-rose-200 dark:bg-rose-900"
           link = "https://soundcloud.com/bydreamcloud/lovibe"
-          data="1199421781">
+          data="1199421838">
           <div class="badge badge-xs badge-success">🍃 Chill Time</div>
         </List>
         <List
           titre = "Néo"
           description = 'Titre n°x de la série "Chill Time". Réalisé en 2022'
           icon = "tabler:chart-bubble-filled"
-          icon_bg = "bg-red-300 dark:bg-red-800"
+          icon_bg = "bg-yellow-200 dark:bg-yellow-900"
           link = "https://soundcloud.com/bydreamcloud/néo"
-          data="1199421784">
+          data="1199421808">
           <div class="badge badge-xs badge-success">🍃 Chill Time</div>
         </List>
         <List
           titre = "Slide"
           description = 'Titre n°x de la série "Chill Time". Réalisé en 2022'
-          icon = "tabler:chart-bubble-filled"
-          icon_bg = "bg-red-300 dark:bg-red-800"
+          icon = "tabler:droplets"
+          icon_bg = "bg-lime-200 dark:bg-lime-900"
           link = "https://soundcloud.com/bydreamcloud/slide"
           data="1199421796">
           <div class="badge badge-xs badge-success">🍃 Chill Time</div>
@@ -110,26 +125,26 @@ import { Icon } from "astro-icon/components";
         <List
           titre = "The B"
           description = 'Titre n°x de la série "Chill Time". Réalisé en 2022'
-          icon = "tabler:chart-bubble-filled"
-          icon_bg = "bg-red-300 dark:bg-red-800"
+          icon = "tabler:hexagon-letter-b-filled"
+          icon_bg = "bg-red-300 dark:bg-red-900"
           link = "https://soundcloud.com/bydreamcloud/the-b"
-          data="1199421808">
+          data="1199421784">
           <div class="badge badge-xs badge-success">🍃 Chill Time</div>
         </List>
         <List
           titre = "Undertown"
           description = 'Titre n°x de la série "Chill Time". Réalisé en 2022'
-          icon = "tabler:chart-bubble-filled"
-          icon_bg = "bg-red-300 dark:bg-red-800"
+          icon = "tabler:building-skyscraper"
+          icon_bg = "bg-indigo-300 dark:bg-indigo-900"
           link = "https://soundcloud.com/bydreamcloud/undertown"
-          data="1199421838">
+          data="1199421781">
           <div class="badge badge-xs badge-success">🍃 Chill Time</div>
         </List>
         <List
           titre = "Lovibe - Snow Edition"
           description = 'Titre n°x de la série "Chill Time". Réalisé en 2022'
           icon = "tabler:snowman"
-          icon_bg = "bg-red-300 dark:bg-red-800"
+          icon_bg = "bg-orange-300 dark:bg-orange-900"
           link = "https://soundcloud.com/bydreamcloud/lovibe-snow-edition"
           data="1200310972">
           <div class="badge badge-xs badge-warning">🍃 Chill Time Deluxe</div>
@@ -154,7 +169,7 @@ import { Icon } from "astro-icon/components";
           class="mask mask-custom bg-base-300 h-full w-full z-50 rounded-4xl text-base-content"
         >
           <iframe
-            class="w-full h-full bg-base-100 shadow-md mt-8 iframe"
+            class="w-full h-full bg-base-100 shadow-md mt-12 sm:mt-2 md:mt-8 xl:mt-12 iframe"
             title="Musique Iframe Magiiique"
             frameborder="0"
             allowfullscreen
