@@ -18,7 +18,7 @@ const {
         <slot />
       </div>
     </div>
-    <a class="btn btn-square btn-ghost" href=`https://sketchfab.com/models/${data}` target="_blank">
+    <a class="max-sm:hidden btn btn-square btn-ghost" href=`https://sketchfab.com/models/${data}` target="_blank">
       <Icon name="tabler:external-link" class="size-[1.6em]"/>
     </a>
     <button class="btn btn-square btn-primary core" data-titre={titre} data-description={description} data-core=`https://sketchfab.com/models/${data}/embed?autostart=1&transparent=1`>
