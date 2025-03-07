@@ -2,12 +2,12 @@
 import { Icon } from "astro-icon/components";
 ---
 
-<footer class="footer items-center p-4 bg-primary text-primary-content lg:px-64 transition-all duration-500 ease-in-out">
-  <nav class="items-center grid-flow-col">
+<footer class="flex flex-row md:flex-col items-center p-4 bg-primary text-primary-content lg:px-64 transition-all duration-500 ease-in-out">
+  <div class="grow items-center grid-flow-col">
     <img class="h-16 w-16" src="/logo.png" alt="Funasitien's Head" />
     <p>Copyright © 2023-2025 Funasitien DreamCloud - Tout droit réservés</p>
-  </nav>
-  <nav class="grid-flow-col gap-6 place-self-center md:justify-self-end">
+  </div>
+  <div class="grid-flow-col gap-6 place-self-center md:justify-self-end">
     <a
       href="https://youtube.com/@funasitien"
       target="_blank"
@@ -40,6 +40,6 @@ import { Icon } from "astro-icon/components";
       aria-label="Discord">
       <img class="w-8 h-8 hover:scale-110 transition-all duration-100" src="/social/discord.png"/>
     </a>
-  </nav>
+  </div>
   <div class="py-6 md:py-0"></div>
 </footer>
