@@ -1,18 +1,15 @@
 ---
-import { ClientRouter } from 'astro:transitions';
 import "@fontsource/poppins";
 import "@fontsource/poppins/800.css";
-import Header from "../components/Header.astro";
-import Footer from "../components/Footer.astro";
 import "../assets/app.css";
 
 const {
-  title = "Funasitien",
-  description = "Funasitien's super dupper website is amazing !",
+  title = "C0RE",
+  description = "Un super outil pour des superbes créations",
 } = Astro.props;
 ---
 
-<html lang="fr" data-theme="superlight" class="selection:bg-sky-200 selection:text-sky-700 transition-all duration-500 ease-in-out ">
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
@@ -28,7 +25,7 @@ const {
     <script is:inline>
       // ☝️ This script prevent the FART effect.
       if (localStorage.getItem("theme") === null) {
-        document.documentElement.setAttribute("data-theme", "superlight");
+        document.documentElement.setAttribute("data-theme", "night");
       } else
         document.documentElement.setAttribute(
           "data-theme",
@@ -39,7 +36,6 @@ const {
       import { themeChange } from "theme-change";
       themeChange();
     </script>
-    <ClientRouter />
   </head>
   <style>
     body {
@@ -48,10 +44,5 @@ const {
     }
   </style>
   <body>
-    <Header />
-    <main class="px-4 lg:px-32 pt-24">
-      <slot />
-    </main>
-  </body>
-  <Footer />
+    <slot />
 </html>

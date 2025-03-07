@@ -8,14 +8,17 @@ import ProjectsGrid from "../components/ProjectsGrid.astro";
 ---
 
 <Layout title="Funasitien DreamCloud">
-    <div class="py-8">
-        <div class="bg-[url('/images/banner.png')] w-full h-[16rem] md:h-[42rem] flex flex-col justify-center items-center rounded-4xl bg-center max-sm:bg-cover">
-            <h1 class="text-2xl md:text-6xl font-bold">Funasitien DreamCloud</h1>
-            <p class="text-lg md:text-xl">[fønazisiɛ̃]</p>
+    <div class="min-h-[75vh] flex justify-center items-center flex-col md:flex-row">
+        <img class="w-64 h-64" src="/renders/box_construction.png" alt="Rendu 3D 1" />
+        <div>
+            <h1 class="text-4xl font-bold">En construction</h1>
+            <p class="text-lg">Version de développement du portfolio.</p>
+            <p>[fønazisiɛ̃]</p>
         </div>
+        <img class="w-64 h-64" src="/renders/under_construction.png" alt="Rendu 3D 2" />
     </div>
     <HeroLeft
-        title="En quelques lignes..."
+        title="Funasitien DreamCloud"
         alt="Developpeur Web Fullstack"
         image_url="/emojis/Writing Hand.png"
         image_text="Emoji d'une main qui écrit"
@@ -23,7 +26,7 @@ import ProjectsGrid from "../components/ProjectsGrid.astro";
         button_text="#"
         icon="#"
         >
-        Bonjour ! Moi c'est Funasitien, développeur, graphiste et modélisateur depuis 2018. Ma spécialité est le développement frontend (interfaces web)
+        Bonjour ! Moi c'est Funasitien, développeur, graphiste et modélisateur depuis 2018
     </HeroLeft> 
     <HeroRight
         title="Funasitien DreamCloud"

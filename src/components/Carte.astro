@@ -1,0 +1,19 @@
+---
+import { Icon } from "astro-icon/components";
+
+const {
+  titre,
+  image,
+  description,
+  link = "/",
+} = Astro.props;
+---
+
+<div class="relative md:col-span-3 border-base-300 border-4 border-dashed rounded-4xl bg-clip-padding bg-cover bg-center bg-no-repeat min-h-64" style=`background-image: url(${image});`>
+    <div class="md:col-span-3 border-base-300 text-base-300 dark:text-base-content border-4 border-dashed rounded-2xl bg-neutral m-4 p-4 bottom-0 absolute w-[90%] flex flex-col justify-between">
+        <h1 class="text-3xl font-bold">{ titre }</h1>
+        <p class="text-base">{ description }</p>
+        <a href={link} class="text-sm text-right link link-hover">En savoir plus</a>
+    </div>
+</div>
+

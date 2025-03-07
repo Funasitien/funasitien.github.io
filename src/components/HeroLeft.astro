@@ -6,18 +6,19 @@ const {
   alt,
   image_text = "En savoir plus",
   image_url = "#",
+  image_class,
   button_text = "#",
   button_url = "#",
-  icon = "mingcute:information-fill",
+  icon = "tabler:info-circle-filled",
   icon_class,
 } = Astro.props;
 ---
 
-<div class="min-h-96 flex flex-col-reverse lg:flex-row-reverse py-2 lg:py-6 ml-4">
-  <div class="lg:w-1/2 flex justify-center max-h-96">
+<div class="min-h-96 flex flex-col-reverse lg:flex-row-reverse py-2 lg:py-6 gap-8">
+  <div class="lg:w-1/2 flex max-h-96 justify-center md:justify-end max-sm:mt-4">
     <img
       src={image_url}
-      class:list={['flex w-auto min-h-96 rounded-lg justify-center', icon_class]}
+      class:list={['w-auto min-h-96 rounded-4xl', image_class]}
       alt={image_text}
     />
   </div>
@@ -27,15 +28,15 @@ const {
         icon.includes("/") && (
           <img
             src={icon}
-            class="h-16 w-auto bg-primary p-1 rounded-lg"
+            class="h-auto w-full bg-primary p-1 rounded-lg"
             alt={title}
           />
         )
       }
-      {!icon.includes("/") && <Icon name={icon} class="text-6xl" />}
-      <div class="pl-3">
-        <h1 class="text-3xl lg:text-4xl font-bold">{title}</h1>
-        <h3 class="magic">{alt}</h3>
+      {!icon.includes("/") && icon !== "#" && <Icon name={icon} class="text-6xl pr-3" />}
+      <div>
+        <h1 class="max-sm:text-center text-3xl lg:text-4xl font-bold">{title}</h1>
+        <h3 class="max-sm:text-center magic">{alt}</h3>
       </div>
     </div>
     <p class="py-6 text-lg">
