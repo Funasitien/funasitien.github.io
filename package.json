@@ -4,31 +4,26 @@
   "version": "0.1.3",
   "scripts": {
     "dev": "astro dev",
+    "dev:host": "astro dev --host",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/mdx": "^2.1.1",
-    "@astrojs/sitemap": "^3.1.5",
-    "@astrojs/tailwind": "^5.1.0",
+    "@astrojs/mdx": "^4.0.8",
+    "@astrojs/sitemap": "^3.2.1",
     "@fontsource/poppins": "^5.0.8",
+    "@iconify-json/hugeicons": "^1.2.3",
     "@tailwindcss/typography": "^0.5.13",
-    "@types/canvas-confetti": "^1.6.3",
-    "astro": "^4.1.2",
+    "@tailwindcss/vite": "^4.0.9",
+    "astro": "^5.3.0",
     "astro-icon": "^1.0.2",
-    "autoprefixer": "^10.4.15",
-    "canvas-confetti": "^1.9.1",
-    "dotenv": "^16.3.1",
-    "postcss": "^8.4.28",
-    "tailwindcss": "^3.3.5",
+    "tailwindcss": "^4.0.9",
     "theme-change": "^2.5.0"
   },
   "devDependencies": {
-    "@iconify-json/mingcute": "^1.1.15",
-    "@iconify-json/nonicons": "^1.1.7",
-    "@iconify-json/simple-icons": "^1.1.88",
-    "daisyui": "^4.7.3"
+    "@iconify-json/tabler": "^1.1.15",
+    "daisyui": "^5.0.0"
   }
 }

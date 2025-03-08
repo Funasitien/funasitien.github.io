@@ -1,0 +1,79 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@plugin "daisyui/theme" {
+  name: "superlight";
+  default: true;
+  prefersdark: false;
+  color-scheme: "light";
+  --color-base-100: oklch(98% 0 0);
+  --color-base-200: oklch(98% 0 0);
+  --color-base-300: oklch(95% 0 0);
+  --color-base-content: oklch(21% 0.006 285.885);
+  --color-primary: oklch(80% 0.105 251.813);
+  --color-primary-content: oklch(21% 0.034 264.665);
+  --color-secondary: oklch(83% 0.145 321.434);
+  --color-secondary-content: oklch(29% 0.149 302.717);
+  --color-accent: oklch(85% 0.138 181.071);
+  --color-accent-content: oklch(38% 0.063 188.416);
+  --color-neutral: oklch(14% 0.005 285.823);
+  --color-neutral-content: oklch(92% 0.004 286.32);
+  --color-info: oklch(91% 0.08 205.041);
+  --color-info-content: oklch(29% 0.066 243.157);
+  --color-success: oklch(87% 0.15 154.449);
+  --color-success-content: oklch(37% 0.077 168.94);
+  --color-warning: oklch(83% 0.128 66.29);
+  --color-warning-content: oklch(41% 0.112 45.904);
+  --color-error: oklch(75% 0.191 22.216);
+  --color-error-content: oklch(27% 0.105 12.094);
+  --radius-selector: 2rem;
+  --radius-field: 1rem;
+  --radius-box: 2rem;
+  --size-selector: 0.28125rem;
+  --size-field: 0.28125rem;
+  --border: 2px;
+  --depth: 1;
+  --noise: 0;
+}
+
+@plugin "daisyui/theme" {
+  name: "superdark";
+  default: false;
+  prefersdark: false;
+  color-scheme: "dark";
+  --color-base-100: oklch(15% 0.028 261.692);
+  --color-base-200: oklch(21% 0.034 264.665);
+  --color-base-300: oklch(27% 0.033 256.848);
+  --color-base-content: oklch(97.807% 0.029 256.847);
+  --color-primary: oklch(68% 0.169 237.323);
+  --color-primary-content: oklch(96% 0.018 272.314);
+  --color-secondary: oklch(62% 0.265 303.9);
+  --color-secondary-content: oklch(97% 0.014 308.299);
+  --color-accent: oklch(85% 0.138 181.071);
+  --color-accent-content: oklch(38% 0.063 188.416);
+  --color-neutral: oklch(14% 0.005 285.823);
+  --color-neutral-content: oklch(92% 0.004 286.32);
+  --color-info: oklch(74% 0.16 232.661);
+  --color-info-content: oklch(29% 0.066 243.157);
+  --color-success: oklch(76% 0.177 163.223);
+  --color-success-content: oklch(37% 0.077 168.94);
+  --color-warning: oklch(82% 0.189 84.429);
+  --color-warning-content: oklch(41% 0.112 45.904);
+  --color-error: oklch(71% 0.194 13.428);
+  --color-error-content: oklch(27% 0.105 12.094);
+  --radius-selector: 2rem;
+  --radius-field: 1rem;
+  --radius-box: 2rem;
+  --size-selector: 0.28125rem;
+  --size-field: 0.28125rem;
+  --border: 2px;
+  --depth: 1;
+  --noise: 0;
+}
+
+@custom-variant dark (&:where([data-theme=superdark], [data-theme=superdark] *));
+
+.mask-custom {
+  mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="none"><path fill="%23D9D9D9" d="M0 20C0 8.954 8.954 0 20 0h120c20 0 20 20 20 20 0 11.046 8.954 20 20 20 0 0 20 0 20 19.5V180c0 11.046-8.954 20-20 20H58c-18 0-18-20-18-20 0-11.046-8.954-20-20-20 0 0-20 0-20-17V20Z"/></svg>');
+  -webkit-mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="none"><path fill="%23D9D9D9" d="M0 20C0 8.954 8.954 0 20 0h120c20 0 20 20 20 20 0 11.046 8.954 20 20 20 0 0 20 0 20 19.5V180c0 11.046-8.954 20-20 20H58c-18 0-18-20-18-20 0-11.046-8.954-20-20-20 0 0-20 0-20-17V20Z"/></svg>');
+}

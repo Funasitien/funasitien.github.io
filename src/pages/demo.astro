@@ -1,0 +1,67 @@
+---
+import Layout from "../layouts/main.astro";
+import Carte from "../components/Carte.astro";
+import Toolbox from "../components/Toolbox.astro";
+import { Icon } from "astro-icon/components";
+---
+
+<Layout title="DEMOCRAFT">
+  <div class="mx-4 lg:mx-32 my-5 grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div>
+      <h1 class="text-4xl font-bold inline-flex justify-center gap-1 md:gap-2">
+        <Icon name="tabler:list-search" class="text-4xl" />
+        A Propos
+      </h1>
+      <p class="text-lg">Serveur Minecraft mini-jeux & crossplay</p>
+    </div>
+    <img src="/projets/demo.png" alt="DEMOCRAFT" class="max-sm:px-2 h-fill md:h-64 rounded-badge" />
+  </div>
+  <div class="mx-4 lg:mx-32 my-5">
+    <h1 class="text-4xl font-bold inline-flex justify-center gap-1 md:gap-2">
+      <Icon name="tabler:webhook" class="text-4xl" />
+      Technologies
+    </h1>
+    <div class="grid grid-cols-2 md:grid-cols-6 gap-6 my-4">
+      <Toolbox
+        icon="tabler:brand-minecraft"
+        name="Minecraft"
+        color="bg-success border-success-content text-success-content"
+      />
+      <Toolbox
+        icon="tabler:brand-discord"
+        name="Discord?"
+        color="bg-info border-info-content text-info-content"
+      />
+      <Toolbox icon="hugeicons:java" name="Java" />
+      <Toolbox icon="tabler:brand-github" name="GitHub CI" />
+      <Toolbox icon="tabler:brand-laravel" name="Laravel" />
+      <Toolbox icon="tabler:brand-python" name="Python" />
+      <Toolbox icon="tabler:brand-debian" name="Linux" />
+      <Toolbox icon="tabler:brand-tailwind" name="TailwindCSS" />
+      <Toolbox icon="tabler:hexagon-letter-n" name="Nginx" />
+      <Toolbox icon="tabler:brand-mysql" name="MySQL" />
+      <Toolbox icon="tabler:brand-docker" name="Docker" />
+      <Toolbox icon="tabler:brand-php" name="PHP" />
+    </div>
+  </div>
+  <div class="mx-4 lg:mx-32 my-5">
+    <h1 class="text-4xl font-bold inline-flex justify-center gap-1 md:gap-2">
+      <Icon name="tabler:link-plus" class="text-current w-[1em] h-[1em]" />
+      Liens Utiles
+    </h1>
+  </div>
+  <div class="mx-4 lg:mx-32 my-5">
+    <h1 class="text-4xl font-bold inline-flex justify-center gap-1 md:gap-2">
+      <Icon name="tabler:list-search" class="text-current w-[1em] h-[1em]" />
+      En rapport avec DEMOCRAFT...
+    </h1>
+    <div class="grid grid-cols-1 md:grid-cols-6 gap-8 my-4">
+      <Carte
+        titre="VAATIGAMES"
+        image="/projets/vaatig.png"
+        description="Hébergeur philanthropique de serveurs de jeu"
+        link="/vaatig"
+      />
+    </div>
+  </div>
+</Layout>
