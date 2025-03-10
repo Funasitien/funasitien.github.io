@@ -95,5 +95,11 @@ REDACTION
 <center><i style="font-size: 13px;">Silence. Il regarde Guilhem dans les yeux et comprend (même cervau aucune idee de la mise en forme)</i></center>
 <center>C'est le fait qu'elle te le propose comme ça qui te perturbe ?</center>
 
+<center><strong>Guilhem</strong></center>
+<center>Shoot</center>
+
+<center><strong>Exie</strong></center>
+<center>Le fisc?</center>
+
 
 
