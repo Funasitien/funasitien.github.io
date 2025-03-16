@@ -5,9 +5,10 @@ Depuis le collège, je suis investi dans diverses activités en lien avec le num
 Une classe préparatoire MP2I serait le moyen le plus adapté pour accéder aux écoles d'ingénieur formant à ce métier.
 pourquoi la mp2i va te plaire et pourquoi tu vas y réussir
 
+
 ==Les enseignements proposés en MP2I, notamment ceux d'informatique et de mathématiques, me passionnent. En 2023, mes professeurs m'ont incité à participer à la nuit du code dont j'ai été lauréat. Cette année, je représenterai mon lycée au concours général en NSI. Par ailleurs, je pense avoir les capacités pour réussir ma scolarité en CPGE. Toujours classé parmi les premiers élèves de ma classe, je suis assidu, persévérant et travailleur. J'ai toujours été investi dans la vie du lycée (délégué, club d'informatique, théâtre). Enfin, j'ai participé à deux journées portes ouvertes et à une immersion dans votre établissement qui ont renforcé ma motivation à intégrer une classe préparatoire MP2I.==
 
-Je vous remercie par avance de l'attention que vous porterez à ma candidature
+Je vous remercie par avance de l'attention que vous porterez à ma candidature.
 
 # AJOUTER CONCOURS GENERAL
 port folio
