@@ -1,11 +1,16 @@
-Madame, Monsieur ;
+Madame, Monsieur,
 
-J'ai, depuis le collège, pris plaisir dans diverses activités en lien avec le numérique : musique électronique avec Ableton, graphisme avec Asprite et Figma, montage vidéo avec Final Cut Pro. Cela m'a amené au fil du temps à découvrir la programmation. Via un serveur Minecraft lancé en 2022 (DEMOCRAFT) et un hébergeur philanthropique un an plus tard (Vaatigames), je me suis ==spécialisé== dans la programmation en général, jusqu'à en devenir aujourd'hui ma passion. 
+Depuis le collège, je suis investi dans diverses activités en lien avec le numérique : la musique électronique (Ableton), le graphisme (Asprite et Figma) et le montage vidéo (Final Cut Pro). Ces multiples pratiques (VOIR PORTFOLIO) m'ont conduit à m'intéresser à la programmation. C'est devenu une passion m'amenant à lancer un serveur Minecraft en 2022 (DEMOCRAFT), à développer un service d'hébergement gratuit en 2023 (Vaatigames) et à réaliser en classe de seconde un stage chez OVH CLOUD. J'y ai découvert de nombreux métiers en lien avec l'informatique, en particulier celui de data-scientist que j'aimerais exercer.
 
-Pour en découvrir plus, j'ai ==cherché puis participé== à un stage chez OVH CLOUD. J'y ai découvert de nombreux métiers en lien avec l'informatique, et après recherches je me suis orienté vers celui de data-scientist. 
+Une classe préparatoire MP2I serait le moyen le plus adapté pour accéder aux écoles d'ingénieur formant à ce métier.
+pourquoi la mp2i va te plaire et pourquoi tu vas y réussir
 
-Le contenu de la prépa MP2I me correspond - j'aime déjà l'informatique, mais aussi les maths et la physique. C'est ==cadre== qui me correspond, étant assidue, persévérant et travailleur. Après avoir participé à deux journées portes ouverts, en 2022 et 2023, et dernièrement réalisé une immersion dans votre établissement, j'ai aussi découvert l'ambiance des prépas, et j'aimerais beaucoup pouvoir continuer à participer aux activités culturelle, à la vie du lycée (je suis délégué depuis 6 ans)
+==Les enseignements proposés en MP2I, notamment ceux d'informatique et de mathématiques, me passionnent. En 2023, mes professeurs m'ont incité à participer à la nuit du code dont j'ai été lauréat. Cette année, je représenterai mon lycée au concours général en NSI. Par ailleurs, je pense avoir les capacités pour réussir ma scolarité en CPGE. Toujours classé parmi les premiers élèves de ma classe, je suis assidu, persévérant et travailleur. J'ai toujours été investi dans la vie du lycée (délégué, club d'informatique, théâtre). Enfin, j'ai participé à deux journées portes ouvertes et à une immersion dans votre établissement qui ont renforcé ma motivation à intégrer une classe préparatoire MP2I.==
 
 Je vous remercie par avance de l'attention que vous porterez à ma candidature
 
 # AJOUTER CONCOURS GENERAL
+port folio
+concours général
+pix
+classement dans la classe
