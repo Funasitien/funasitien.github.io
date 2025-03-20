@@ -41,9 +41,18 @@ Un petit garçon est assis sur un banc. Il est avec ses amis. Ils discutent de q
 
 ## 🎞 Cinéma
 ###### 🗂 PRÉSENT - SÉQUENCE 1
-REDACTION
-###### 🗂 IRÉEL - SÉQUENCE 1
-REDACTION
+### ⛰️ Extérieur 1
+<center><strong>Guilhem</strong></center>
+<center>Heureusement qu'on </center>
+
+<center><strong>Thomas</strong></center>
+<center>Je peux pas attendre de voir ce chef d'œuvre</center>
+
+<center><strong>Alexandre</strong></center>
+<center>Heureusement qu'on </center>
+
+### ✂️ Découpage
+- Demi Ensemble, CP
 
 ## 👔 Travail Travail Travail
 ###### 🗂 IMAGINAIRE - SÉQUENCE 1
@@ -71,7 +80,7 @@ REDACTION
 
 *Plan non cut/rythmé : Guilhem se pose. Quelque chose cloche. Le temps que son regard croise celui de la cam/fantome, le téléphone vibre. Gros plan. Liste de notifs*
 ### 📱 Bwhhh Bwhhh
-
+###### 🗂 IMAGINAIRE - SÉQUENCE 1
 > [!warning] Gabi
 > Hey ! Ça faisait un moment qu'on n'avait pas discuté
 
@@ -96,10 +105,33 @@ REDACTION
 <center>C'est le fait qu'elle te le propose comme ça qui te perturbe ?</center>
 
 <center><strong>Guilhem</strong></center>
-<center>Shoot</center>
+<center>Fin pourquoi moi maintenant ?</center>
 
 <center><strong>Exie</strong></center>
-<center>Le fisc?</center>
+<center>Vous vous entendiez bien non ?</center>
+
+<center><strong>Guilhem</strong></center>
+<center>Et c'est toujours le cas, mais...</center>
+
+<center><strong>Exie</strong></center>
+<center>Tu sais, les gens ne t'oublient pas en une semaine hein ?</center>
+<center>Elle a peut être envie de te revoir comme tu pourrais avoir envie de la revoir. T'es pas d'accord ?</center>
+<center>T'as pas l'air supper convaincu... Mais vu ta tête ça te fera du bien de sortir un peu. Allez, elle va pas te bouffer non plus</center>
+
+<center><strong>Guilhem</strong></center>
+<center>Pic Nic ?</center>
+
+<center><strong>Exie</strong></center>
+<center>Alors il faudra vraiment que tu m'explique comment tu arrive à des conclusions comme ça un jour</center>
+
+## 🍓 Le Pic-Nic
+###### 🗂 PRÉSENT - SÉQUENCE 
+###### 🎶 
+*Série de plan cut sur les nuaaaages.*
+
+## 🪅 Générique
+###### 🎶 kirohta - hurricane
+###### 🎶 Jeffreymmviii - New Threat
 
 
-
+🎂🍰🖍🖌📎🖇
