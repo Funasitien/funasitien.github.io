@@ -4,7 +4,6 @@ on:
   # Trigger the workflow every time you push to the `main` branch
   # Using a different branch name? Replace `main` with your branch’s name
   push:
-    branches: [ prod ]
   # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
 
@@ -20,10 +19,15 @@ jobs:
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-      - uses: bahmutov/npm-install@v1
+      - name: Extract commit information
+        run: |
+          echo "VITE_GIT_BRANCH=${GITHUB_REF#refs/heads/}" >> .env
+          echo "VITE_GIT_COMMIT_HASH=$(git rev-parse --short HEAD)" >> .env
+          echo "VITE_GIT_COMMIT_MESSAGE=$(git log -1 --pretty=%s)" >> .env
+          echo "VITE_GIT_COMMIT_AUTHOR=$(git log -1 --pretty=%an)" >> .env
+        shell: bash
       - name: Install, build, and upload your site output
-        uses: withastro/action@v1
+        uses: withastro/action@v4
         with:
             # path: . # The root location of your Astro project inside the repository. (optional)
             # node-version: 18 # The specific version of Node that should be used to build your site. Defaults to 18. (optional)
@@ -38,4 +42,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v3
+        uses: actions/deploy-pages@v4
