@@ -7,15 +7,41 @@ J'ai pu vérifier que cette formation correspond à mes attentes en participant 
 
 Je vous remercie par avance de l'attention que vous porterez à ma candidature.
 
+
+
 # Raison Candidature
 # CAV
-# Langages de programation
-#### Kit
+# Langages de programmation
+#### Bon Niveau
 - Python
-- Java
+- ==Java==
 - HTML/CSS/JS + UI tailwindcss + daisyui + bootstrap
-#### Assistance
+- Astro (Google)
+#### Ok
 - Laravel
-- React, Next, Nuxt, Vite
+- React (Facebook), Nuxt,
+- **Dart & Flutter (Pokekerna - Google)**
+#### Why Not
+-  Next (Vercel), Vite
 
 # Axe Culture
+
+
+# Listes Catégories
+#prod : publié, déjà ajouté, *en production*
+#todo : idée à réaliser, prévu, *To Do (à faire)*
+## Modèles 3D #prod
+- Modèles DEMOCRAFT
+- Modèles via commissions
+- Club
+## Musique #prod
+- Chill Time
+## Pixel Art #todo
+- [MiniHeads](https://heads.vaatigames.ovh) -> ref code (python, tailwind)
+- [DEMOCRAFT's Avatar](https://avatar.dreamclouds.fr) -> ref code (python, tailwins)
+## Graphisme
+## Projets
+- DEMOCRAFT
+- Vaatigames
+- Moods™
+- PokéKerna
