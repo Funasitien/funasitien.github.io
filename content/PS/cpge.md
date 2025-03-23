@@ -1,3 +1,7 @@
+---
+title: ✨ Lettre de motivation MP2I
+---
+
 Madame, Monsieur,
 
 Depuis le collège, je pratique diverses activités en lien avec le numérique : la musique électronique (Ableton), le graphisme (Asprite et Figma) et le montage vidéo (Final Cut Pro). Au lycée, j'ai découvert la programmation (Python, Java, Flutter, Tailwind...) en développant un serveur Minecraft (Democraft) ainsi qu'un service d'hébergement gratuit (Vaatigames) [voir portfolio]. Curieux de découvrir les métiers de l'informatique, j'ai réalisé un stage à OVH Cloud en classe de seconde. Le métier de data-scientist est celui qui a retenu mon attention. Une classe préparatoire MP2I serait le moyen le plus adapté pour accéder aux écoles d'ingénieur formant à ce métier.

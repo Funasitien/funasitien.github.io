@@ -1,3 +1,7 @@
+---
+title: 🔗 Sections Personelles
+---
+
 # Mes expériences d'encadrement ou d'animation
 Tout d'abord, j'ai participé à l'organisation et l'administration de plusieurs soirées jeux vidéo dans mon lycée (lan, local area network - soirées appelées lan car elles utilisent le réseau privé pour jouer ensemble), ce qui m'a amené à gérer des groupes d'élèves, à la fois dans l'animation des diverses épreuves mais aussi la gestion des inscriptions, de la restauration, des entrées. Ensuite, j'ai suivi pendant trois ans au lycée l'option CAV (Cinéma et arts de l'audiovisuel) à raison de 3h par semaine. Dans ce cadre, la réalisation de courts-métrages en dehors du temps scolaire demande de gérer des équipes de tournage. Cette gestion se traduit par l'encadrement des acteurs, la direction des techniciens (son, caméra) et la nécessité d'obtenir des autorisations de filmer dans certains lieux.
 

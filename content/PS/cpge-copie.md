@@ -1,3 +1,7 @@
+---
+title: 💥 Lettre de motivation CPES
+---
+
 Madame, Monsieur,
 
 Depuis le collège, je pratique diverses activités en lien avec le numérique : la musique électronique (Ableton), le graphisme (Asprite et Figma) et le montage vidéo (Final Cut Pro). Cela m'a conduit à m'intéresser à la programmation en lançant un serveur Minecraft en 2022 (Democraft) et en développant un service d'hébergement gratuit en 2023 (Vaatigames) [voir portfolio]. Par ailleurs, j'ai réalisé un stage à OVH CLOUD en classe de seconde où j'ai découvert des métiers en lien avec l'informatique, en particulier celui de data-scientist que j'aimerais exercer. Une classe préparatoire MP2I serait le moyen le plus adapté pour accéder aux écoles d'ingénieur formant à ce métier. **PLUS PRO, MOINS TECH**
