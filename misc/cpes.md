@@ -8,3 +8,14 @@ J'ai pu vérifier que cette formation correspond à mes attentes en participant 
 Je vous remercie par avance de l'attention que vous porterez à ma candidature.
 
 # Raison Candidature
+# CAV
+# Langages de programation
+#### Kit
+- Python
+- Java
+- HTML/CSS/JS + UI tailwindcss + daisyui + bootstrap
+#### Assistance
+- Laravel
+- React, Next, Nuxt, Vite
+
+# Axe Culture
