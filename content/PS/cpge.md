@@ -4,4 +4,4 @@ Depuis le collège, je pratique diverses activités en lien avec le numérique :
 
 J'ai pu vérifier que cette formation correspond à mes attentes en participant à deux journées portes ouvertes et à une immersion [dans votre établissement]. Les matières enseignées en MP2I, notamment l'informatique et les mathématiques, me passionnent. C'est pourquoi, mes professeurs m'ont incité à participer en 2023 à la nuit du code dont j'ai été lauréat, et cette année au concours général en NSI. Par ailleurs, je pense avoir les capacités pour réussir ma scolarité en CPGE. Curieux, polyvalent et déterminé, j'ai toujours été classé parmi les meilleurs élèves de ma classe tout en m'investissant pleinement dans la vie du lycée (délégué, club informatique, théâtre, section euro).
 
-Je vous remercie par avance de l'attention que vous porterez à ma candidature.
+Aussi, je vous remercie de l'intérêt que vous porterez à ma candidature en classe préparatoire MP2I au lycée Faidherbe
