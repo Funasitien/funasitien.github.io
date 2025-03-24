@@ -1,7 +1,3 @@
----
-draft: true
----
-
 **Je suis sousigné **
 - [ ] Proffesseur
 - [ ] AED

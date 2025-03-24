@@ -1,7 +1,3 @@
----
-draft: true
----
-
 # Structure d'une table
 
 1. `id_citation`,  `texte` & `id_film`

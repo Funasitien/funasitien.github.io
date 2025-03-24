@@ -1,7 +1,7 @@
 ---
 title: 🐛 Fixes ClientXCMS
 description: Liste de fixes à réalisé sur CTXCMS
-draft: false
+draft: true
 ---
 # 🎨 UI
 ## 🌌 Global
