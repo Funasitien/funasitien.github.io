@@ -11,3 +11,4 @@ private/
 replit.nix
 .trash
 structure.md
+!data.json
