@@ -1,0 +1,96 @@
+---
+import { ClientRouter } from 'astro:transitions';
+import "@fontsource/poppins";
+import "@fontsource/poppins/800.css";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import "../assets/app.css";
+
+const {
+  title = "Funasitien",
+  description = "Funasitien's super dupper website is amazing !",
+} = Astro.props;
+---
+
+<html lang="fr" data-theme="superlight" class="selection:bg-sky-200 selection:text-sky-700 transition-all duration-500 ease-in-out ">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/png+xml" href="/logo.png" />
+    <link rel="stylesheet" type="text/css" href="/font/font.css" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <title>{title}</title>
+    <meta content={title} property="og:title" />
+    <meta content={description} property="og:description" />
+    <meta content="https://f.dreamclouds.fr" property="og:url" />
+    <meta content="https://f.dreamclouds.fr/logo.png" property="og:image" />
+    <meta content="#43B581" data-react-helmet="true" name="theme-color" />
+    <script is:inline>
+      // ☝️ This script prevent the FART effect.
+      if (localStorage.getItem("theme") === null) {
+        document.documentElement.setAttribute("data-theme", "superlight");
+      } else
+        document.documentElement.setAttribute(
+          "data-theme",
+          localStorage.getItem("theme")
+        );
+    </script>
+    <script>
+      import { themeChange } from "theme-change";
+      themeChange();
+    </script>
+    <ClientRouter />
+  </head>
+  <style>
+    body {
+      font-family: "Poppins", "FluentEmoji", sans-serif;
+      transition: all 0.25s cubic-bezier(0.427, 0.073, 0.105, 0.997) 0.1s;
+    }
+  </style>
+<body class="max-w-screen min-h-screen bg-base-200">
+    <div class="flex flex-col h-screen justify-center items-center">
+      <img class="w-160 h-auto" src="https://funa.dev/images/banner.png" />
+      <div class="card card-dash bg-base-100 border-base-300 w-160 mt-4">
+          <div class="card-body">
+            <h2 class="card-title text-3xl justify-center">🪄 Changement de Domaine 🪄</h2>
+            <div class="flex justify-center gap-2">
+            <span class="badge badge-error">dreamclouds.fr</span>
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2">
+                <path d="M17 10h4v4"></path>
+                <path d="M3 12c.887 -1.284 2.48 -2.033 4 -2c1.52 -.033 3.113 .716 4 2s2.48 2.033 4 2c1.52 .033 3 -1 4 -2l2 -2"></path>
+              </svg>
+            </span>
+            <span class="badge badge-success">✨ funa.dev ✨</span>
+            </div>
+
+        
+            <div class="card-actions justify-center pt-2 rounded-2xl">
+              <div class="btn btn-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2">
+                  <path d="M5 4m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z"></path>
+                  <path d="M9 4m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z"></path>
+                  <path d="M5 8h4"></path>
+                  <path d="M9 16h4"></path>
+                  <path d="M13.803 4.56l2.184 -.53c.562 -.135 1.133 .19 1.282 .732l3.695 13.418a1.02 1.02 0 0 1 -.634 1.219l-.133 .041l-2.184 .53c-.562 .135 -1.133 -.19 -1.282 -.732l-3.695 -13.418a1.02 1.02 0 0 1 .634 -1.219l.133 -.041z"></path>
+                  <path d="M14 9l4 -1"></path>
+                  <path d="M16 16l3.923 -.98"></path>
+                </svg>
+              </div>
+              <div class="btn btn-secondary">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2">
+                  <path d="M7 9a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                  <path d="M5.75 15a8.015 8.015 0 1 0 9.25 -13"></path>
+                  <path d="M11 17v4"></path>
+                  <path d="M7 21h8"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
