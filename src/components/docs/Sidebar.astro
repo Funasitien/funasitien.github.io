@@ -1,0 +1,14 @@
+---
+import { getCollection } from "astro:content";
+
+const docs = await getCollection("docs");
+docs.sort((a, b) => (a.data.order || 0) - (b.data.order || 0));
+---
+
+<nav>
+  <ul>
+    {docs.map((doc) => (
+      <li><a href={`/docs/${doc.slug}`}>{doc.data.title}</a></li>
+    ))}
+  </ul>
+</nav>
