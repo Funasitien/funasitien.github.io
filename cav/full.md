@@ -1,3 +1,7 @@
+---
+title: "PRO-G"
+---
+
 # 📅 Scenario
 ## 🧩 Concepts
 ### ⚫️ La Boulle Noir (BN)
