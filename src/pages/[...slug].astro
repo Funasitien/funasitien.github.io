@@ -1,9 +1,9 @@
 ---
 import { getCollection, getEntry } from "astro:content";
-import DocsLayout from "../../layouts/docs.astro";
+import DocsLayout from "../layouts/docs.astro";
 
 export async function getStaticPaths() {
-  const docs = await getCollection("docs");
+  const docs = await getCollection("docuception");
 
   return docs.map((doc) => ({
     params: { slug: doc.slug },
@@ -11,7 +11,7 @@ export async function getStaticPaths() {
 }
 
 const { slug } = Astro.params;
-const doc = await getEntry("docs", slug);
+const doc = await getEntry("docuception", slug);
 
 if (!doc) {
   throw new Error("Page not found");

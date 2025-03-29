@@ -1,0 +1,4 @@
+[submodule "src/content/docuception"]
+	path = src/content/docuception
+	url = https://github.com/Funasitien/docuception
+	branch = content
