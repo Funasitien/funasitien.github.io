@@ -74,17 +74,17 @@ const headings = post.rendered.metadata.headings || [];
           currentCategory={currentCategory}
           /> :
           <div class="w-full">
-            <div class="flex w-full">
-              <div class="card bg-base-300 rounded-box w-1/2">
+            <div class="flex max-sm:flex-col w-full">
+              <div class="card bg-base-300 rounded-box w-full md:w-1/2">
                 <Sidebar
                 currentSlug={currentPath}
                 currentCategory={currentCategory}
                 />
               </div>
-              <div class="divider divider-horizontal"></div>
-              <div class="card bg-base-300 rounded-box w-1/2">
+              <div class="divider md:divider-horizontal"></div>
+              <div class="card bg-base-300 rounded-box w-full md:w-1/2">
                 {headings.length > 0 && (
-                  <ul class="menu w-full">
+                  <ul class="menu w-full p-4 gap-y-2">
                     {headings.map(({ depth, slug, text }) => (
                       <li key={slug}>
                         <a href={`#${slug}`}>{text}</a>

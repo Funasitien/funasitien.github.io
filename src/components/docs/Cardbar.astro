@@ -14,7 +14,7 @@ export interface Props {
 const { currentSlug, currentCategory, showAll = false } = Astro.props;
 ---
 {docs
-  .filter((doc) => !doc.data.draft && doc.data?.title)
+  .filter((doc) => !doc.data.draft && doc.data?.title && doc.data.template !== "folder")
   .reduce((acc, doc) => {
     const slugSegments = doc.slug.replace(/^\/+|\/+$/g, '').split('/');
     const isIndexFile = doc.slug.endsWith('/index') || doc.slug.endsWith('/index.md');

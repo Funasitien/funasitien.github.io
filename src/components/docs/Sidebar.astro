@@ -93,7 +93,7 @@ const { currentSlug, currentCategory, showAll = false } = Astro.props;
               <li key={doc.slug}>
                 <a 
                   href={`/${doc.slug}`}
-                  class={currentSlug === `/${doc.slug}` ? 'menu-active' : ''}
+                  class={currentSlug === `/${doc.slug}/` ? 'menu-active' : ''}
                 >
                   {doc.data.title}
                 </a>
