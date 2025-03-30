@@ -13,7 +13,8 @@ import { Icon } from "astro-icon/components";
 
 // Extract current category from URL path
 const currentPath = Astro.url.pathname;
-const post = await getEntry('docuception', currentPath.substring(1));
+const sanitizedPath = currentPath.substring(1).replace(/\/$/, ""); // Remove trailing slash
+const post = await getEntry('docuception', sanitizedPath);
 const layout = post.data.template;
 const currentCategory = currentPath.split("/")[1] || "";
 const headings = post.rendered.metadata.headings || [];
