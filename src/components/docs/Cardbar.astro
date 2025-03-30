@@ -91,7 +91,7 @@ const { currentSlug, currentCategory, showAll = false } = Astro.props;
               return a.order - b.order;
             })
             .map((doc) => (
-              <a href={doc.slug} class="card bg-base-300 w-full">
+              <a href=`/${doc.slug}` class="card bg-base-300 w-full">
                 <div class="card-body card-compact  flex items-center justify-center">
                   {doc.data.icon ? <Icon name={doc.data.icon} /> : <h1 class="text-6xl">{doc.data.title.split(/ (.+)/)[0]}</h1>}
                   <h3 class="text-xl font-bold text-center">{doc.data.title.split(/ (.+)/)[1]}</h3>
@@ -108,7 +108,7 @@ const { currentSlug, currentCategory, showAll = false } = Astro.props;
           return a.order - b.order;
         })
         .map((doc) => (
-          <a href={doc.slug} class="card">
+          <a href=`/${doc.slug}` class="card">
             <div class="card-body flex items-center justify-center">
               <h1>{doc.data.title}</h1>
               <h4>{doc.data.title}</h4>
