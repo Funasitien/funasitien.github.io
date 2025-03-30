@@ -7,6 +7,7 @@ const docsCollection = defineCollection({
     draft: z.boolean().default(false),
     order: z.number().optional(),
     toc: z.boolean().default(true),
+    template: z.string().default("page"),
   }),
 });
 
