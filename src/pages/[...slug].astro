@@ -4,7 +4,6 @@ import DocsLayout from "../layouts/docs.astro";
 
 export async function getStaticPaths() {
   const docs = await getCollection("docuception");
-  console.log("Slugs:", docs.map((doc) => doc.slug)); // Log all slugs
   return docs.map((doc) => ({
     params: { slug: doc.slug },
   }));
