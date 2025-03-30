@@ -4,7 +4,9 @@ import DocsLayout from "../layouts/docs.astro";
 
 export async function getStaticPaths() {
   const docs = await getCollection("docuception");
-  return docs.map((doc) => ({
+  // Filter out docs where data.draft is true
+  const publishedDocs = docs.filter((doc) => !doc.data.draft);
+  return publishedDocs.map((doc) => ({
     params: { slug: doc.slug },
   }));
 }
@@ -14,6 +16,15 @@ const doc = await getEntry("docuception", slug);
 
 if (!doc) {
   throw new Error("Page not found");
+}
+
+// Optional: You might also want to check if the doc is a draft here
+// in case someone accesses it directly by URL
+if (doc.data.draft) {
+  return new Response(null, {
+    status: 404,
+    statusText: "Not found"
+  });
 }
 
 const { Content } = await doc.render();
