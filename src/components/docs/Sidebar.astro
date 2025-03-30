@@ -2,13 +2,113 @@
 import { getCollection } from "astro:content";
 
 const docs = await getCollection("docuception");
-docs.sort((a, b) => (a.data.order || 0) - (b.data.order || 0));
+
+// Props definition
+export interface Props {
+  currentSlug?: string;
+  currentCategory?: string;
+  showAll?: boolean;
+}
+
+const { currentSlug, currentCategory, showAll = false } = Astro.props;
 ---
 
-<nav>
-  <ul>
-    {docs.map((doc) => (
-      <li><a href={`/${doc.slug}`}>{doc.data.title}</a></li>
-    ))}
-  </ul>
-</nav>
+<ul class="menu bg-base-200 text-base-content min-h-full w-80 p-4">
+  {docs
+    .filter((doc) => !doc.data.draft && doc.data?.title)
+    .reduce((acc, doc) => {
+      const slugSegments = doc.slug.replace(/^\/+|\/+$/g, '').split('/');
+      const isIndexFile = doc.slug.endsWith('/index') || doc.slug.endsWith('/index.md');
+      const categorySlug = slugSegments[0];
+      
+      // Skip if filtering and not current category
+      if (!showAll && currentCategory && categorySlug !== currentCategory) {
+        return acc;
+      }
+
+      let categoryName = categorySlug;
+      let categoryOrder = 0; // Default order for categories
+      
+      if (isIndexFile) {
+        categoryName = doc.data.title || categorySlug;
+        categoryOrder = doc.data.order || 0; // Get order from index file
+      } else if (categorySlug) {
+        const indexDoc = docs.find(d => 
+          (d.slug === `${categorySlug}/index` || d.slug === `${categorySlug}/index.md`) &&
+          d.data?.title
+        );
+        categoryName = indexDoc?.data.title || categorySlug;
+        categoryOrder = indexDoc?.data.order || 0;
+      }
+
+      if (categorySlug) {
+        const existingGroup = acc.find((group) => group.categorySlug === categorySlug);
+        if (existingGroup) {
+          existingGroup.items.push({
+            ...doc,
+            // Use document's order or default to 0
+            order: doc.data.order || 0
+          });
+        } else {
+          acc.push({
+            categorySlug,
+            categoryName: categoryName.charAt(0).toUpperCase() + categoryName.slice(1),
+            categoryOrder,
+            items: [{
+              ...doc,
+              order: doc.data.order || 0
+            }]
+          });
+        }
+      } else {
+        acc.push({ 
+          items: [{
+            ...doc,
+            order: doc.data.order || 0
+          }] 
+        });
+      }
+      return acc;
+    }, [])
+    .filter(group => 
+      showAll || 
+      !currentSlug || 
+      (group.categorySlug && currentSlug.startsWith(`/${group.categorySlug}`))
+    )
+    // Sort categories by order
+    .sort((a, b) => (a.categoryOrder || 0) - (b.categoryOrder || 0))
+    .map((group) =>
+      group.categorySlug ? (
+          <ul>
+            {group.items
+              .filter(doc => !doc.slug.endsWith('/index') && !doc.slug.endsWith('/index.md'))
+              // Sort items by order
+              .sort((a, b) => (a.order || 0) - (b.order || 0))
+              .map((doc) => (
+                <li key={doc.slug}>
+                  <a 
+                    href={`/${doc.slug}`}
+                    class={currentSlug === `/${doc.slug}` ? 'active' : ''}
+                  >
+                    {doc.data.title}
+                  </a>
+                </li>
+              ))}
+          </ul>
+      ) : (
+        // Sort root items by order
+        group.items
+          .sort((a, b) => (a.order || 0) - (b.order || 0))
+          .map((doc) => (
+            <li key={doc.slug}>
+              <a 
+                href={`/${doc.slug}`}
+                class={currentSlug === `/${doc.slug}` ? 'active' : ''}
+              >
+                {doc.data.title}
+              </a>
+            </li>
+          ))
+      )
+    )}
+</ul>

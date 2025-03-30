@@ -4,8 +4,9 @@ const docsCollection = defineCollection({
   schema: z.object({
     title: z.string().optional(),
     description: z.string().optional(),
-    draft: z.boolean().optional(),
+    draft: z.boolean().default(false),
     order: z.number().optional(),
+    toc: z.boolean().default(true),
   }),
 });
 
