@@ -9,9 +9,19 @@ import ProjectsGrid from "../components/ProjectsGrid.astro";
 
 <Layout title="Funasitien DreamCloud">
     <div class="py-8">
-        <div class="bg-[url('/images/banner.png')] w-full h-[16rem] md:h-[42rem] flex flex-col justify-center items-center rounded-4xl bg-center max-sm:bg-cover">
+        <div class="relative bg-[url('https://funa.dev/images/banner.png')] w-full h-[16rem] md:h-[42rem] flex flex-col justify-center items-center rounded-4xl bg-center max-sm:bg-cover">
             <h1 class="text-2xl md:text-6xl font-bold">Funasitien DreamCloud</h1>
             <p class="text-lg md:text-xl">[fønazisiɛ̃]</p>
+            <div class="absolute bottom-0 left-0 w-full">
+                <div class="m-5 bg-base-300 card flex flex-col md:flex-row items-center border-2 border-dashed border-base-content">
+                    <div class="card-body">
+                        <h1 class="text-2xl font-bold">Chevalier de Parcoursup...</h1>
+                        <p><span class="">Vous n’avez pas atterri dans le bon royaume !</span> Le bon lien vers mon portfolio est <a class="link link-primary" href="https://ws.funa.dev">celui-ci</a>.</p>
+                        <p>Si vous êtes curieux de comprendre pourquoi ce site ne vous convient pas, <a href="https://ws.funa.dev/why" class="link link-error">lisez ceci</a>.</p>
+                    </div>
+                    <img class="w-64 h-auto md:w-auto md:h-16 m-8" src="https://www.parcoursup.gouv.fr/sites/default/files/site_logo/2023-11/logo_Parcoursup_2x.png" />
+                </div>
+            </div>
         </div>
     </div>
     <HeroLeft
