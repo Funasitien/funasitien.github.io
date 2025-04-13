@@ -1,0 +1,55 @@
+name: 🔁 CrossRepo Sync
+
+on:
+# Runs on pushes targeting the default branch
+  schedule:
+    - cron: '0 0 * * *' # Run at 00:00 UTC every day
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "git"
+  cancel-in-progress: false
+
+# Default to bash
+defaults:
+  run:
+    shell: bash
+
+jobs:
+# Build job
+  update-submodules:
+    name: 🔁 Gitmodule Sync
+    runs-on: ubuntu-24.04
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        submodules: recursive
+        fetch-depth: 0
+        
+    - name: Update Submodules
+      run: |
+        git submodule sync --recursive
+        git submodule update --recursive --remote
+        git pull --recurse-submodules
+
+        cd src/content/docuception
+        git pull https://github.com/Funasitien/docuception.git content
+        cd ../../..
+        
+        git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+        git config --global user.name "${{ github.actor }}"
+
+        git add .
+        git diff-index --quiet HEAD || git commit -m "🔁 Gitmodule Sync"
+        git push
+      env:
+        GIT_USER: ${{ github.actor }}
+        GIT_EMAIL: ${{ github.actor }}@users.noreply.github.com
