@@ -78,3 +78,97 @@
   mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="none"><path fill="%23D9D9D9" d="M0 20C0 8.954 8.954 0 20 0h120c20 0 20 20 20 20 0 11.046 8.954 20 20 20 0 0 20 0 20 19.5V180c0 11.046-8.954 20-20 20H58c-18 0-18-20-18-20 0-11.046-8.954-20-20-20 0 0-20 0-20-17V20Z"/></svg>');
   -webkit-mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="none"><path fill="%23D9D9D9" d="M0 20C0 8.954 8.954 0 20 0h120c20 0 20 20 20 20 0 11.046 8.954 20 20 20 0 0 20 0 20 19.5V180c0 11.046-8.954 20-20 20H58c-18 0-18-20-18-20 0-11.046-8.954-20-20-20 0 0-20 0-20-17V20Z"/></svg>');
 }
+
+
+/* 
+  * Custom Callout Styles
+  * 
+  * These styles are used to create custom callouts in the documentation.
+  * 
+  * The callouts are styled using CSS classes and can be customized further
+  * as needed.
+*/
+
+.callout {
+  font-weight: 500;
+  font-style: normal;
+  color: var(--tw-prose-quotes);
+  border-inline-start-width: 0;
+  quotes: "\201C" "\201D" "\2018" "\2019";
+  padding: 0.2em;
+  padding-top: 1.2rem;
+  padding-inline-start: 1em;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  border-radius: var(--radius-field);
+}
+
+.callout-title {
+  font-weight: 600;
+  font-style: normal;
+  display: flex;
+  gap: 0.5em;
+}
+
+.callout.info {
+  background-color: var(--color-info);
+}
+
+.callout.bug {
+  background-color: var(--color-secondary);
+}
+
+.callout.success,
+.callout.check,
+.callout.done {
+  background-color: var(--color-success);
+}
+.callout.warning,
+.callout.attention,
+.callout.caution {
+  background-color: var(--color-warning);
+}
+
+.callout.question,
+.callout.help,
+.callout.faq {
+  background-color: var(--color-info);
+}
+
+.callout.tip,
+.callout.hint,
+.callout.important {
+  background-color: var(--color-primary);
+}
+
+.callout.todo,
+.callout.abstract,
+.callout.summary,
+.callout.tldr {
+  background-color: var(--color-base-300);
+}
+
+.callout.error,
+.callout.failure,
+.callout.missing {
+  background-color: var(--color-error);
+}
+
+.callout.danger,
+.callout.error {
+  background-color: var(--color-error);
+} 
+
+.callout.note {
+  background-color: var(--color-primary);
+} 
+
+.callout.quote,
+.callout.example,
+.callout.cite {
+  background-color: var(--color-base-300);
+}
+
+.callout.custom {
+  background-color: #CBC3E3;
+}
