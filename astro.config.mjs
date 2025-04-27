@@ -17,7 +17,6 @@ import sitemap from "@astrojs/sitemap";
 // Markdown
 import mdx from "@astrojs/mdx";
 import rehypeMermaid from 'rehype-mermaid';
-import remarkToc from 'remark-toc';
 import remarkObsidian from 'remark-obsidian';
 
 export default defineConfig({
@@ -38,7 +37,6 @@ export default defineConfig({
         excludeLangs: ['mermaid', 'math'],
       },
     remarkPlugins: [
-      [remarkToc, { heading: 'toc', maxDepth: 3 } ],
       [remarkObsidian, { heading: 'toc', maxDepth: 3 }],
     ],
     rehypePlugins: [rehypeMermaid],
