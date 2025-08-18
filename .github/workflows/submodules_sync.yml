@@ -2,8 +2,8 @@ name: 🔁 CrossRepo Sync
 
 on:
 # Runs on pushes targeting the default branch
-  schedule:
-    - cron: '0 0 * * *' # Run at 00:00 UTC every day
+  #schedule:
+    #- cron: '0 0 * * *' # Run at 00:00 UTC every day
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
