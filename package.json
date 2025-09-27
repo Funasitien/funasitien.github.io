@@ -10,22 +10,22 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.2.2",
-    "@astrojs/sitemap": "^3.3.0",
+    "@astrojs/mdx": "^4.3.6",
+    "@astrojs/sitemap": "^3.6.0",
     "@fontsource/poppins": "^5.0.8",
     "@iconify-json/hugeicons": "^1.2.3",
     "@tailwindcss/typography": "^0.5.13",
-    "@tailwindcss/vite": "^4.0.9",
-    "astro": "^5.5.5",
+    "@tailwindcss/vite": "^4.1.13",
+    "astro": "^5.13.11",
     "astro-icon": "^1.0.2",
     "playwright": "^1.51.1",
     "rehype-mermaid": "^3.0.0",
     "remark-obsidian": "^1.8.0",
-    "tailwindcss": "^4.0.9",
+    "tailwindcss": "^4.1.13",
     "theme-change": "^2.5.0"
   },
   "devDependencies": {
     "@iconify-json/tabler": "^1.1.15",
-    "daisyui": "^5.0.0"
+    "daisyui": "^5.1.18"
   }
 }
