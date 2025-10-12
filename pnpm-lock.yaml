@@ -14,12 +14,15 @@ importers:
       '@astrojs/sitemap':
         specifier: ^3.6.0
         version: 3.6.0
-      '@fontsource/poppins':
-        specifier: ^5.0.8
-        version: 5.2.7
-      '@iconify-json/hugeicons':
+      '@fontsource-variable/jetbrains-mono':
+        specifier: ^5.2.8
+        version: 5.2.8
+      '@fontsource-variable/plus-jakarta-sans':
+        specifier: ^5.2.8
+        version: 5.2.8
+      '@iconify-json/gravity-ui':
         specifier: ^1.2.3
-        version: 1.2.16
+        version: 1.2.10
       '@tailwindcss/typography':
         specifier: ^0.5.13
         version: 0.5.19(tailwindcss@4.1.13)
@@ -48,9 +51,6 @@ importers:
         specifier: ^2.5.0
         version: 2.5.0
     devDependencies:
-      '@iconify-json/tabler':
-        specifier: ^1.1.15
-        version: 1.2.23
       daisyui:
         specifier: ^5.1.18
         version: 5.1.18
@@ -289,18 +289,18 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@fontsource/poppins@5.2.7':
-    resolution: {integrity: sha512-6uQyPmseo4FgI97WIhA4yWRlNaoLk4vSDK/PyRwdqqZb5zAEuc+Kunt8JTMcsHYUEGYBtN15SNkMajMdqUSUmg==}
+  '@fontsource-variable/jetbrains-mono@5.2.8':
+    resolution: {integrity: sha512-WBA9elru6Jdp5df2mES55wuOO0WIrn3kpXnI4+W2ek5u3ZgLS9XS4gmIlcQhiZOWEKl95meYdvK7xI+ETLCq/Q==}
+
+  '@fontsource-variable/plus-jakarta-sans@5.2.8':
+    resolution: {integrity: sha512-iQecBizIdZxezODNHzOn4SvvRMrZL/S8k4MEXGDynCmUrImVW0VmX+tIAMqnADwH4haXlHSXqMgU6+kcfBQJdw==}
 
   '@fortawesome/fontawesome-free@6.7.2':
     resolution: {integrity: sha512-JUOtgFW6k9u4Y+xeIaEiLr3+cjoUPiAuLXoyKOJSia6Duzb7pq+A76P9ZdPDoAoxHdHzq6gE9/jKBGXlZT8FbA==}
     engines: {node: '>=6'}
 
-  '@iconify-json/hugeicons@1.2.16':
-    resolution: {integrity: sha512-Ow0ig3yNY1VPZLBYYNVAAHA2jvSUoHbmtHzo87SnvA5rpDZVH6FMONeyro8LO31ReVwbaTVv9Mnd7yUXMFRufA==}
-
-  '@iconify-json/tabler@1.2.23':
-    resolution: {integrity: sha512-Knb8ykgMwB5uSoqrDv1xIdJYM03OP06OXjN6QvGXaTNtdHkW9ciKA+aftz6lwM2jwJA+bsUWeDzLBlPt2uJm4w==}
+  '@iconify-json/gravity-ui@1.2.10':
+    resolution: {integrity: sha512-GpLMMrVCc1XkKuNVQ0HaA37dW2fnkWED/2zcsd288QIncv1pQ8RG/Hr/mCDgGHe4Nec/1eu9OBk6yVqqQiR5Gw==}
 
   '@iconify/tools@4.1.3':
     resolution: {integrity: sha512-guPw9jvkrCCGFUvPr+NgUcQIpQcIll38NQzUzrEMK/1vrDmeJ9jstsp/Dx5LIP2na9BUBLHKOKXA6cERTpnGFw==}
@@ -2898,15 +2898,13 @@ snapshots:
   '@esbuild/win32-x64@0.25.10':
     optional: true
 
-  '@fontsource/poppins@5.2.7': {}
+  '@fontsource-variable/jetbrains-mono@5.2.8': {}
+
+  '@fontsource-variable/plus-jakarta-sans@5.2.8': {}
 
   '@fortawesome/fontawesome-free@6.7.2': {}
 
-  '@iconify-json/hugeicons@1.2.16':
-    dependencies:
-      '@iconify/types': 2.0.0
-
-  '@iconify-json/tabler@1.2.23':
+  '@iconify-json/gravity-ui@1.2.10':
     dependencies:
       '@iconify/types': 2.0.0
 
