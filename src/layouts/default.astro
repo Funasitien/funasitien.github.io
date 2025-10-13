@@ -1,5 +1,6 @@
 ---
 import Navigation from "../components/Navigation.astro";
+import Dock from "../Dock.astro";
 
 import { ClientRouter } from 'astro:transitions';
 
@@ -50,5 +51,6 @@ const {
     <div class="flex-1 bg-base-100 md:border-2 border-neutral-content md:rounded-xl md:mx-48 lg:mx-64 p-4 overflow-y-auto">
       <slot />
     </div>
+    <Dock />
   </body>
 </html>
