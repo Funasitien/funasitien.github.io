@@ -8,6 +8,7 @@
   name: "light";
   default: true;
   --color-primary: oklch(80.9% 0.105 251.813);
+  --color-secondary: oklch(80.9% 0.105 51.813);
   --radius-selector: 2rem;
   --radius-field: 1rem;
   --radius-box: 1rem;
@@ -16,6 +17,25 @@
   --border: 2px;
   --depth: 1;
   --noise: 0;
+}
+
+@plugin "daisyui/theme" {
+  name: "dark";
+  default: false;
+  prefersdark: true;
+  color-scheme: dark;
+  --color-primary: oklch(80.9% 0.105 251.813);
+  --color-secondary: oklch(80.9% 0.105 51.813);
+  --color-neutral-content: oklch(25.33% 0.026 252.42);
+  --radius-selector: 2rem;
+  --radius-field: 1rem;
+  --radius-box: 1rem;
+  --size-selector: 0.3125rem;
+  --size-field: 0.3125rem;
+  --border: 2px;
+  --depth: 1;
+  --noise
+  : 0;
 }
 
 :root {
@@ -29,4 +49,8 @@ h4,
 h5,
 h6 {
   font-family: "JetBrains Mono Variable" !important;
+}
+
+strong {
+  color: var(--color-primary);
 }

@@ -6,4 +6,5 @@ const currentPath = Astro.url.pathname;
 <PageList title="Accueil" icon="gravity-ui:house" href="/" selected={currentPath === "/"} />
 <PageList title="Projets" icon="gravity-ui:folder-open" href="/projets" selected={currentPath.includes("projets")} />
 <PageList title="Blog" icon="gravity-ui:pencil" href="/blog" selected={currentPath.includes("blog")} />
+<PageList title="Wayback Machine" icon="gravity-ui:clock-arrow-rotate-left" href="/wayback" selected={currentPath.includes("wayback")} />
 <PageList title="Contact" icon="gravity-ui:envelope" href="/contact" selected={currentPath.includes("contact")} />

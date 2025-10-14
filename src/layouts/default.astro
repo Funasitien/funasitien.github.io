@@ -1,13 +1,8 @@
 ---
+import Head from "./head.astro";
 import Navigation from "../components/Navigation.astro";
 import Dock from "../components/Dock.astro";
 import { Icon } from "astro-icon/components";
-
-import { ClientRouter } from "astro:transitions";
-
-import "@fontsource-variable/jetbrains-mono";
-import "@fontsource-variable/plus-jakarta-sans";
-import "../assets/app.css";
 
 const {
   title = "Funasitien",
@@ -56,39 +51,10 @@ try {
 <html
   lang="fr"
   data-theme="light"
-  class="selection:bg-sky-200 selection:text-sky-700 transition-all duration-500 ease-in-out"
+  class="md:bg-base-300 selection:bg-sky-200 selection:text-sky-700 transition-colors duration-1000 ease-in-out"
 >
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" href="/logo.ico" />
-    <link rel="icon" type="image/png" href="/logo.png" />
-    <link rel="sitemap" href="/sitemap-index.xml" />
-    <link
-      rel="stylesheet"
-      href="/font/Minecraft-StandardGalacticAlphabet.css"
-    />
-    <title>Funasitien - {title}</title>
-    <meta content=`${title} - Funasitien` property="og:title" />
-    <meta content={description} property="og:description" />
-    <meta content="https://funa.dev" property="og:url" />
-    <meta content="https://funa.dev/logo.png" property="og:image" />
-    <meta content="#43B581" data-react-helmet="true" name="theme-color" />
-    <script is:inline>
-      // ☝️ This script prevent the FART effect.
-      if (localStorage.getItem("theme") === null) {
-        document.documentElement.setAttribute("data-theme", "superlight");
-      } else
-        document.documentElement.setAttribute(
-          "data-theme",
-          localStorage.getItem("theme"),
-        );
-    </script>
-    <script>
-      import { themeChange } from "theme-change";
-      themeChange();
-    </script>
-    <ClientRouter />
+    <Head title={title} description={description} />
   </head>
   <body class="bg-base-300 min-h-screen flex flex-col md:py-4">
     <div
@@ -100,7 +66,7 @@ try {
       <a
         class="flex items-center rounded-xl border-2 transition-all duration-300 ease-in-out bg-base-100 border-neutral-content"
       >
-      <div class="relative ml-4">
+      <div class="relative ml-4 mr-1">
         <img
           src="https://github.com/Funasitien.png"
           alt="Avatar"
@@ -116,9 +82,9 @@ try {
           <div aria-label="status" class="status status-neutral status-md absolute z-60 bottom-0.5 right-0.5"></div>
         )}
         </div>
-        <div class="p-4">
+        <div class="p-2">
           <h3 class="font-semibold">Funasitien</h3>
-          <p class="text-xs">{ accname }</p>
+          <p class="text-xs -translate-y-1">{ accname }</p>
         </div>
       </a>
     </div>
@@ -128,14 +94,41 @@ try {
       <slot />
     </div>
     <div
-      class="fixed top-0 right-0 w-64 h-full z-50 p-4 pt-4 hidden lg:flex flex-col border-2 border-transparent"
+      class="fixed top-0 right-0 w-64 h-full z-50 p-4 pt-4 flex flex-col border-2 border-transparent"
     >
-    <div class="flex-1">
+    <div class="md:flex-1">
     </div>
-    <div class="">
-    <Icon name="gravity-ui:moon" class="text-2xl"/>
+    <div class="flex py-2">
+      <div class="flex-1">
+
+      </div>
+      <label class="swap swap-rotate">
+      <input type="checkbox" id="theme_switcher"/>
+      <Icon
+        name="gravity-ui:sun"
+        class=" swap-on fill-current text-5xl p-2 max-sm:bg-base-100 max-sm:border-2 border-neutral-content max-sm:rounded-lg"
+      />
+      <Icon
+        name="gravity-ui:moon"
+        class="swap-off fill-current text-5xl p-2 max-sm:bg-base-100 max-sm:border-2 border-neutral-content max-sm:rounded-lg"
+      />
+    </label>
+      
     </div>
     </div>
     <Dock />
+    <script type="module" is:inline data-astro-rerun>
+  
+  if (localStorage.getItem("theme") === "dark") {
+    document.getElementById("theme_switcher").checked = true;
+  }
+  document
+    .getElementById("theme_switcher")
+    ?.addEventListener("change", (e) => {
+      const theme = e.target.checked ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", theme);
+      localStorage.setItem("theme", theme);
+    });
+</script>
   </body>
 </html>
