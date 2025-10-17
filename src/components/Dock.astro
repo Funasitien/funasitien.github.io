@@ -2,21 +2,21 @@
 import { Icon } from "astro-icon/components";
 ---
 <div class="w-full fixed left-0 bottom-0 p-2 md:hidden">
-   <div class="w-full bg-base-100 border-2 border-neutral-content rounded-xl py-2 grid grid-cols-5 flex justify-between">
+   <div class="w-full bg-base-100 border-2 border-neutral-content rounded-xl p-4 items-center justify-items-center grid grid-cols-5">
       <a href="/">
-         <Icon name="gravity-ui:house" class="inline text-3xl mx-8 my-2" />
+         <Icon name="gravity-ui:house" class="inline text-3xl" />
       </a>
-      <a>
-         <Icon name="gravity-ui:folder-open" class="inline text-3xl mx-8 my-2" />
+      <a href="/projets">
+         <Icon name="gravity-ui:folder-open" class="inline text-3xl" />
       </a>
-      <a>
-         <Icon name="gravity-ui:pencil" class="inline text-3xl mx-8 my-2" />
+      <a href="/blog">
+         <Icon name="gravity-ui:pencil" class="inline text-3xl" />
       </a>
-      <a>
-         <Icon name="gravity-ui:clock-arrow-rotate-left" class="inline text-3xl mx-8 my-2" />
+      <a href="/archives">
+         <Icon name="gravity-ui:clock-arrow-rotate-left" class="inline text-3xl" />
       </a>
-      <a>
-         <Icon name="gravity-ui:envelope" class="inline text-3xl mx-8 my-2" />
+      <a href="/contact">
+         <Icon name="gravity-ui:envelope" class="inline text-3xl" />
       </a>
    </div>
 </div>

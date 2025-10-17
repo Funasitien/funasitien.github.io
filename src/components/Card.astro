@@ -1,0 +1,17 @@
+---
+import { Icon } from "astro-icon/components";
+
+const { title, icon = "simple-icons:html5", description, link } = Astro.props;
+---
+<div class="card bg-base-200 border-2 border-neutral-content rounded-xl">
+    <div class="card-body">
+        <h2 class="card-title inline-flex items-center gap-1">
+            <Icon name={icon} class="text-2xl mr-2" />
+            {title}
+        </h2>
+        <p>{description}</p>
+        <div class="card-actions justify-end">
+            <a href={link} target="_blank" class="btn btn-primary">Voir l'archive</a>
+        </div>
+    </div>
+</div>
