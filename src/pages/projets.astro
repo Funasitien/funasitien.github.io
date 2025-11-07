@@ -1,6 +1,8 @@
 ---
 import Layout from "../layouts/default.astro";
 import { Icon } from "astro-icon/components";
+import CardSection from "../components/CardSection.astro";
+import Card from "../components/Card.astro";
 ---
 
 <Layout title="Projets">
@@ -11,5 +13,18 @@ import { Icon } from "astro-icon/components";
             <h1 class="text-4xl font-bold">Funasitien - Projets</h1>
             <p class="text-lg text-base-content/70 mt-2">Bienvenue sur mon site personnel !</p>
         </div>
+    </div>
+
+    <div class="p-8">
+        <CardSection title="Projets Actuels">
+            <Card title="DEMOCRAFT" date="2023-Aujourd'hui" link="https://funa.dev/funasitien-website/" />
+            <Card title="Smart" date="2023-Aujourd'hui" link="https://funa.dev/funasitien-website/" />
+            <Card title="Vaatigames" icon="https://vaatigames.ovh/img/vaati2.png" date="2024-Aujourd'hui" link="https://funa.dev/funasitien-website/" />
+            <Card title="MOODS" date="2023-Aujourd'hui" link="https://funa.dev/funasitien-website/" />
+        </CardSection>
+
+        <CardSection>
+            <Card title="Diamond Heberg" date="2022-2024" link="https://funa.dev/funasitien-website/" />
+        </CardSection>
     </div>
 </Layout>

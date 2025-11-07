@@ -1,35 +1,27 @@
 ---
 import Layout from "../layouts/default.astro";
-import Card from "../components/Card.astro";
 import { Icon } from "astro-icon/components";
+import CardSection from "../components/CardSection.astro";
+import Card from "../components/Card.astro";
 ---
 
-<Layout title="Projets">
+<Layout title="Blog">
     <div class="py-8 md:px-32">
         <div class="bg-[url('/banners/dark.png')] h-64 bg-cover bg-center rounded-lg border-2 border-neutral-content p-4" />
-        <div class="my-12 text-center">
-            <h1 class="text-5xl md:text-6xl font-bold">Archives</h1>
-            <p class="text-lg text-base-content/70 mt-2">Vous trouverez ici des versions archivés des différent sites webs que j'ai pu créer au fil des années.</p>
         </div>
-
-
-        <div class="mt-8 py-8">
-            <h1 class="text-4xl md:text-5xl font-bold">Portfolios</h1>
-            
-            <div class="grid grid-cols-1 md:grid-cols-3 my-8">
-                <Card title="Premier Portfolio" date="~2021" link="https://funa.dev/funasitien-website/" />
-            </div>
-
-            <div class="divider magic text-base-content/20 py-4">
-                When web addiction meets design obsession
-            </div>
-
-            <h1 class="text-4xl md:text-5xl font-bold mt-6 md:mt-12">DEMOCRAFT.FR</h1>
-            
-            <div class="grid grid-cols-1 md:grid-cols-3 my-8">
-                <Card title="Azuriom Glass" icon="simple-icons:laravel" date="2024" />
-            </div>
-
+        <div class="mt-8 text-center">
+            <h1 class="text-4xl font-bold">Funasitien - Archives</h1>
+            <p class="text-lg text-base-content/70 mt-2">Bienvenue sur mon site personnel !</p>
         </div>
+    </div>
+
+    <div class="p-8">
+        <CardSection>
+            <Card title="Premier Portfolio" date="~2021"/>
+        </CardSection>
+
+        <CardSection>
+            <Card title="Premier Portfolio" date="~2021" />
+        </CardSection>
     </div>
 </Layout>

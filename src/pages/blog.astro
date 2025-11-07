@@ -1,6 +1,8 @@
 ---
 import Layout from "../layouts/default.astro";
 import { Icon } from "astro-icon/components";
+import CardSection from "../components/CardSection.astro";
+import Card from "../components/Card.astro";
 ---
 
 <Layout title="Blog">
@@ -12,4 +14,14 @@ import { Icon } from "astro-icon/components";
             <p class="text-lg text-base-content/70 mt-2">Bienvenue sur mon site personnel !</p>
         </div>
     </div>
+
+    <div class="p-8">
+            <CardSection>
+                <Card title="Premier Portfolio" date="~2021" link="https://funa.dev/funasitien-website/" />
+            </CardSection>
+
+            <CardSection>
+                <Card title="Premier Portfolio" date="~2021" link="https://funa.dev/funasitien-website/" />
+            </CardSection>
+        </div>
 </Layout>
