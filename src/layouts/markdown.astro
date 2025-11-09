@@ -1,0 +1,9 @@
+---
+import Default from "./default.astro";
+const {frontmatter} = Astro.props;
+---
+<Default title={frontmatter.title}>
+  <article class="prose prose-neutral md:prose-lg lg:prose-xl max-w-none px-4 md:px-8">
+    <slot />
+  </article>
+</Default>
