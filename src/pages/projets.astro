@@ -6,7 +6,7 @@ import Card from "../components/Card.astro";
 ---
 
 <Layout title="Projets">
-    <div class="py-8 md:px-32">
+    <div class="p-8">
         <div class="bg-[url('/banners/cool.gif')] h-64 bg-cover bg-center rounded-lg border-2 border-neutral-content p-4" />
         </div>
         <div class="mt-8 text-center">
@@ -17,14 +17,25 @@ import Card from "../components/Card.astro";
 
     <div class="p-8">
         <CardSection title="Projets Actuels">
-            <Card title="DEMOCRAFT" date="2023-Aujourd'hui" link="https://funa.dev/funasitien-website/" />
-            <Card title="Smart" date="2023-Aujourd'hui" link="https://funa.dev/funasitien-website/" />
-            <Card title="Vaatigames" icon="https://vaatigames.ovh/img/vaati2.png" date="2024-Aujourd'hui" link="https://funa.dev/funasitien-website/" />
-            <Card title="MOODS" date="2023-Aujourd'hui" link="https://funa.dev/funasitien-website/" />
+            <Card title="Smart" date="2023-Aujourd'hui" description="Un Cloudsystem abstrait développé en Java">
+                <a class="btn">Github</a>
+                <a class="btn btn-info">Documentation</a>
+            </Card>
+            <Card title="Vaatigames" icon="https://vaatigames.ovh/img/vaati2.png" date="2024-Aujourd'hui" description="Une association d'hébergement cloud gratuit" >
+                <a class="btn bg-purple-300 dark:bg-purple-700">Présentation</a>
+            </Card>
+            <Card title="DEMOCRAFT" date="2023-Aujourd'hui" description="Le premier serveur mini-jeux crossplay en europe.">
+                <a class="btn btn-error">Site officiel</a>
+            </Card>
+            <Card title="MOODS" date="2023-Aujourd'hui" description="Streaming de mudique open source">
+                <a class="btn">Github</a>
+            </Card>
         </CardSection>
 
-        <CardSection>
-            <Card title="Diamond Heberg" date="2022-2024" link="https://funa.dev/funasitien-website/" />
+        <CardSection title="Anciens Projets">
+            <Card title="Diamond Heberg" date="2022-2024" description="Hébergeur Cloud" >
+                <a class="btn">Github</a>
+            </Card>
         </CardSection>
     </div>
 </Layout>

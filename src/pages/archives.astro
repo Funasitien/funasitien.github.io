@@ -6,7 +6,7 @@ import Card from "../components/Card.astro";
 ---
 
 <Layout title="Blog">
-    <div class="py-8 md:px-32">
+    <div class="p-8">
         <div class="bg-[url('/banners/dark.png')] h-64 bg-cover bg-center rounded-lg border-2 border-neutral-content p-4" />
         </div>
         <div class="mt-8 text-center">
@@ -16,12 +16,13 @@ import Card from "../components/Card.astro";
     </div>
 
     <div class="p-8">
-        <CardSection>
+        <CardSection title="Premiers Portfolios">
             <Card title="Premier Portfolio" date="~2021"/>
         </CardSection>
 
-        <CardSection>
-            <Card title="Premier Portfolio" date="~2021" />
+        <CardSection title="DEMOCRAFT.FR">
+            <Card title="Translucent" date="~2021" />
+            <Card title="Front" date="~2021" />
         </CardSection>
     </div>
 </Layout>

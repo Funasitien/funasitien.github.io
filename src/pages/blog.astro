@@ -1,12 +1,11 @@
 ---
 import Layout from "../layouts/default.astro";
 import { Icon } from "astro-icon/components";
-import CardSection from "../components/CardSection.astro";
-import Card from "../components/Card.astro";
+import Card from "../components/BlogCard.astro";
 ---
 
 <Layout title="Blog">
-    <div class="py-8 md:px-32">
+    <div class="p-8">
         <div class="bg-[url('/banners/gif.gif')] h-64 bg-cover bg-center rounded-lg border-2 border-neutral-content p-4" />
         </div>
         <div class="mt-8 text-center">
@@ -15,13 +14,7 @@ import Card from "../components/Card.astro";
         </div>
     </div>
 
-    <div class="p-8">
-            <CardSection>
-                <Card title="Premier Portfolio" date="~2021" link="https://funa.dev/funasitien-website/" />
-            </CardSection>
-
-            <CardSection>
-                <Card title="Premier Portfolio" date="~2021" link="https://funa.dev/funasitien-website/" />
-            </CardSection>
-        </div>
+    <div class="p-8 flex flex-col">  
+        <Card title="Nouveau Portfolio!" description="" image="" slug="" />
+    </div>
 </Layout>
