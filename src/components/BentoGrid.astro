@@ -1,0 +1,22 @@
+---
+---
+<div class="bento-wrapper">
+    <div class="bento-grid grid grid-cols-1 md:grid-cols-8 gap-8 grid-flow-dense auto-rows-auto">
+        <slot/>
+    </div>
+</div>
+
+<style>
+    .bento-wrapper {
+        container-type: inline-size;
+    }
+
+    @media (min-width: 768px) {
+        .bento-grid {
+            /* Calculate row height to match column width for square cells.
+               Width = (100cqw - 7 * gap) / 8. Gap is 2rem (gap-8). 
+            */
+            grid-auto-rows: calc((100cqw - 7 * 2rem) / 8);
+        }
+    }
+</style>

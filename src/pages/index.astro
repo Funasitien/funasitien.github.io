@@ -1,31 +1,117 @@
 ---
 import Layout from "../layouts/home.astro";
 import { Icon } from "astro-icon/components";
-
-import HeroLeft from "../components/HeroLeft.astro";
-import HeroRight from "../components/HeroRight.astro";
-import ProjectsGrid from "../components/ProjectsGrid.astro";
+import BentoGrid from "../components/BentoGrid.astro";
+import Card from "../components/Card.astro";
 ---
 
 <Layout title="Funasitien DreamCloud">
-    <div class="py-8">
-        <div class="relative bg-[url('https://funa.dev/images/banner.png')] w-full h-64 md:h-168 flex flex-col justify-center items-center rounded-4xl bg-center max-sm:bg-cover">
-            <h1 class="text-2xl md:text-6xl font-bold">Funasitien DreamCloud</h1>
-            <p class="text-lg md:text-xl">[fønazisiɛ̃]</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="md:mr-32">
+            <div
+                class="flex flex-row max-sm:justify-center max-sm:items-center md:flex-col py-2"
+            >
+                <img
+                    src="https://github.com/Funasitien.png"
+                    alt="Avatar"
+                    class="w-18 h-18 md:h-44 md:w-44 rounded-full mb-4 border-2 border-base-300 mr-4"
+                />
+                <h1 class="text-3xl md:text-4xl font-bold mb-2">Funasitien</h1>
+            </div>
+            <p>
+                Hello there! I'm Funasitien, a passionate developer and tech
+                enthusiast. This is my personal website where I share my
+                projects, blog posts, and more about my journey in the world of
+                technology. Feel free to explore and connect with me!
+            </p>
+        </div>
+        <div class="">
+            <BentoGrid>
+                <Card
+                    href="/projects"
+                    title="Twitch"
+                    description="Check out my latest work and experiments."
+                    color="bg-purple-100 border-purple-300"
+                    icon="/logos/twitch.png"
+                    icon_color="bg-[#9146FF]"
+                    width="4"
+                    height="2"
+                />
+                <Card
+                    href="/about"
+                    title="Youtube"
+                    icon="tabler:brand-youtube"
+                    width="2"
+                    height="2"
+                    description="Who I am."
+                />
+                <Card
+                    href="https://github.com/funasitien"
+                    title="BlueSky"
+                    icon="tabler:brand-bluesky"
+                    width="2"
+                    height="2"
+                    description="@funasitien"
+                />
+
+                <Card
+                    href="/blog"
+                    title="GitHub"
+                    icon="tabler:brand-github"
+                    width="2"
+                    height="4"
+                    description="Read my thoughts on tech, life, and everything in between."
+                />
+                <Card
+                    href="/stack"
+                    title="Tech Stack"
+                    icon="tabler:stack-2"
+                    width="2"
+                    height="2"
+                    description="Tools I use."
+                />
+                <Card
+                    href="/gallery"
+                    title="Photography"
+                    icon="tabler:camera"
+                    width="4"
+                    height="2"
+                    description="Capturing moments."
+                />
+
+                <Card
+                    href="/music"
+                    title="Music"
+                    icon="tabler:headphones"
+                    width="4"
+                    height="4"
+                    description="What I'm listening to."
+                />
+                <Card
+                    href="/contact"
+                    title="Contact"
+                    icon="tabler:mail"
+                    width="2"
+                    height="2"
+                    description="Get in touch."
+                />
+                <Card
+                    href="/contact"
+                    title="Contact"
+                    icon="tabler:mail"
+                    width="2"
+                    height="2"
+                    description="Get in touch."
+                />
+                <Card
+                    href="/contact"
+                    title="Contact"
+                    icon="tabler:mail"
+                    width="2"
+                    height="2"
+                    description="Get in touch."
+                />
+            </BentoGrid>
         </div>
     </div>
-    <HeroLeft
-        title="En quelques lignes..."
-        alt="Developpeur Web Fullstack"
-        image_url="/emojis/Writing Hand.png"
-        image_text="Emoji d'une main qui écrit"
-        image_class="bg-primary p-8"
-        button_text="#"
-        icon="#"
-        >
-        Bonjour ! Moi c'est Funasitien, développeur, graphiste et modélisateur depuis 2018. Ma spécialité est le développement frontend (interfaces web)
-    </HeroLeft> 
-    <h1 class="mt-6 font-bold text-2xl md:text-4xl flex justify-center items-center w-full">Mes Projets</h1>
-    <h3 class="magic text-lg text-center mt-2 mb-8">Tah l epoque sans frameworks javascript</h3>
-    <ProjectsGrid/>
 </Layout>
