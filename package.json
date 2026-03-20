@@ -10,8 +10,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.3.6",
-    "@astrojs/sitemap": "^3.6.0",
+    "@astrojs/mdx": "^5.0.2",
+    "@astrojs/sitemap": "^3.7.1",
     "@fontsource-variable/jetbrains-mono": "^5.2.8",
     "@fontsource-variable/plus-jakarta-sans": "^5.2.8",
     "@iconify-json/gravity-ui": "^1.2.3",
@@ -19,10 +19,9 @@
     "@iconify-json/simple-icons": "^1.2.54",
     "@tailwindcss/typography": "^0.5.13",
     "@tailwindcss/vite": "^4.1.13",
-    "astro": "^5.13.11",
+    "astro": "^6.0.7",
     "astro-icon": "^1.0.2",
     "https-proxy-agent": "^7.0.6",
-    "node-fetch": "^3.3.2",
     "playwright": "^1.51.1",
     "rehype-mermaid": "^3.0.0",
     "remark-obsidian": "^1.8.0",
@@ -30,6 +29,7 @@
     "theme-change": "^2.5.0"
   },
   "devDependencies": {
-    "daisyui": "^5.1.18"
+    "daisyui": "^5.1.18",
+    "node-fetch": "^3.3.2"
   }
 }
