@@ -1,30 +1,41 @@
 ---
-import Layout from "../layouts/main.astro";
+import Layout from "../layouts/default.astro";
 import { Icon } from "astro-icon/components";
-
-import ProjectsGrid from "../components/ProjectsGrid.astro";
-import ArchiveGrid from "../components/ProjectsGrid.astro";
+import CardSection from "../components/CardSection.astro";
+import Card from "../components/Card.astro";
 ---
 
-<Layout title="Funasitien DreamCloud">
-    <div class="min-h-screen">
-    <h1 class="mt-6 font-bold text-2xl md:text-4xl flex justify-center md:justify-start items-center w-full gap-4">
-      <img
-        src="/icons/books.png"
-        class="w-12 h-12"
-      />
-      Projets en cours
-    </h1>
-    <h3 class="magic text-lg max-sm:text-center mt-2 mb-8">azertyuiopqsdfghjklmwxcvbn</h3>
-    <ProjectsGrid/>
-    <h1 class="mt-6 font-bold text-2xl md:text-4xl flex justify-center md:justify-start items-center w-full gap-4">
-      <img
-        src="/icons/big_arcade.png"
-        class="w-12 h-12"
-      />
-      Projets Archivés
-    </h1>
-    <h3 class="magic text-lg max-sm:text-center mt-2 mb-8">rhaa, c'est fou comme je vielli</h3>
-    <ArchiveGrid/>
-</div>
+<Layout title="Projets">
+    <div class="p-8">
+        <div class="bg-[url('/banners/cool.gif')] h-64 bg-cover bg-center rounded-lg border-2 border-neutral-content p-4" />
+        </div>
+        <div class="mt-8 text-center">
+            <h1 class="text-4xl font-bold">Funasitien - Projets</h1>
+            <p class="text-lg text-base-content/70 mt-2">Bienvenue sur mon site personnel !</p>
+        </div>
+    </div>
+
+    <div class="p-8">
+        <CardSection title="Projets Actuels">
+            <Card title="Smart" date="2023-Aujourd'hui" description="Un Cloudsystem abstrait développé en Java">
+                <a class="btn">Github</a>
+                <a class="btn btn-info">Documentation</a>
+            </Card>
+            <Card title="Vaatigames" icon="https://vaatigames.ovh/img/vaati2.png" date="2024-Aujourd'hui" description="Une association d'hébergement cloud gratuit" >
+                <a class="btn bg-purple-300 dark:bg-purple-700">Présentation</a>
+            </Card>
+            <Card title="DEMOCRAFT" date="2023-Aujourd'hui" description="Le premier serveur mini-jeux crossplay en europe.">
+                <a class="btn btn-error">Site officiel</a>
+            </Card>
+            <Card title="MOODS" date="2023-Aujourd'hui" description="Streaming de mudique open source">
+                <a class="btn">Github</a>
+            </Card>
+        </CardSection>
+
+        <CardSection title="Anciens Projets">
+            <Card title="Diamond Heberg" date="2022-2024" description="Hébergeur Cloud" >
+                <a class="btn">Github</a>
+            </Card>
+        </CardSection>
+    </div>
 </Layout>

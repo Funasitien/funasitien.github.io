@@ -1,0 +1,9 @@
+---
+const {title = "Portfolios"} =  Astro.props;
+---
+
+<h1 class="text-xl md:text-3xl font-bold mt-8">{ title }</h1>
+            
+<div class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 mt-4 mb-12 gap-6">
+    <slot />
+</div>

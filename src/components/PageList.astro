@@ -1,0 +1,16 @@
+---
+import { Icon } from "astro-icon/components";
+const {
+  title = "Toolbox",
+  icon = "tabler:webhook",
+  href = "/",
+  selected = true,
+} = Astro.props;
+---
+
+<a href={href} class:list={[ "flex items-center rounded-xl border-2 transition-all duration-300 ease-in-out", selected ? "bg-base-100 border-neutral-content" : "text-base-content border-base-300"]}>
+    <Icon name={icon} class:list={["text-2xl ml-4", selected ? "text-primary" : "text-base-content/40"]} />
+    <div class="p-4">
+      <h3 class="font-semibold">{title}</h3>
+    </div>
+</a>

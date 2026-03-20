@@ -1,0 +1,20 @@
+---
+import Layout from "../layouts/default.astro";
+import { Icon } from "astro-icon/components";
+import Card from "../components/BlogCard.astro";
+---
+
+<Layout title="Blog">
+    <div class="p-8">
+        <div class="bg-[url('/banners/gif.gif')] h-64 bg-cover bg-center rounded-lg border-2 border-neutral-content p-4" />
+        </div>
+        <div class="mt-8 text-center">
+            <h1 class="text-4xl font-bold">Funasitien - Blog</h1>
+            <p class="text-lg text-base-content/70 mt-2">Bienvenue sur mon site personnel !</p>
+        </div>
+    </div>
+
+    <div class="p-8 flex flex-col">  
+        <Card title="Nouveau Portfolio!" description="" image="" slug="" />
+    </div>
+</Layout>

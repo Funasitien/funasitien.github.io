@@ -1,0 +1,28 @@
+---
+import Layout from "../layouts/default.astro";
+import { Icon } from "astro-icon/components";
+import CardSection from "../components/CardSection.astro";
+import Card from "../components/Card.astro";
+---
+
+<Layout title="Blog">
+    <div class="p-8">
+        <div class="bg-[url('/banners/dark.png')] h-64 bg-cover bg-center rounded-lg border-2 border-neutral-content p-4" />
+        </div>
+        <div class="mt-8 text-center">
+            <h1 class="text-4xl font-bold">Funasitien - Archives</h1>
+            <p class="text-lg text-base-content/70 mt-2">Bienvenue sur mon site personnel !</p>
+        </div>
+    </div>
+
+    <div class="p-8">
+        <CardSection title="Premiers Portfolios">
+            <Card title="Premier Portfolio" date="~2021"/>
+        </CardSection>
+
+        <CardSection title="DEMOCRAFT.FR">
+            <Card title="Translucent" date="~2021" />
+            <Card title="Front" date="~2021" />
+        </CardSection>
+    </div>
+</Layout>

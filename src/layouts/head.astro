@@ -1,0 +1,38 @@
+---
+import { ClientRouter } from "astro:transitions";
+
+import "@fontsource-variable/jetbrains-mono";
+import "@fontsource-variable/plus-jakarta-sans";
+import "../assets/app.css";
+
+const { title, description } = Astro.props;
+---
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link
+      rel="stylesheet"
+      href="/font/Minecraft-StandardGalacticAlphabet.css"
+    />
+    <title>Funasitien - {title}</title>
+    <meta content=`${title} - Funasitien` property="og:title" />
+    <meta content={description} property="og:description" />
+    <meta content="https://funa.dev" property="og:url" />
+    <meta content="https://funa.dev/logo.png" property="og:image" />
+    <meta content="#43B581" data-react-helmet="true" name="theme-color" />
+    <script is:inline data-astro-rerun>
+      // ☝️ This script prevent the FART effect.
+      if (localStorage.getItem("theme") === null) {
+        document.documentElement.setAttribute("data-theme", "light");
+      } else
+        document.documentElement.setAttribute(
+          "data-theme",
+          localStorage.getItem("theme")
+        );
+    </script>
+    <script data-astro-rerun>
+      import { themeChange } from "theme-change";
+      themeChange();
+    </script>
+    <ClientRouter />
