@@ -1,7 +1,13 @@
 ---
+import { getCollection } from 'astro:content';
+
 import Layout from "../layouts/default.astro";
 import { Icon } from "astro-icon/components";
 import Card from "../components/BlogCard.astro";
+
+const posts = (await getCollection('blog')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
 ---
 
 <Layout title="Blog">
@@ -15,6 +21,14 @@ import Card from "../components/BlogCard.astro";
     </div>
 
     <div class="p-8 flex flex-col">  
-        <Card title="Nouveau Portfolio!" description="" image="" slug="" />
+        {posts.map((post) => (
+            <Card
+                key={post.slug}
+                title={post.data.title}
+                description={post.data.description}
+                image={post.data.image}
+                slug={post.slug}
+            />
+        ))}
     </div>
 </Layout>
